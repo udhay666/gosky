@@ -1,0 +1,285 @@
+.ht_modify_icon {
+    color: #d32f2f;
+}
+label.from_form .ht_span {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hotel_nme_input {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 100%;
+}
+.hotel_nme_input input {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+.start_icon {
+    font-size: 14px;
+    color: gold;
+    display: flex;
+    gap: 3px;
+}
+.str_fx {
+    display: flex;
+    gap: 15px;
+}
+.str_main_fx {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 14px;
+}
+.ht_prce {
+    font-size: 14px;
+}
+.ht_img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    height: 180px;
+}
+
+.ht_name_fx {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.ht_name_span {
+    font-size: 22px;
+    font-weight: 500;
+}
+.start_icon2 {
+    font-size: 12px;
+    color: gold;
+    display: flex;
+    gap: 3px;
+}
+.ht_name_fx.ht_location {
+    font-size: 13px;
+    color: royalblue;
+    padding: 4px;
+}
+.amnities {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 4px;
+}
+.freebf {
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    padding: 4px;
+    font-size: 12px;
+}
+.ht_price_btnfx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    align-items: flex-end;
+}
+.tax {
+    font-size: 13px;
+    color: gray;
+    font-weight: 700;
+}
+.flt_hd_fx {
+    display: flex;
+    justify-content: center;
+}
+.prce_fx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.md_align {
+    justify-content: flex-end;
+}
+
+/* hotelgallery */
+.ht_nav_main{
+    width: 90%;
+    margin: 0 auto;
+}
+.ht_nav_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+    border: 1px solid rgba(156,170,179,.28);
+    box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    position: absolute;
+    top: -5%;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+.ht_nav_ul li a{
+    background: -webkit-linear-gradient(#d92727,#19478a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    font-size: 18px;
+    font-weight: 500;
+}
+
+.sd_img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    height: 125px;
+}
+.sd_imgm {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    height: 100%;
+}
+.ht_img_bg {
+    padding: 60px 20px;
+    border: 1px solid rgba(156,170,179,.28);
+    box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    background-color: white;
+    height: 500px;
+}
+.relative{
+    position: relative;
+}
+.fnt_sz{
+    font-size: 12px;
+}
+.ht_name_fx_g{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: gray;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid lightgray;
+}
+.amnities_g {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 13px;
+}
+
+.slide_img {
+    width: 100%;
+    height: 84vh;
+    object-fit: none;
+}
+.nextArrow.slick-arrow {
+    position: absolute;
+    bottom: 60%;
+    right: 0%;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+.prevArrow.slick-arrow {
+    position: absolute;
+    bottom: 60%;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+.modal-content{
+    background-color: transparent !important;
+    border: none !important;
+}
+.modal-header{
+    border: none !important;
+}
+.modal-header .btn-close{
+    background-color: #fff !important;
+}
+.ht{
+    height: 300px;
+}
+.ht2{
+    height: 400px;
+
+}
+.ht_name_fx_amnts {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background: #f4f6f8;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.ht_name_fx_amnts .amnities i {
+    background: -webkit-linear-gradient(#d92727,#19478a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ht_name_fx_amnts .amnities{
+font-size: 16px;
+gap: 10px;
+}
+.htbg_clr {
+    background: #fff;
+    border: 1px solid rgba(156,170,179,.28);
+    box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 15px 15px 7px;
+    transition: all .3s ease;
+}
+.amn_hd{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+.amn_h3{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.amn_p_ic {
+    color: #c2c2c2;
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 400;
+}
+#navbar {
+    background-color: #fff;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+    box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);
+z-index: 10000;
+  }
+  #navbar a {
+    background: -webkit-linear-gradient(#d92727,#19478a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    font-size: 18px;
+    font-weight: 500;
+}
