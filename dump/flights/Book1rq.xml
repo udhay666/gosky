@@ -1,0 +1,36 @@
+{
+        "EndUserIp": "111.93.152.220",
+        "TokenId": "fd7a3752-8f7a-49f5-9641-8333b3c11193",
+        "TraceId": "d8a12f78-7641-4eda-9de1-10ac2271c919",
+        "ResultIndex": "OB24",
+        "Passengers": [{
+                "Title": "Mr",
+                "FirstName": "udaya",
+                "LastName": "raj",
+                "PaxType": 1,
+                "DateOfBirth": "1973-06-06T00:00:00",
+                "Gender": "1",
+                
+                "AddressLine1": "string",
+                "AddressLine2": "",
+                "City": "Gurgaon",
+                "CountryCode": "IN",
+                "CountryName": "India",
+                "Nationality": "IN",
+                "ContactNo": "9566970915",
+                "Email": "udayaraj@travelpd.com",
+                "IsLeadPax": true,
+                "FFAirline": null,
+                "FFNumber": "",
+                "MealDynamic":[],
+                 "Baggage":[],
+                "GSTCompanyAddress": "",
+    "GSTCompanyContactNumber": "",
+    "GSTCompanyName": "",
+    "GSTNumber": "",
+    "GSTCompanyEmail": "",
+    
+    
+                "Fare": {"BaseFare":5980,"Tax":826,"TransactionFee":0,"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"AirTransFee":0}
+            },]
+      }

@@ -1,0 +1,62 @@
+.flightResultsSection{
+  position:relative;
+}
+.flightResultsSection .searchFiltersSection{ 
+  background:#fff; 
+  padding-top:0;  
+  margin-bottom:30px; 
+  padding-right:0;   
+  padding-left: 0;  
+  box-shadow: 5px 0px 5px rgba(0,0,0,0.1);
+}
+.flightResultsSection .leftBg{ 
+  background:#fff;
+  position:absolute; 
+  left:0; top:0; 
+  height:100%;
+}
+.flightResultsSection .searchResultsSection{ 
+  padding-top:30px; 
+  padding-bottom:30px;
+}
+.flightResultsSection .banner-space{
+  padding-top:30px;
+}
+
+@media(max-width: 992px){
+  .searchFiltersSection{ 
+    min-height:auto !important;
+      position: fixed;
+      z-index: 9999;
+      height: 100vh;
+      top: 0;
+      left: -80%;
+      overflow: hidden;
+      overflow-y: scroll;
+    width:80%;
+    transition:all 0.3s ease-out;
+  }
+  .searchFiltersSection.open{
+    left:0;
+  }
+  .filter-button{
+      width: 40px;
+      height: 45px;
+      padding: 10px;
+      background: #a01d26;
+      color: #fff;
+      border-radius: 0 4px 4px 0;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+    cursor:pointer;
+    z-index:99999;
+    transition:all 0.3s ease-out;
+  }
+  .filter-button.open{left:80%;}
+  .visible-xs{
+    display: block !important;
+  }
+  
+}

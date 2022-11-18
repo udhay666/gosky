@@ -1,0 +1,288 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 25/03/2017 14:50
+*/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.eot");
+    src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+        url("./Flaticon.woff") format("woff"),
+        url("./Flaticon.ttf") format("truetype"),
+        url("./Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("./Flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    display: block; /*inline-block*/
+    /*font-size: 20px;*/
+    font-style: normal;
+    /*margin-left: 20px;*/
+    line-height: normal;
+}
+
+.flaticon-multimedia:before { content: "\f100"; }
+.flaticon-alarm-clock:before { content: "\f101"; }
+.flaticon-video-game-console-with-gamepad:before { content: "\f102"; }
+.flaticon-hospital-bed:before { content: "\f103"; }
+.flaticon-toiletries:before { content: "\f104"; }
+.flaticon-flip-flops:before { content: "\f105"; }
+.flaticon-mirror:before { content: "\f106"; }
+.flaticon-hotel-coat-check:before { content: "\f107"; }
+.flaticon-golfer-in-green:before { content: "\f108"; }
+.flaticon-tennis-raquet-and-ball:before { content: "\f109"; }
+.flaticon-port-sign:before { content: "\f10a"; }
+.flaticon-ski-sticks:before { content: "\f10b"; }
+.flaticon-ethernet:before { content: "\f10c"; }
+.flaticon-front-of-bus:before { content: "\f10d"; }
+.flaticon-bar:before { content: "\f10e"; }
+.flaticon-beer:before { content: "\f10f"; }
+.flaticon-all-inclusive-with-alcoholic-drinks-top-brands:before { content: "\f110"; }
+.flaticon-childhood:before { content: "\f111"; }
+.flaticon-leisure:before { content: "\f112"; }
+.flaticon-bicycle-storage:before { content: "\f113"; }
+.flaticon-comfortable:before { content: "\f114"; }
+.flaticon-bathroom:before { content: "\f115"; }
+.flaticon-bake:before { content: "\f116"; }
+.flaticon-hair-salon:before { content: "\f117"; }
+.flaticon-conference:before { content: "\f118"; }
+.flaticon-dinner-1:before { content: "\f119"; }
+.flaticon-maid:before { content: "\f11a"; }
+.flaticon-vacuum-cleaner:before { content: "\f11b"; }
+.flaticon-tennis:before { content: "\f11c"; }
+.flaticon-couple:before { content: "\f11d"; }
+.flaticon-tap:before { content: "\f11e"; }
+.flaticon-all-nclusive-with-non-alcoholic-drinks:before { content: "\f11f"; }
+.flaticon-toaster:before { content: "\f120"; }
+.flaticon-air-conditioning-in-restaurant:before { content: "\f121"; }
+.flaticon-bathrobes:before { content: "\f122"; }
+.flaticon-shopping-cart-1:before { content: "\f123"; }
+.flaticon-ping-pong:before { content: "\f124"; }
+.flaticon-clock:before { content: "\f125"; }
+.flaticon-house:before { content: "\f126"; }
+.flaticon-table-tennis:before { content: "\f127"; }
+.flaticon-target:before { content: "\f128"; }
+.flaticon-ironing-board:before { content: "\f129"; }
+.flaticon-tumble-dryer:before { content: "\f12a"; }
+.flaticon-catamaran:before { content: "\f12b"; }
+.flaticon-highchair:before { content: "\f12c"; }
+.flaticon-animal:before { content: "\f12d"; }
+.flaticon-popcorn:before { content: "\f12e"; }
+.flaticon-golf-player:before { content: "\f12f"; }
+.flaticon-dietary:before { content: "\f130"; }
+.flaticon-nurse:before { content: "\f131"; }
+.flaticon-aerobics:before { content: "\f132"; }
+.flaticon-summer:before { content: "\f133"; }
+.flaticon-breakfast-room:before { content: "\f134"; }
+.flaticon-babysitting-service:before { content: "\f135"; }
+.flaticon-item-free-of-gluten:before { content: "\f136"; }
+.flaticon-food:before { content: "\f137"; }
+.flaticon-air-conditioning-in-public-areas:before { content: "\f138"; }
+.flaticon-toboggan:before { content: "\f139"; }
+.flaticon-handball:before { content: "\f13a"; }
+.flaticon-waterski:before { content: "\f13b"; }
+.flaticon-carpet:before { content: "\f13c"; }
+.flaticon-bunk-bed:before { content: "\f13d"; }
+.flaticon-tv-table:before { content: "\f13e"; }
+.flaticon-jet-ski:before { content: "\f13f"; }
+.flaticon-harmony:before { content: "\f140"; }
+.flaticon-break-time:before { content: "\f141"; }
+.flaticon-people-6:before { content: "\f142"; }
+.flaticon-people-5:before { content: "\f143"; }
+.flaticon-cup-and-plate:before { content: "\f144"; }
+.flaticon-plus-18-movie:before { content: "\f145"; }
+.flaticon-people-watching-a-movie:before { content: "\f146"; }
+.flaticon-dvd-box:before { content: "\f147"; }
+.flaticon-central-heat:before { content: "\f148"; }
+.flaticon-banana-boating:before { content: "\f149"; }
+.flaticon-big-cot:before { content: "\f14a"; }
+.flaticon-hamburger-buffet:before { content: "\f14b"; }
+.flaticon-breakfast-menu:before { content: "\f14c"; }
+.flaticon-bed-and-breakfast:before { content: "\f14d"; }
+.flaticon-healthy-breakfast:before { content: "\f14e"; }
+.flaticon-bar-in-pool:before { content: "\f14f"; }
+.flaticon-rest-area:before { content: "\f150"; }
+.flaticon-city-dock:before { content: "\f151"; }
+.flaticon-restaurant-menu:before { content: "\f152"; }
+.flaticon-big-hamburger:before { content: "\f153"; }
+.flaticon-wifi-access:before { content: "\f154"; }
+.flaticon-man-windsurfing:before { content: "\f155"; }
+.flaticon-laundry-zone:before { content: "\f156"; }
+.flaticon-no-drinking:before { content: "\f157"; }
+.flaticon-big-bed-with-one-pillow:before { content: "\f158"; }
+.flaticon-bowling-alley:before { content: "\f159"; }
+.flaticon-horse-riding:before { content: "\f15a"; }
+.flaticon-man-in-canoe:before { content: "\f15b"; }
+.flaticon-credit-cards-payment:before { content: "\f15c"; }
+.flaticon-newspaper-report:before { content: "\f15d"; }
+.flaticon-office-secretary:before { content: "\f15e"; }
+.flaticon-public-park:before { content: "\f15f"; }
+.flaticon-smoking-area:before { content: "\f160"; }
+.flaticon-beach-umbrella:before { content: "\f161"; }
+.flaticon-sports-car:before { content: "\f162"; }
+.flaticon-skier:before { content: "\f163"; }
+.flaticon-no-smoking:before { content: "\f164"; }
+.flaticon-forbidden:before { content: "\f165"; }
+.flaticon-different-currencies:before { content: "\f166"; }
+.flaticon-valet-head:before { content: "\f167"; }
+.flaticon-golf-cart:before { content: "\f168"; }
+.flaticon-safari-jeep:before { content: "\f169"; }
+.flaticon-cup-of-coffee:before { content: "\f16a"; }
+.flaticon-working-tools:before { content: "\f16b"; }
+.flaticon-no-smoking-sign-1:before { content: "\f16c"; }
+.flaticon-christmas-fireplace:before { content: "\f16d"; }
+.flaticon-dog:before { content: "\f16e"; }
+.flaticon-snacks-sign:before { content: "\f16f"; }
+.flaticon-all-inclusive-without-drinks:before { content: "\f170"; }
+.flaticon-airport:before { content: "\f171"; }
+.flaticon-shopping-cart:before { content: "\f172"; }
+.flaticon-bluetooth-speaker:before { content: "\f173"; }
+.flaticon-bicycle-hire-service:before { content: "\f174"; }
+.flaticon-characters-interface-sign:before { content: "\f175"; }
+.flaticon-bowl-in-a-microwave:before { content: "\f176"; }
+.flaticon-airport-flight-info-signal:before { content: "\f177"; }
+.flaticon-dining-room-cutlery-set-of-three-pieces-in-silhouettes:before { content: "\f178"; }
+.flaticon-surfer-surfing-in-a-big-water-wave:before { content: "\f179"; }
+.flaticon-man-arriving-to-daily-job:before { content: "\f17a"; }
+.flaticon-bathtub:before { content: "\f17b"; }
+.flaticon-kitchenette:before { content: "\f17c"; }
+.flaticon-flowers-pot-of-yard:before { content: "\f17d"; }
+.flaticon-businessman-holding-books:before { content: "\f17e"; }
+.flaticon-projector:before { content: "\f17f"; }
+.flaticon-banquet-hall:before { content: "\f180"; }
+.flaticon-kitchen-utensils:before { content: "\f181"; }
+.flaticon-electrical-kettle-tool-side-view:before { content: "\f182"; }
+.flaticon-tool:before { content: "\f183"; }
+.flaticon-kids-couple:before { content: "\f184"; }
+.flaticon-professor-walking-into-the-class:before { content: "\f185"; }
+.flaticon-teacher-photocopying-text-material-for-class:before { content: "\f186"; }
+.flaticon-hairdresser-with-scissors-cutting-the-hair-to-a-client-sitting-in-front-of-him:before { content: "\f187"; }
+.flaticon-american-express:before { content: "\f188"; }
+.flaticon-jcb-pay-logo-symbol:before { content: "\f189"; }
+.flaticon-maestro-pay-logo:before { content: "\f18a"; }
+.flaticon-diners-club-credit-card-logo:before { content: "\f18b"; }
+.flaticon-mastercard:before { content: "\f18c"; }
+.flaticon-golf-bag-equipment-with-sticks-set:before { content: "\f18d"; }
+.flaticon-camping-tent:before { content: "\f18e"; }
+.flaticon-golf-flag-and-field:before { content: "\f18f"; }
+.flaticon-squash:before { content: "\f190"; }
+.flaticon-billiards:before { content: "\f191"; }
+.flaticon-plate-fork-and-knife:before { content: "\f192"; }
+.flaticon-cable-tv-sign-with-monitor:before { content: "\f193"; }
+.flaticon-slide-to-swimming-pool-water:before { content: "\f194"; }
+.flaticon-private-swimming-pool-sign:before { content: "\f195"; }
+.flaticon-breakfast-buffet:before { content: "\f196"; }
+.flaticon-swimming-pool-water-waves-with-ladder:before { content: "\f197"; }
+.flaticon-people-4:before { content: "\f198"; }
+.flaticon-person-silhouette-in-sauna:before { content: "\f199"; }
+.flaticon-gym-dumbbell-black-silhouette:before { content: "\f19a"; }
+.flaticon-entertainment-area-symbol-with-abc-cubes-and-house-outline:before { content: "\f19b"; }
+.flaticon-calendar-with-a-clock-time-tools:before { content: "\f19c"; }
+.flaticon-rest:before { content: "\f19d"; }
+.flaticon-coffee-machine:before { content: "\f19e"; }
+.flaticon-businessmen-having-a-meeting:before { content: "\f19f"; }
+.flaticon-mobile-phone-with-signal-sign:before { content: "\f1a0"; }
+.flaticon-burger-and-soda-meal:before { content: "\f1a1"; }
+.flaticon-spaghetti:before { content: "\f1a2"; }
+.flaticon-bath-tub-with-shower:before { content: "\f1a3"; }
+.flaticon-book:before { content: "\f1a4"; }
+.flaticon-dropbox-logo:before { content: "\f1a5"; }
+.flaticon-screen:before { content: "\f1a6"; }
+.flaticon-man-arriving-late:before { content: "\f1a7"; }
+.flaticon-barbecue-grill:before { content: "\f1a8"; }
+.flaticon-visa-logo:before { content: "\f1a9"; }
+.flaticon-bike-with-motor-ios-7-interface-symbol:before { content: "\f1aa"; }
+.flaticon-security-safe-box:before { content: "\f1ab"; }
+.flaticon-breakfast-1:before { content: "\f1ac"; }
+.flaticon-washing:before { content: "\f1ad"; }
+.flaticon-airport-shuttle:before { content: "\f1ae"; }
+.flaticon-old-telephone-ringing:before { content: "\f1af"; }
+.flaticon-no-smoking-sign:before { content: "\f1b0"; }
+.flaticon-all-inclusive:before { content: "\f1b1"; }
+.flaticon-old-typical-phone:before { content: "\f1b2"; }
+.flaticon-printer:before { content: "\f1b3"; }
+.flaticon-party-dj:before { content: "\f1b4"; }
+.flaticon-man-in-office-desk-with-computer:before { content: "\f1b5"; }
+.flaticon-all-inclusive-with-alcoholic-drinks-own-brands:before { content: "\f1b6"; }
+.flaticon-diver:before { content: "\f1b7"; }
+.flaticon-golfer:before { content: "\f1b8"; }
+.flaticon-people-3:before { content: "\f1b9"; }
+.flaticon-basketball:before { content: "\f1ba"; }
+.flaticon-breakfast-and-lunch:before { content: "\f1bb"; }
+.flaticon-ball:before { content: "\f1bc"; }
+.flaticon-people-2:before { content: "\f1bd"; }
+.flaticon-climb:before { content: "\f1be"; }
+.flaticon-snowboarding:before { content: "\f1bf"; }
+.flaticon-elevator-with-two-men-sign:before { content: "\f1c0"; }
+.flaticon-dumbbell-for-training:before { content: "\f1c1"; }
+.flaticon-hamburguer-drink-with-straw:before { content: "\f1c2"; }
+.flaticon-swimming-man:before { content: "\f1c3"; }
+.flaticon-subway-sign:before { content: "\f1c4"; }
+.flaticon-relaxing-massage:before { content: "\f1c5"; }
+.flaticon-slot-machine-silhouette:before { content: "\f1c6"; }
+.flaticon-wheelchair-accessibility-sing:before { content: "\f1c7"; }
+.flaticon-cottage:before { content: "\f1c8"; }
+.flaticon-forest-cabin:before { content: "\f1c9"; }
+.flaticon-skiing-stickman:before { content: "\f1ca"; }
+.flaticon-car-repair-1:before { content: "\f1cb"; }
+.flaticon-car-and-parking-sign:before { content: "\f1cc"; }
+.flaticon-balcony:before { content: "\f1cd"; }
+.flaticon-dinner:before { content: "\f1ce"; }
+.flaticon-car-repair:before { content: "\f1cf"; }
+.flaticon-breakfast-and-dinner:before { content: "\f1d0"; }
+.flaticon-24-hour-reception:before { content: "\f1d1"; }
+.flaticon-poolside-snack-bar:before { content: "\f1d2"; }
+.flaticon-music:before { content: "\f1d3"; }
+.flaticon-fax:before { content: "\f1d4"; }
+.flaticon-solar-panel:before { content: "\f1d5"; }
+.flaticon-background-music:before { content: "\f1d6"; }
+.flaticon-departures:before { content: "\f1d7"; }
+.flaticon-city:before { content: "\f1d8"; }
+.flaticon-badminton:before { content: "\f1d9"; }
+.flaticon-weightlifting:before { content: "\f1da"; }
+.flaticon-bath:before { content: "\f1db"; }
+.flaticon-room-service:before { content: "\f1dc"; }
+.flaticon-audio-visual-equipment-rental:before { content: "\f1dd"; }
+.flaticon-toilet:before { content: "\f1de"; }
+.flaticon-people-1:before { content: "\f1df"; }
+.flaticon-beauty-salon:before { content: "\f1e0"; }
+.flaticon-ship:before { content: "\f1e1"; }
+.flaticon-television:before { content: "\f1e2"; }
+.flaticon-fan:before { content: "\f1e3"; }
+.flaticon-bbq-facilities:before { content: "\f1e4"; }
+.flaticon-wifi-1:before { content: "\f1e5"; }
+.flaticon-meeting-room:before { content: "\f1e6"; }
+.flaticon-children:before { content: "\f1e7"; }
+.flaticon-swimming-pool:before { content: "\f1e8"; }
+.flaticon-terrace-1:before { content: "\f1e9"; }
+.flaticon-terrace:before { content: "\f1ea"; }
+.flaticon-compact-disc:before { content: "\f1eb"; }
+.flaticon-dishwasher:before { content: "\f1ec"; }
+.flaticon-living-room:before { content: "\f1ed"; }
+.flaticon-beach-volleyball:before { content: "\f1ee"; }
+.flaticon-hurry:before { content: "\f1ef"; }
+.flaticon-beach:before { content: "\f1f0"; }
+.flaticon-a-la-carte-lunch:before { content: "\f1f1"; }
+.flaticon-breakfast:before { content: "\f1f2"; }
+.flaticon-bikes-available:before { content: "\f1f3"; }
+.flaticon-marriage-certification:before { content: "\f1f4"; }
+.flaticon-wifi:before { content: "\f1f5"; }
+.flaticon-agreement:before { content: "\f1f6"; }
+.flaticon-archery:before { content: "\f1f7"; }
+.flaticon-coin:before { content: "\f1f8"; }
+.flaticon-game:before { content: "\f1f9"; }
+.flaticon-mother-with-son-silhouettes:before { content: "\f1fa"; }
+.flaticon-claw-bath-in-spa:before { content: "\f1fb"; }
+.flaticon-parking:before { content: "\f1fc"; }
+.flaticon-people:before { content: "\f1fd"; }
+.flaticon-dollar-bill-paper-in-an-envelope-to-make-a-deposit-in-a-bank:before { content: "\f1fe"; }

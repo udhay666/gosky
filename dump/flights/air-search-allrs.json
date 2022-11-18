@@ -1,0 +1,1 @@
+{"status":{"success":false,"httpStatus":400},"errors":[{"errCode":"1031","message":"searchQuery.cabinClass : Invalid cabin class"}]}

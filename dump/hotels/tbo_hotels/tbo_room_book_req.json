@@ -1,0 +1,77 @@
+{
+    "ResultIndex": "1",
+    "HotelCode": "33900800",
+    "HotelName": "OYO 24259 Hotel Blue Inn",
+    "GuestNationality": "IN",
+    "NoOfRooms":1,
+    "ClientReferenceNo": 0,
+    "IsVoucherBooking":true,
+    "HotelRoomsDetails": [
+    {"RoomIndex": "1",
+            "RoomTypeCode": "216632415|264363076$37316^^1^^216632415|264363076|37316|141~!:~1",
+            "RoomTypeName": "Standard Room,1 Double Bed,Smoking",
+            "RatePlanCode": "216632415|264363076|37316|141",
+            "BedTypeCode": "",
+            "SmokingPreference": 0,
+            "Supplements": "","Price": {
+                "CurrencyCode": "INR",
+                "RoomPrice": "619.88",
+                "Tax": "14.28",
+                "ExtraGuestCharge": "0",
+                "ChildCharge": "0",
+                "OtherCharges": "158.54",
+                "Discount": "0",
+                "PublishedPrice": "792.7",
+                "PublishedPriceRoundedOff": "793",
+                "OfferedPrice": "792.7",
+                "OfferedPriceRoundedOff": "793",
+                "AgentCommission": "0",
+                "AgentMarkUp": "0",
+                "ServiceTax": "29.99",
+                "TDS": "0"
+            },
+            "HotelPassenger": [
+                {
+                    "Title": "Mr",
+                    "FirstName": "udaya",
+                    "MiddleName" : "",
+                    "LastName": "raj",
+                    "Phoneno":  "9566970915",
+                    "Email":  "udayaraj@travelpd.com",
+                    "PaxType": 1,
+                        "PAN":  "ALWPG5809L",
+                        "LeadPassenger": "true",
+                    "Age":0
+                },
+                {
+                    "Title": "Mr",
+                    "FirstName": "test",
+                    "MiddleName" : "",
+                    "LastName": "raj",
+                    "Phoneno":  "9566970915",
+                    "Email":  "udayaraj@travelpd.com",
+                    "PaxType": 1,
+                        "PAN":  "BNZPM2501F",
+                        "LeadPassenger": "false",
+                    "Age":0
+                    }
+    ]
+    }
+    ],
+    "ArrivalTransport": {
+    "ArrivalTransportType": 0,
+    "TransportInfoId": "Ab 777",
+    "Time": "2022-07-08T00:00:00"
+    },
+    "FlightInfo": null,
+    "OnlinePaymentId": 0,
+    "TransactionId": null,
+    "CancelAtPriceChangeAfterBooking": true,
+    "IsAmountDeduct": false,
+    "IsHotelImport": false,
+    "MakePaymentInfo": null,
+    "IsPackageFare": true,
+    "EndUserIp": "127.0.0.1",
+    "TokenId": "e5331616-ceaa-4448-b4e3-956326b468bb",
+    "TraceId": "9225eec6-eafa-44fc-bfb7-7213abccebfd"
+    }

@@ -1,0 +1,17 @@
+{
+    "BookingId": 1742889,
+    "RequestType": 2,
+    "CancellationType": 3,
+    "Sectors": [
+      {
+        "Origin": "DEL",
+        "Destination": "BLR"
+      }
+    ],
+    "TicketId": [
+      2023185
+    ],
+    "Remarks": "Test remarks",
+    "EndUserIp": "192.168.11.23",
+    "TokenId": "414831ac-98d7-457b-9e4a-88f5399a3eb2"
+  }

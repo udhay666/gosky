@@ -1,0 +1,27 @@
+.booking-form {
+    padding: 0;
+    background-color: #253035;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: left;
+}
+.booking-form {
+    text-align: center;
+}
+.booking-form header {
+    background-color: #A01D26;
+    padding: 20px;
+}
+.booking-form header {
+    z-index: 2;
+}
+.booking-form header .price {
+    color: white;
+    font-size: 2.11111111em;
+    line-height: 1.26315789em;
+}
+.booking-form form {
+    padding-bottom: 20px;
+}

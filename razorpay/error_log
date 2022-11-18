@@ -1,0 +1,182 @@
+[26-Dec-2019 07:46:07 UTC] PHP Fatal error:  Class 'Razorpay\Api\Api' not found in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/pay.php on line 11
+[26-Dec-2019 07:47:39 UTC] PHP Fatal error:  Class 'Razorpay\Api\Api' not found in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/pay.php on line 11
+[26-Dec-2019 07:47:40 UTC] PHP Fatal error:  Class 'Razorpay\Api\Api' not found in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/pay.php on line 11
+[26-Dec-2019 07:49:38 UTC] PHP Fatal error:  Class 'Razorpay\Api\Api' not found in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/pay.php on line 11
+[26-Dec-2019 10:20:40 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[27-Dec-2019 05:10:17 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[27-Dec-2019 05:10:36 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[27-Dec-2019 05:11:10 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[27-Dec-2019 05:11:27 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[27-Dec-2019 05:12:05 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[30-Dec-2019 06:22:39 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[06-Jan-2020 12:49:37 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[20-Jan-2020 09:09:41 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[20-Jan-2020 09:10:00 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[20-Jan-2020 09:10:47 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[20-Jan-2020 09:11:06 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[20-Jan-2020 09:11:12 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5  in /home/tpdtechnosoft/public_html/TPD_Projects/bizzholidays/razorpay/razorpay-php/src/Request.php on line 120
+[22-Jul-2020 06:34:22 UTC] PHP Fatal error:  Uncaught exception 'Razorpay\Api\Errors\BadRequestError' with message 'The amount must be atleast INR 1.00' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/tpdtechnosoft/public_htm in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php on line 120
+[24-Jul-2020 11:28:25 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:28:39 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:30:02 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:30:16 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:32:35 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:36:32 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:36:56 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:41:47 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 11:57:12 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 12:09:07 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280
+[24-Jul-2020 13:25:04 UTC] PHP Fatal error:  Uncaught exception 'Requests_Exception' with message 'cURL error 60: SSL: no alternative certificate subject name matches target host name 'api.razorpay.com'' in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php:280
+Stack trace:
+#0 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php(123): Requests_Transport_cURL->process_response(false, Array)
+#1 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests.php(318): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Request.php(42): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'orders/', Ar in /home/tpdtechnosoft/public_html/TPD_Projects/Etrippo/razorpay/razorpay-php/libs/Requests-1.6.1/library/Requests/Transport/cURL.php on line 280

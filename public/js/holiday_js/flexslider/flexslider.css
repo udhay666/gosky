@@ -1,0 +1,409 @@
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets
+*********************************/
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* FlexSlider Default Theme
+*********************************/
+
+.flexslider {
+    position: relative;
+    margin: 0;
+    zoom: 1;
+}
+
+.flex-wrap-viewport {
+    position: relative;
+}
+
+.flex-viewport {
+    max-height: 2000px;
+    padding-top: 20px;
+}
+
+.loading .flex-viewport {
+    max-height: 300px;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+
+.flexslider .slides {
+    zoom: 1;
+}
+
+    .flexslider .slides > li {
+        display: none;
+        -webkit-backface-visibility: hidden;
+        text-align: center;
+    }
+
+.no-js .slides > li:first-child {
+    display: block;
+}
+
+.flexslider .slides img {
+    display: block;
+    width: 100%;
+}
+
+/* Clearfix for the .slides element */
+/*.slides:after {
+	content: "\0020";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides { display: block; }
+* html .slides		{ height: 1%; }*/
+
+
+/* Direction Nav */
+
+
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 70px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+.flex-direction-nav .flex-next {
+  right: -50px;
+  text-align: right;
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+  color: #a01d26;
+  left: 10px;
+}
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+  color: #a01d26;
+  right: 10px;
+}
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
+.flex-direction-nav a:hover, .flex-direction-nav a:active {
+    border-color: transparent;
+    text-decoration: none;
+}
+.collections .flex-direction-nav a {
+    margin: -35px 0 0 0 ;
+}
+.collections .flexslider:hover .flex-direction-nav .flex-next {
+    right: -35px;
+}
+.collections .flexslider:hover .flex-direction-nav .flex-prev {
+    left: -35px;
+}
+.flex-direction-nav .flex-disabled {
+    opacity: 0 !important;
+    filter: alpha(opacity = 0);
+    cursor: default;
+}
+
+.flex-direction-nav a:before {
+    display: block;
+    color: #333333;
+    font-size: 50px;
+    font-family: 'fontello';
+    line-height: 68px;
+    text-align: center;
+    -webkit-transition: color .25s ease;
+    transition: color .25s ease;
+}
+
+.flex-direction-nav .flex-prev:before {
+    content: '\e8b7';
+}
+
+.flex-direction-nav .flex-next:before {
+    content: '\e8b8';
+}
+
+.flex-direction-nav a:hover:before {
+    color: #a01d26;
+}
+
+/* Pause/Play */
+
+.flex-pauseplay a {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    z-index: 10;
+    display: block;
+    overflow: hidden;
+    color: #000;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+   
+/* Control Nav */
+
+.flex-control-nav {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    text-align: center;
+}
+.hot-offers .flex-control-nav {
+    bottom: -28px;
+}
+.testimonial .flexslider {
+    margin-bottom: 30px;
+}
+.testimonial .flex-control-nav {
+    bottom: -20px;
+    text-align: right;
+    font-size: 0;
+}
+.testimonial .flex-control-nav h6, .hot-offers .flex-control-nav h6 {
+    display: none;
+}
+    .flex-control-nav li {
+        display: inline-block;
+        margin: 0 6px;
+        zoom: 1;
+    }
+
+.flex-control-paging li a {
+    display: block;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    text-indent: -9999px;
+    border: 1px solid #A01D26;
+    border-radius: 50%;
+}
+
+    .flex-control-paging li a:hover {
+        background: #A01D26;
+    }
+
+    .flex-control-paging li a.flex-active {
+        background: #A01D26;
+        cursor: default;
+    }
+
+/* Control Thumbs */
+
+.flex-control-thumbs {
+    position: static;
+    overflow: hidden;
+    font-size: 0;
+    text-align: center;
+}
+
+    .flex-control-thumbs li {
+        display: inline-block;
+        margin: 0 15px;
+        width: 100px;
+    }
+
+    .flex-control-thumbs i {
+        display: block;
+        margin-bottom: 15px;
+        border: 1px solid #cfcfcf;
+        color: #5b5e60;
+        font-size: 44px;
+        line-height: 96px;
+        cursor: pointer;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-transition: all .25s ease;
+        transition: all .25s ease;
+    }
+
+    .flex-control-thumbs .flex-active {
+        border-color: transparent;
+        background-color: #00c2a9;
+    }
+
+        .flex-control-thumbs .flex-active:before {
+            color: #fff;
+        }
+
+    .flex-control-thumbs h6 {
+        color: #5b5e60;
+        font-size: 15px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+    }
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .flexslider {
+        padding: 0 50px;
+    }
+
+    /* Direction Nav */
+
+    .flex-direction-nav .flex-prev {
+        left: -70px;
+    }
+
+    .flex-direction-nav .flex-next {
+        right: -70px;
+    }
+
+    /* Control Thumbs */
+
+    .flex-control-thumbs {
+        margin-bottom: 40px;
+    }
+
+        .flex-control-thumbs li {
+            margin: 0 10px;
+            width: 80px;
+        }
+
+        .flex-control-thumbs i {
+            font-size: 36px;
+            line-height: 80px;
+        }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .flexslider {
+        padding: 0 50px;
+    }
+
+    /* Direction Nav */
+
+    .flex-direction-nav .flex-prev {
+        left: -70px;
+    }
+
+    .flex-direction-nav .flex-next {
+        right: -70px;
+    }
+
+    /* Control Thumbs */
+
+    .flex-control-thumbs {
+        margin-bottom: 20px;
+    }
+
+        .flex-control-thumbs li {
+            margin: 0 10px;
+            width: 60px;
+        }
+
+        .flex-control-thumbs i {
+            font-size: 30px;
+            line-height: 60px;
+        }
+
+        .flex-control-thumbs h6 {
+            font-size: 14px;
+        }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    .flexslider {
+        padding: 0;
+    }
+
+    /* Direction Nav */
+
+    .flex-direction-nav .flex-prev {
+        /*display: none;*/
+    }
+
+    .flex-direction-nav .flex-next {
+        /*display: none;*/
+    }
+
+    /* Control Thumbs */
+
+    .flex-control-thumbs {
+        margin-bottom: 20px;
+    }
+
+        .flex-control-thumbs li {
+            margin: 0 10px;
+            width: 60px;
+        }
+
+        .flex-control-thumbs i {
+            margin-bottom: 10px;
+            font-size: 30px;
+            line-height: 60px;
+        }
+
+        .flex-control-thumbs h6 {
+            font-size: 14px;
+        }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    /* Control Thumbs */
+
+    .flex-control-thumbs li {
+        width: 40px;
+    }
+
+    .flex-control-thumbs i {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .flex-control-thumbs h6 {
+        font-size: 12px;
+    }
+    .flex-direction-nav .flex-prev {
+        left: 0;
+    }
+    .flex-direction-nav .flex-next {
+        right: 0;
+    }
+}

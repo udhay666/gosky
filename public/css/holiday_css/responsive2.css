@@ -1,0 +1,568 @@
+@media only screen and (max-width: 1199px) {
+  .title-section .container-booking-sticky {
+    width: 250px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  #home > section{
+    position: relative !important;
+  }
+  .travel-mega-menu-mobile li a.top-menu-txt {
+      color: #eaece9;
+  }
+  .margintop97,.margintop100 {
+    /*margin-top: 41px;*/
+  }
+  .info-dealsleft {
+    width: 70%;
+  }
+  .mice-row{padding-left: 15px !important;padding-right: 15px !important}
+  .search-result-container{
+    margin-top: 0px !important;
+    padding-top: 1px !important;
+  }
+  .search-area  .tab-content .btn-default{
+        padding: 8px 10px;
+  }
+  .top-text span.top-text-name {
+    font-size: 2em;
+  }
+  .top-text span.top-text-duration {
+    font-size: 24px;
+  }
+  .holiday-details.holiday_tabs.affix{
+    top: 40px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .tab-bar .tab-bar-section h1 a .main-logo {
+      height: 3rem;
+      margin-top: 8px;
+  }
+  .holiday_tabs ul {
+      height: auto !important;
+  }
+  .booking-form header .price {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-top: 5px;
+  }
+  .booking-form header .price #priceheader{
+    display: block;
+  }
+  .button-link {
+    font-size: 12px;
+  }
+  .ls-accio .ls-bottom-slidebuttons, .ls-accio .ls-nav-start,
+  .ls-accio .ls-nav-stop, .ls-accio .ls-nav-sides {
+    bottom: 70px;
+  }
+  .jumplink-container {
+    bottom: 45px;
+    left: 0;
+  }
+  .tab-bar .mobile_nav_position-off-canvas-menu ul>li.mobile-login a {
+    margin: 0;
+    /*border-bottom: 1px solid hsla(0,0%,100%,.2);*/
+  }
+  .tab-bar .mobile_nav_position-off-canvas-menu ul>li.mobile-login line {
+    height: 0;
+    display: none;
+  }
+  .tab-bar .mobile_nav_position-off-canvas-menu ul>li.mobile-login a#jump_enquiry {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #priceheader{font-size: 16px}
+  #Package.shadow-box .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: visible;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+  }
+  .sorting-tab p, .sorting-tab label {
+    border-bottom: 1px solid #CCC;
+    border-right: 0;
+  }
+  .mice.container-booking-sticky.affix {
+      position: relative;
+       top: 0; 
+  }
+  .mice.container-booking-sticky {
+       position: relative; 
+      top: 0;
+      left: 0;
+      max-width: 100%
+  }
+  #title-section.title-section,.pack-section.margintop97 {
+      /*margin-top: 41px !important;*/
+  }
+
+  
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+  .collections .flexslider:hover .flex-direction-nav .flex-next {
+    right: -70px;
+  }
+  .collections .flexslider:hover .flex-direction-nav .flex-prev {
+      left: -70px;
+  }
+  .tab-search-area {
+    top: 40%;
+  }
+  .title-section .container-booking-sticky {
+    width: 200px;
+    padding: 0;
+    left: -15px;
+  }
+  .title-section .container-booking-sticky.affix {
+    right: 0;
+    left: initial;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-item.mobile-login {
+      background: #252525;
+  }
+  .menu-item.mobile-login .user_dropbtn{
+      border-bottom: 1px solid #5e666a;
+      background: #364045;
+  }
+  #priceheader{font-size: 36px}
+  .tab-search-area {
+    top: 40%;
+  }
+  #holiday .form-group:before, #holiday .input-group:before {
+    border-left: 0;
+  }
+  #holiday .input-group:after,#holiday .input-group-btn:after {
+    border-right: 0;
+  }
+  .padding-8 {
+    padding-left: 20px !important;
+  }
+  .search-area .tab-content .form-group {
+    margin-bottom: 20px;
+  }
+  .section{position: initial;}
+  #home > section.section{
+    position: relative !important;
+  }
+  .mobile-hide,.ls-nav-prev,.ls-nav-next,.ls-bottom-slidebuttons,
+  .flex-control-nav.flex-control-paging{
+    display: none !important;
+  }
+
+.social-medias-banner.mobile-hide{
+  display: block !important;
+}
+.social-medias-banner.mobile-hide {
+    position: absolute;
+    top: 179px;
+    z-index: 3;
+    right: 0;
+}
+
+  .ls-accio:hover .ls-nav-prev, .ls-accio:hover .ls-nav-next{
+    display: none !important;
+  }
+  /*.ls-layer{height: 400px !important}*/
+  .ls-accio .ls-bottom-slidebuttons, .ls-accio .ls-nav-start, .ls-accio .ls-nav-stop, .ls-accio .ls-nav-sides {
+    bottom: -15px;
+  }
+  #distdropdownsearch, #hotdistdropdownsearch{z-index: 9;}
+  .section-title:after{z-index: 0;}
+  .card-map-link{bottom: 70px}
+  /*#card1 .card-map-link{bottom: 120px}*/
+  .deals-list{width: auto}
+  .info-dealsleft *{font-size: 14px}
+
+  #holiday-section.holiday-section {
+    /*position: relative;*/
+    margin-top: 0;
+  }
+  .top-text {
+    bottom: 90%;
+    /*max-width: 100%;*/
+    /*display: none;*/
+  }
+  .top-text span.top-text-name, .top-text span.top-text-duration{
+     visibility: hidden;
+  }
+  .top-text #floatingSocialShare .top-left {
+    left: -190px;
+    opacity: 1;
+     position: fixed; 
+    margin-top: -98px;
+}
+
+.top-text #floatingSocialShare .top-left.is-hover {
+    left: 35px;
+}
+ 
+  .holiday-details.holiday_tabs.affix {
+    position: static !important;
+  }
+  .mobile-view{
+    position: relative;
+  }
+  .container-booking-sticky, .container-booking-sticky.affix {
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 40px 15px;
+  }
+  
+  .holi-details #accommodations .star-r {
+    left: 41.8%;
+  }
+  .holi-details #accommodations .card {
+    margin-bottom: 55px;
+  }
+  .holi-details #accommodations h1{text-align: center;}
+  .title-section .container-booking-sticky.affix {
+    position: static;
+  }
+  .title-section .container-booking-sticky {
+    width: 250px;
+    margin-top: 20px !important;
+  }
+  #title-section #accommodations .star-r {
+    left: 40.3%;
+  }
+  #title-section #accommodations .card.card-small.acco{
+  margin-bottom: 50px
+  }
+  .trim-left{
+    padding-left: 20px !important;
+  }
+  .trim-right{
+    padding-right: 20px !important;
+  }
+  .header-search-result {
+    background: #1c1d22;
+    float: none;
+    height: 12px;
+  }
+  .header-search-result .result-label {
+    float: none;
+    padding-right: 0;
+  }
+  .header-search-result .result-count {
+    float: none;
+    padding-left: 0;
+    margin: 10px 0 !important;
+  }
+  .sorting-tab {
+    margin-top: 30px;
+  }
+  #applypromo{
+    position: relative;
+    top: 15px;
+  }
+  .deals-row img{
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .info-deals {
+    min-height: 111px;
+    width: 100%;
+    top: 0;
+  }
+  .showtime-banner {
+    bottom: 130px;
+  }
+  .padd-l5{
+    padding-left: 20px;
+  }
+  .padd-r5{
+    padding-right: 20px;
+  }
+  .m-l-minus-15m-l-minus-15{
+    margin-left: 0;
+  }
+  .top-contact,.top-login{
+    float: none !important;
+    text-align: right;
+  }
+  .searchinput {
+    width: 100%;
+}
+  /*.loginheader{background:#364045 !important; }*/
+  .top-header > .container > .row > div{
+    text-align: center !important;
+  }
+  .middle-header {
+    padding: 10px 0 !important;
+}
+  .our-clients-logo {
+      max-height: 170px !important;
+  }
+  .wizard_horizontal ul.wizard_steps li a .step_descr{
+      font-size: 10px !important;
+  }
+  .dropdown-search .tabs-left .nav-tabs li a,.tab-content.pre-scrollable span {
+    font-size: 10px;
+  }
+  .tab-content.pre-scrollable span{
+    float: left !important;
+  }
+  input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea, select {
+    font-size: 12px;
+  }
+  #holiday.tab-pane.active .input-icon i, #holiday.tab-pane.active .input-icon.input-group i {
+      top: 12px;
+      font-size: 15px;
+  }
+  #holiday.tab-pane.active .input-icon #holiCityName, #holiday.tab-pane.active .input-icon #mon_dur {
+    padding: 9px 27px;
+  }
+  .search-area .tab-content .btn-default {
+      padding: 8px 5px;
+      font-size: 12px
+  }
+  .gi-5x {
+    font-size: 12px;
+  }
+  .copyright {
+    text-align: center;
+    display: inline-block;
+  }
+  .bottom-footer ul li, .bottom-footer .social-media ,.sm-text-right {
+    text-align: center;
+  }
+  .effect-marley img{
+    width: 100% !important
+  }
+  .my-account.accountCntr,.my-booking.accountCntr{
+    margin-top: 65px !important;
+    margin-bottom: 65px !important;
+  }
+  .my-account.accountCntr .row .white-container{
+    margin: 0px 4px !important;
+  }
+  .top-bar-mobile_nav_position line{
+    display: none;
+  }
+  
+  .tab-bar .mobile_nav_position-off-canvas-menu ul>li.mobile-login a {
+    text-transform: uppercase;
+  }
+  .tab-bar .mobile_nav_position-off-canvas-menu ul>li.mobile-login a:first-child {
+    background: #364045;
+  }
+  .noBorder a {
+    font-size: 14px !important;
+  }
+  .accountCntr h3.agenntHdng {
+    margin-top: 15px !important;
+    font-size: 16px !important;
+  }
+  .my-account .table,.my-booking .table {
+    margin-bottom: 0;
+  }
+  .my-account .col-md-10{
+    padding: 0;
+  }
+  .my-account .form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 520px) {
+  .flexslider .slides img{
+    height: auto !important;
+  }
+  .info-dealsleft {
+    width: 100%;
+    float: none;
+  }
+  #aboutuscontent ul {
+    list-style: none;
+    padding: 10px;
+    list-style-type: disc;
+    font-size: 12px;
+  }
+  .hovereffect .overlay {
+    padding: .5em;
+    height: 5em;
+  }
+  .hovereffect h2 {
+    font-size: 14px;
+    padding: 0;
+  }
+  .hovereffect p {
+    font-size: 12px;
+    margin: 0 0 8px 0;
+  }
+  .hovereffect:hover .overlay {
+    height: 8em;
+  }
+  .tab-bar .tab-bar-section h1 a .main-logo img{height: 100% !important;}
+  .tab-bar .tab-bar-section h1 a .main-logo{height: 2.5rem !important;}
+  .holi-details #accommodations .star-r {
+    left: 39.3%;
+  }
+  .dropdown-search {
+    left: 0;
+  }
+  .select-passenger{width: 250px}
+  #title-section #accommodations .star-r {
+    left: 37.3%;
+  }
+  #services.page{
+    padding-top: 30px;
+    background: #fff;
+  }
+  .tab-search-area {
+    margin-top: 10px;
+    top: 0;
+    clear: both;
+    position: relative;
+  }
+  .section.padding-off {
+    overflow: visible;
+  }
+  .tab-bar {
+    width: 100vw;
+  }
+  .info-dealsleft .deals-desc{
+    display: none;
+  }
+  .info-dealsright {
+    float: none;
+    width: 100%;
+  }
+  .info-dealsright .priceNew {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 0;
+  }
+  .info-dealsright .view-button {
+    float: left !important;
+    margin-left: 10px !important;
+    padding-top: 0;
+    height: 32px;
+    line-height: 34px;
+    font-size: 18px;
+  }
+  #aboutus-menu img{
+    height: 250px;
+  }
+  
+  .wizard_horizontal ul.wizard_steps li a .step_no {
+      width: 30px !important;
+      height: 30px !important;
+      line-height: 27px !important;
+      font-size: 10px !important;
+  }
+
+  .wizard_horizontal ul.wizard_steps li a:before {
+    top: 25px !important;
+  }
+  .wizard_horizontal .nav>li>a {
+      padding: 10px 2px !important;
+      line-height: 1 !important;
+  }
+  .wizard_horizontal ul.wizard_steps li a .step_descr {
+    font-size: 8px !important;
+    text-transform: capitalize !important;
+  }
+  section.inspiration-section {
+    padding: 0 !important;
+  }
+  .top-info {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    height: auto !important;
+  }
+  .top-info .text-block h1.title {
+    font-size: 26px !important;
+    margin-top: 0 !important;
+  }
+  .top-info .text-block h2.sub-title {
+      font-size: 12px !important;
+  }
+  .top-info .text-block p.intro {
+    font-size: 12px !important;
+  }
+  .top-info .text-block {
+    display: block !important;
+    margin-top: 25px !important;
+  }
+  .inspiration-content.container > .row{
+    margin: 0
+  }
+  .developed {
+    text-align: left;
+  }
+  .my-booking a,.my-account a {
+      font-size: 75%;
+  }
+  .my-booking div.dataTables_wrapper div.dataTables_length select {
+    font-size: 12px !important;
+    height: 30px;
+    line-height: 15px;
+    margin-bottom: 8px;
+    margin-left: 22px;
+  }
+  .my-booking div.dataTables_wrapper div.dataTables_filter input {
+    font-size: 12px !important;
+    height: 30px;
+  }
+  .my-booking .dataTables_length,.my-booking .dataTables_filter {
+    float: none;
+  }
+  table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 15px !important;
+    font-size: 12px;
+  }
+  div.dataTables_wrapper div.dataTables_info,.searchHdr {
+    font-size: 12px !important;
+  }
+  .showtime-banner {
+    bottom: 155px;
+  }
+  .info-deals {
+    min-height: 125px;
+  }
+  .info-dealsleft h2 {
+    font-size: 14px;
+  }
+  .ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all.customclass {
+      width: auto !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .pack-icons {
+      text-align: center;
+      display: block;
+  }
+  .result-item .result-package .text-left {
+    text-align: center !important;
+  }
+  .result-item .result-package .text-left > a {
+    float: none !important;
+  }
+}

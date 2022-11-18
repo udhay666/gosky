@@ -1,0 +1,185 @@
+.search-result-container {
+    background: #1c1d22;
+    margin-top: 103px;
+}
+.header-search-result.blck .result-count, .header-search-result.blck .result-label{
+    color: #ffffff;
+    background: #1c1d22;
+}
+.search_disp li{
+	display: inline-block;
+	width: 45%;
+}
+.search_disp li:nth-child(2){
+    text-align: center;
+}
+.search_disp li:last-child{
+	text-align: right;
+    width: 4%;
+}
+.sorting-tab {
+    margin: 15px 0;
+    padding: 0;
+}
+.sorting-tab > .row > div {
+    padding: 0 16px 0 0;
+}
+.sorting-tab > .row > div:first-child{
+    padding: 0 15px 0 30px;
+}
+.sorting-tab > .row > div:last-child{
+    padding: 0 38px 0 0;
+}
+.sorting-tab > .row > div p{
+    padding: 10px 0;
+}
+.font12 {
+    color: #363636 !important;
+}
+.carRow .form-group{
+	margin-bottom: 6px;
+}
+.bdTitle2 {
+    padding: 10px 10px 0;
+    /* color: #fcfcfc; */
+    font-size: 16px;
+    background: #fff;
+    border-bottom: 3px solid #fff;
+}
+.bottom-line2 {
+    border-bottom: 1px solid #555;
+    clear: both;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    background: #fff;
+}
+.itinerary-container .shadow-box.white-container{
+    margin-top: 0;
+}
+.itinerary-container .form_wizard {
+    margin-bottom: 25px;
+    border-top: 1px solid #3b454a;
+    margin-top: 0;
+}
+.form-label {
+    position: relative;
+    top: 8px;
+    font-size: 14px;
+}
+.form-btn {
+    position: relative;
+    top: 3px;
+    font-size: 14px;
+}
+.asterisk{
+    color: red;
+}
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea, select {
+    font-size: 12px;
+}
+
+.fare-breakup {
+    margin: 0;
+    padding: 0 10px !important;
+    border-left: #e1e1e1 solid 1px;
+}
+.fare-breakup table {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #999;
+    width: 100%;
+}
+.fare-breakup table td {
+    padding: 8px 0;
+    border-bottom: #e1e1e1 dashed 1px;
+    text-align: right;
+}
+.fare-breakup table td:first-child {
+    text-align: left;
+}
+.fare-breakup a, .fare-breakup a i {
+    color: #a01d26 !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+.itinerary-container .fare-breakup {
+    margin: 0;
+    padding: 0;
+    border-left: 0;
+}
+.priceSlider{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+    top: 3px;
+}
+.priceSlider span{
+    position: absolute;
+    top: 13px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.priceSlider span#minOutput{
+    left: -7px;
+}
+.priceSlider span#maxOutput{
+    right: -10px;
+}
+.checkLogin{
+    display: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #a01d26;
+    border-color: #751118;
+    border: 0;
+}
+.border-btn {
+    display: inline-block;
+    position: relative;
+    color: #253035;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 4px 10px;
+    background-color: transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 2px solid #253035;
+    font-weight: 600;
+    min-width: 100px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.border-btn:not(.ui-state-disabled):hover {
+    color: white;
+    background-color: #253035;
+    -webkit-transition: all 70ms ease;
+    -moz-transition: all 70ms ease;
+    -ms-transition: all 70ms ease;
+    -o-transition: all 70ms ease;
+    transition: all 70ms ease;
+}
+.border-btn:focus {
+    color: #253035;
+}
+
+
+@media only screen and (min-width: 768px){
+    .padd-l0-r5{padding-left: 0;padding-right: 5px}
+    .padd-l5-r0{padding-left: 5px;padding-right: 0}
+    .padd-l-r0{padding-left: 0;padding-right: 0}
+    .padd-l0{padding-left: 0}
+    .padd-l5{padding-left: 5px}
+    .padd-r0{padding-right: 0}
+    .padd-r5{padding-right: 5px}
+    .padd-l5-r5 {
+        padding: 0 5px;
+    }
+    .padd-r1{padding-right: 1px;}
+    .padd-l1{padding-left: 1px;}
+    .padd-r0-l1{padding-right: 0;padding-left: 1px}
+    .padd-l0-r1{padding-left: 0;padding-right: 1px}
+}

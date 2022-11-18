@@ -1,0 +1,39 @@
+{
+            "EndUserIp": "127.0.0.1",
+            "ResultIndex": "2",
+            "TokenId": "dd4cf171-d3be-42d8-b599-50f54274f065",
+            "TraceId": "8c34f89a-bb12-4bf7-ae9c-117c1f3585c0",
+            "BoardingPointId": 1,
+            "DropingPointId": 1,
+            "Passenger": [
+            {
+            "LeadPassenger": true,
+            "PassengerId": 0,
+            "Title": "Mr",
+            "Address": "sdfghj",
+            "Age": "26",
+            "Email": "test@gmail.com",
+            "FirstName": "test",
+            "Gender": "1",
+            "IdNumber": null,
+            "IdType": null,
+            "LastName": "dsdsdsdsd",
+            "Phoneno": "6563159857",
+            "Seat": {
+                "ColumnNo": "006",
+                "Height": 1,
+                "IsLadiesSeat": false,
+                "IsMalesSeat": false,
+                "IsUpper": false,
+                "RowNo": "001",
+                "SeatFare": 10.00,
+                "SeatIndex": 5,
+                "SeatName": "5",
+                "SeatStatus": true,
+                "SeatType": 1,
+                "Width": 1,
+                "Price": {"CurrencyCode":"INR","BasePrice":10,"Tax":0,"OtherCharges":0,"Discount":0,"PublishedPrice":10,"PublishedPriceRoundedOff":10,"OfferedPrice":9.5,"OfferedPriceRoundedOff":10,"AgentCommission":0.5,"AgentMarkUp":0,"TDS":0.2,"GST":{"CGSTAmount":0,"CGSTRate":0,"CessAmount":0,"CessRate":0,"IGSTAmount":0,"IGSTRate":18,"SGSTAmount":0,"SGSTRate":0,"TaxableAmount":0}}
+              }
+            },
+            ]
+        }

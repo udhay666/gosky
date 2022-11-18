@@ -1,0 +1,16 @@
+{
+            "EndUserIp": "111.93.152.220",
+            "TokenId": "46dec13d-704c-4603-89b8-e81413dd549b",
+            "JourneyType": "1",
+            "PreferredAirlines": null,
+            "Segments": [
+            {
+            "Origin": "DEL",
+            "Destination": "BOM",
+            "FlightCabinClass": "1",
+            "PreferredDepartureTime": "2021-09-11T00:00:00",
+            "PreferredArrivalTime": "2021-09-11T00:00:00"
+            }
+            ],
+            "Sources": null
+        }

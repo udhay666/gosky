@@ -1,0 +1,1 @@
+<?php //echo '<pre>';print_r($supplier_info->first_name);exit; ?><?php echo $this->load->view('header') ?><?php echo $this->load->view('subheader') ?><?php echo $this->load->view('top_panel') ?><?php echo $this->load->view('left_panel') ?><?php echo $this->load->view('content_panel') ?> </div><?php echo $this->load->view('subfooter') ?><?php echo $this->load->view('footer') ?>

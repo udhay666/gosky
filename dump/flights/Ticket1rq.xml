@@ -1,0 +1,63 @@
+{
+           "PreferredCurrency":"INR",
+           "IsBaseCurrencyRequired":"true",
+           "EndUserIp": "111.93.152.220",
+           "TokenId": "f2a47de9-7f5a-4aed-a8b6-1a8cf9dd1c33",
+           "TraceId": "7d564b3a-4123-4480-8200-90e545930526",
+           "ResultIndex": "OB1",
+           "Passengers": [{
+                "Title": "Mr",
+                "FirstName": "udaya",
+                "LastName": "raj",
+                "PaxType": 1,
+                "DateOfBirth": "1980-04-04T00:00:00",
+                "Gender": "1",
+                
+                "AddressLine1": "string",
+                "AddressLine2": "",
+                "City": "Gurgaon",
+                "CountryCode": "IN",
+                "CountryName": "India",
+                "Nationality": "IN",
+                "ContactNo": "9566970915",
+                "Email": "udayarajtravelpd@gmail.com",
+                "IsLeadPax": true,
+                "FFAirline": null,
+                "FFNumber": "",
+                
+            "MealDynamic": [{
+            "WayType": "1",
+            "Code": "VGSW",
+            "Description": 2,
+            "AirlineDescription": "Free Veg. Sandwich",
+            "Quantity": "1",
+            "BaseCurrency": "INR",
+            "BaseCurrencyPrice": "770",
+            "Currency": "INR",
+            "Price": "770",
+            "Origin": "DEL",
+            "Destination": "KNU"
+        }],
+                
+        "Baggage": [{
+        "WayType":"2",
+        "Code": "EB05",
+        "Description": 2,
+        "Weight": "5",
+        "BaseCurrencyPrice": "2250",
+        "BaseCurrency": "INR",
+        "Currency": "INR",
+        "Price": "2250",
+        "Origin": "DEL",
+        "Destination": "KNU"
+      }],
+                "GSTCompanyAddress": "",
+    "GSTCompanyContactNumber": "",
+    "GSTCompanyName": "",
+    "GSTNumber": "",
+    "GSTCompanyEmail": "",
+    
+    
+                "Fare": {"BaseFare":3384,"Tax":745,"TransactionFee":0,"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"AirTransFee":0}
+            },]
+       }

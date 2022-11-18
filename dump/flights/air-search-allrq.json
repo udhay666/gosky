@@ -1,0 +1,25 @@
+{
+			  "searchQuery": {
+			    "cabinClass": "1",
+			    "paxInfo": {
+			      "ADULT": "1",
+			      "CHILD": "0",
+			      "INFANT": "0"
+			    },
+			    "routeInfos": [
+			      {
+			        "fromCityOrAirport": {
+			          "code": "DEL"
+			        },
+			        "toCityOrAirport": {
+			          "code": "BOM"
+			        },
+			        "travelDate": "2021-10-27"
+			      }
+			    ],
+			    "searchModifiers": {
+			      "isDirectFlight": false,
+			      "isConnectingFlight": true
+			    }
+			  }
+			}

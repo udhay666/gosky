@@ -1,0 +1,889 @@
+﻿
+@media only screen and (max-width: 1400px) and (min-width: 1024px) {
+
+    .travel-mega-menu .center {
+        float: none;
+        border-right-width: 0;
+        border-left-width: 1px;
+    }
+
+        .travel-mega-menu .center > div {
+            -o-transform-origin-x: 100%;
+            -ms-transform-origin-x: 100%;
+            -moz-transform-origin-x: 100%;
+            -webkit-transform-origin-x: 100%;
+        }
+
+        .travel-mega-menu .center:hover > div {
+            right: auto;
+            left: -226px;
+        }
+
+            .travel-mega-menu .center:hover > div:before {
+                right: 50%;
+                left: auto;
+                display: none;
+            }
+}
+
+@media only screen and (max-width: 1400px) {
+    .trip-slide-text {
+        font-size: 70px;
+        padding: 20px 0 40px 0;
+    }
+
+    .trip-slide-price {
+        top: 11%;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .effects .cbp-vm-view-list .cbp-vm-image {
+        width: 47.6%;
+    }
+
+    .main-switcher .cbp-vm-view-list figcaption {
+        width: 52%;
+    }
+
+    .slide-travel-img {
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+        .slide-travel-img img.star-level {
+            margin: 0 auto 10px auto;
+        }
+
+        .slide-travel-img p {
+            margin-bottom: 0;
+            font-size: 11px;
+        }
+
+    .all-info-trip .trip-slide-price {
+        line-height: 26px;
+        font-size: 14px;
+    }
+
+    .trip-slide-text {
+        padding: 20px 0 20px 0;
+    }
+
+    .all-info-trip .btn-primary {
+        margin-top: 10px;
+    }
+
+    .all-info-trip .trip-slide-price .trip-option ul {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .four-col.col-md-3 {
+        width: 23.5%;
+    }
+    /*meteo i the slider*/
+    .meteo-top-travel.meteo-slider-top .weatherItem {
+        width: 47%;
+    }
+
+    .meteo-top-travel.meteo-slider-top {
+        padding: 0;
+        width: 50%;
+    }
+
+    /*meteo blu color*/
+    .meteo-top-travel .weatherItem {
+        width: 48%;
+    }
+
+    .meteo-top-travel {
+        padding: 0;
+        width: 100%;
+    }
+
+    .content-man {
+        display: none;
+    }
+
+        .content-man.mandesc {
+            display: block;
+        }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1030px) {
+    #home3 .col-md-4 {
+        width: 48%;
+    }
+
+    #home3 .view3-fifth .mask {
+        -webkit-transform: translateY(276px);
+        -moz-transform: translateY(276px);
+        -o-transform: translateY(276px);
+        -ms-transform: translateY(276px);
+        transform: translateY(276px);
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .caption .largewhitebg_button1 {
+        padding: 7px 20px;
+        font-size: 13px;
+    }
+
+        .caption .largewhitebg_button1:hover {
+            padding: 7px 20px;
+            font-size: 13px;
+        }
+
+    #mobile-menu-01 .line-logo {
+        padding: 0 30px 5px 30px;
+    }
+
+    .header-lang a {
+        padding: 0px 5px 0px 15px;
+    }
+
+    .langs-drop {
+        left: -92px;
+    }
+
+    .caption.black-b1.letter {
+        font-size: 60px;
+    }
+
+    .top-mega-menu {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .travel-mega-menu-mobile li.line-logo:hover a {
+        background: #fff;
+    }
+
+    .top-content {
+        margin-top: 0;
+    }
+
+    .top-mega-menu .container {
+        display: none;
+    }
+
+    #mobile-menu-01 {
+        display: block;
+    }
+
+    .travel-mega-menu-mobile {
+        display: none;
+    }
+
+    .all-info-trip .trip-slide-price .trip-option {
+        display: none;
+    }
+
+    .travel-desc-agency.tt-ipad {
+        width: 100%;
+    }
+
+    /*Hero Slider*/
+
+    .cd-hero-slider .cd-img-container img {
+        width: 80%;
+    }
+
+    .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
+        padding-top: 70px;
+    }
+    /*End*/
+
+    .why-choose-us .box-middle-img {
+        left: 65%;
+    }
+
+    .home-page {
+        margin-top: 0;
+    }
+
+    #mobile-menu-01 li.line-logo {
+        background: #fff;
+        display: block;
+        float: none;
+    }
+
+    #mobile-menu-01 li.k-opn {
+        display: table;
+    }
+    /*Form*/
+    .container-slider.removeslide {
+        background: url('../images/slider6.jpg') no-repeat top left;
+        width: 100%;
+        height: 680px;
+        position: relative;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .home-page.removeslide {
+        display: none;
+    }
+
+    .container-reservation.inside-slider {
+        top: 160px;
+    }
+
+    #reservation-form .reservation-hotel .step-where, #reservation-form .step-check, #reservation-form .step-who {
+        width: 100%;
+        padding: 0;
+    }
+
+        #reservation-form .step-check .cc-out, #reservation-form .step-who .child {
+            padding-right: 0;
+        }
+
+    #reservation-form .col-sm-2 button {
+        margin-top: 20px;
+    }
+
+    #reservation-form.pos-inside-slide .reservation-hotel, #reservation-form.pos-inside-slide .reservation-flight {
+        padding: 10px 30px 10px 30px;
+    }
+
+    #reservation-form h3 {
+        font-size: 13px;
+    }
+
+    #reservation-form label {
+        font-size: 11px;
+    }
+
+    #reservation-form .search-opt {
+        margin-bottom: 0;
+    }
+
+    #reservation-form .flight-where, #reservation-form .fly-check {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    #reservation-form .fly-who {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    /*Midle slider*/
+    .trip-slide-price {
+        top: 5%;
+        padding: 20px 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .trip-slide-text {
+        font-size: 40px;
+    }
+
+    .all-info-trip .trip-slide-price span {
+        font-size: 20px;
+    }
+
+    .all-info-trip .btn-primary {
+        margin-top: 5px;
+    }
+
+    .all-info-trip.pannel-radius .trip-slide-price {
+        height: 100%;
+        width: 40%;
+        top: -60px;
+        padding: 20px 30px;
+    }
+
+    .newsletterfooter input[type="text"] {
+        width: 165px;
+    }
+
+    .popover-icon {
+        display: none;
+    }
+    /*Top offert*/
+    .view {
+        margin: 0px 10px 0 0;
+    }
+
+    .travelone-section .view-fifth .mask {
+        padding: 0px 10px 20px 10px;
+    }
+
+    .view-fifth .mask .main .price {
+        padding: 3px 0;
+    }
+
+    /*Home 4 lion*/
+    .mapcont {
+        display: none;
+    }
+
+    .caption.black-b1 {
+        font-size: 33px;
+    }
+
+    #reservation-form .col-sm-2 button.b-frm1 {
+        margin-top: 60px;
+    }
+
+    .home4 .view3 .mask, .home4 .view3 .content {
+        position: relative;
+    }
+
+    .home4 .col-md-4 {
+        width: 32.2%;
+    }
+
+    .home4 .view3-fifth .mask {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .home4 .view3-fifth img {
+        margin: 0 auto;
+    }
+
+    .home4 .view3-fifth p {
+        opacity: 1;
+    }
+
+    .home4 .view3-fifth:hover img {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .grid figcaption i {
+        margin-right: 5px;
+    }
+
+    .grid figcaption {
+        padding: 15px;
+    }
+
+    #parallax-footer-home3 .col-md-3 .price {
+        padding: 10px 15px;
+    }
+
+    #tt1 .fullwidthbanner-container .fullwidthbanner {
+        margin-top: 0;
+    }
+
+    #reservation-form.home3 .colbtn {
+        margin-top: 61px;
+    }
+
+    #reservation-form.home3 .reservation-flight .colbtn {
+        margin-top: 31px;
+    }
+
+    #parallax-footer-home3 .price-title h3 {
+        padding: 0;
+    }
+    /*Home 2*/
+    .fullwidthbanner-container .fullwidthbanner {
+        margin-top: 0;
+    }
+
+    .col-md-4.prices {
+        margin-bottom: 20px;
+    }
+
+    #reservation-form.home2 .colbtn {
+        margin-top: 61px;
+    }
+
+    #reservation-form.home2 .reservation-flight .colbtn {
+        margin-top: 31px;
+    }
+
+    .grid li {
+        width: 33%;
+        float: left;
+    }
+    /*Oxy Slider*/
+
+    .view-fifth .mask .main .price {
+        width: 35%;
+    }
+
+    .four-col.col-md-3 {
+        width: 24%;
+    }
+
+    /*About 1*/
+
+    .number-structure-left {
+        margin: 0 15px 20px 0;
+        width: 48%;
+        float: left;
+    }
+
+    .desc-office1.about1 {
+        margin-top: 20px;
+    }
+
+    /*page guide*/
+    #meteo-guide .weatherItem {
+        width: 48%;
+    }
+
+    .weatherFeed {
+        margin: 40px 0;
+    }
+
+    .content-number-left {
+        float: left;
+    }
+
+    .about-section-top {
+        margin-top: 0;
+    }
+
+    /*services1*/
+    .service-square.col-md-3 {
+        width: 23.5%;
+    }
+
+    .view-service img {
+        width: 20%;
+    }
+    /*Servies2*/
+    .trip-slide-text.prague {
+        font-size: 60px;
+    }
+
+    .trip-slide-text.nature {
+        left: 37%;
+    }
+
+    .trip-slide-text.egypt {
+        left: 40%;
+    }
+
+    .trip-slide-text.polynesie {
+        left: 33%;
+    }
+
+    .trip-slide-text.francisco {
+        left: 25%;
+    }
+
+    .service2-row img {
+        width: 53%;
+    }
+    /*Information Page*/
+    .customer-image {
+        margin-left: 23%;
+    }
+
+    .info-square i {
+        float: none;
+    }
+
+    .info-square h3, .info-square p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .col-md-6.box-information {
+        width: 49%;
+    }
+
+    /*Page List trip*/
+    .main-switcher figcaption h3 {
+        float: none;
+    }
+
+    .cbp-vm-options a.cbp-vm-icon {
+        display: none;
+    }
+
+    .cbp-vm-options {
+        height: 64px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #mobile-menu-01 .line-logo {
+        padding: 0 20px 5px 20px;
+    }
+
+    .text-center.top-txt-title {
+        margin-top: 200px;
+    }
+
+        .text-center.top-txt-title.best-promo {
+            margin-top: 80px;
+        }
+
+    .container-slider.removeslide-ipad {
+        background: url('../images/slider6.jpg') no-repeat center center;
+        width: 100%;
+        height: 680px;
+        position: relative;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    .home-page.removeslide-ipad {
+        display: none;
+    }
+
+
+    .footer-small-desc {
+        padding: 0;
+        float: left;
+        margin: 10px 10px;
+    }
+
+    footer h3 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+
+    #loading-center-absolute {
+        left: 39%;
+    }
+
+    .text-center.top-txt-title {
+        margin-top: 100px;
+    }
+
+    .container-slider.removeslide {
+        height: 850px;
+    }
+
+    .container-slider.removeslide-ipad {
+        height: 850px;
+    }
+
+
+    /*Middle Slide*/
+    .trip-slide-text {
+        padding: 15px 0;
+        font-size: 50px;
+    }
+
+
+    /*Services*/
+    .view-service img {
+        width: 30%;
+    }
+    /*Information Page*/
+}
+
+
+
+
+/****************************************** Category page ****************************************************/
+@media only screen and (max-width: 3000px) and (min-width: 1px){
+
+.grid .full-grid 
+{
+/*background:#1c1d22 url(../Images/BackPanel.png) no-repeat center bottom;*/
+background:#1c1d22;
+/*border-top:1px solid #1c1d22;*/
+/*border-bottom:1px solid #3a3939;*/
+/*-moz-box-shadow: 0 0px 2px #6b6b6b;*/
+/*-webkit-box-shadow: 0 0px 2px #6b6b6b;*/
+/*box-shadow: 0 0px 2px #6b6b6b;*/
+padding-top:5px;
+/*margin-bottom:-30px;*/  
+}
+
+@-webkit-keyframes gridBackgroundSlide 
+{
+0% {background-position:center left;}
+100% {}   
+}
+
+.grid .full-grid.centered .single-grid 
+{
+width:33%;
+
+}
+.grid .full-grid .single-grid 
+{
+width:33.3%;
+border:2px solid transparent; 
+}
+.grid .full-grid .single-grid:hover img 
+{
+opacity:1 !important;    
+}
+.grid.inspiration .full-grid 
+{/* padding:2px 0px; */height:inherit;}
+#Inspirations_rptInspirations_ctl00_divStandardHeader 
+{
+padding:50px 0 0 0;    
+}
+}
+
+/* ------------ MAX 1050px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 1050px) {
+    .greySection .grid_Magazine_MiniBrohure .full-grid .single-grid {
+        width:25%; 
+        vertical-align:top;
+    }
+    .virginGalactic_video .single-grid { 
+        cursor:pointer; background:#FFF; 
+        float: left; width: 50%; 
+        height:300px; margin: 0; 
+        text-align: center; 
+        position: relative; 
+        overflow: hidden; 
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+    } 
+
+}
+
+/* ------------ MAX 986px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 986px) {
+    .grid_AboutUs .full-grid .single-grid {
+        width:45% !important;    
+    }
+    .virginGalactic_video .single-grid {
+        cursor:pointer; 
+        background:#FFF; 
+        float: left; 
+        width: 40% !important; 
+        height:350px; 
+        margin: 0; 
+        text-align: center; 
+        position: relative; 
+        overflow: hidden; 
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+    }  
+    .grid.itineraries .full-grid .single-grid 
+    {
+    width:33.3%;  
+    }
+    .grid.itineraries .full-grid .single-grid img 
+    {
+    width:100%;  
+    }
+    .grid.itineraries .single-grid .overlay p 
+    {
+    margin:20px 20px 30px 20px;    
+    }
+
+}
+
+/* ------------ MAX 950px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 950px) {
+    .grid .full-grid.centered .single-grid 
+    {
+    width:32.7%;    
+    }
+}
+
+/* ------------ MAX 801px --------------- */
+@media only screen and (min-width: 801px) {
+
+}
+
+/* ------------ MAX 800px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 800px) {
+    .grid .full-grid.centered .single-grid 
+    {
+    width:32.7%;    
+    }    
+}
+
+/* ------------ MAX 780px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 780px) {
+
+}
+
+/* ------------ MAX 780px --------------- */
+@media only screen and (min-width: 500px) and (max-width: 780px) {
+    .virginGalactic_video .single-grid { 
+        cursor:pointer; background:#FFF; 
+        float: left; width: 45% !important; 
+        height:300px; margin: 0; 
+        text-align: center; 
+        position: relative; 
+        overflow: hidden; 
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+    }
+}
+
+/* ------------ MAX 700px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+    .grid.inspiration .single-grid h4 {
+        width:auto;
+    }
+    .grid .single-grid img {
+    /*height:auto !important;*/
+    }
+    .grid.inspiration .full-grid .single-grid img {
+    width:170%; 
+    /*height:auto; */
+    }
+
+}
+
+
+/* ------------ MAX 670px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 670px) {
+    .grid.itineraries .full-grid .single-grid 
+    {
+    width:50%;  
+    }
+    .grid.itineraries .single-grid .overlay p 
+    {
+    margin:20px 20px 30px 20px;    
+    }
+    .grid.itineraries .full-grid .single-grid img 
+    {
+    margin-top:-180px; 
+    }
+}
+
+/* ------------ MAX 650px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 650px) {
+
+}
+
+/* ------------ MAX 610px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 610px) {
+
+}
+
+/* ------------ MAX 540px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 540px) {
+    .greySection .grid_Magazine_MiniBrohure .full-grid .single-grid {width:47%;}
+    .virginGalactic_video .single-grid { 
+        margin:2px 10px !important;  
+        cursor:pointer; background:#FFF; float: left; width: auto !important; 
+        height:auto; margin: 0; text-align: center; position: relative; 
+        overflow: hidden; box-sizing: border-box; 
+        -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+    }
+    .grid .full-grid.centered .single-grid 
+    {
+        width:49.5%; 
+    }
+}
+
+/* ------------ MAX 501px --------------- */
+@media only screen and (min-width: 501px) {
+
+}
+
+/* ------------ MAX 500px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+
+}
+
+/* ------------ MAX 450px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 450px) {
+    .grid_AboutUs .full-grid .single-grid 
+    {
+    width:95% !important;
+    /*height:270px !important;*/    
+    }
+    .grid .single-grid img {
+    /*height:auto !important;*/
+    width:170% !important;
+    }
+    .grid .full-grid.centered .single-grid 
+    {
+    height:160px;
+    width:49%;     
+    }
+}
+
+/* ------------ MAX 400px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 400px) {
+
+}
+
+/* ------------ MAX 382px --------------- */
+@media only screen and (min-width: 1px) and (max-width: 382px) {
+    .grid .single-grid img {
+        /*height:auto !important;*/
+        /*width:200% !important;*/
+    }
+    .modal-dialog{
+        width: 320px !important;
+    }
+    .modal.fade.in {
+        margin-top: 0px !important;
+        top: 10px !important;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) and (min-width: 768px) {
+    section.faqs2-container {
+        padding: 30px 0 20px 0;
+    }
+    .full-tablet {
+        width: 100%!important;
+        margin-left: 0!important;
+    }
+    .tablet-span7 {
+        width: 57.21176577559556%;
+    }
+    .tablet-span5 {
+        width: 40.3723404216383%;
+    }
+    .tablet-span6 {
+        width: 48.93617020799999%;
+    }
+    .tablet-span12 {
+        width: 100%;
+    }
+    div.span8.tablet-span12 {
+        width: 100%;
+    }
+    div.span4.tablet-span12 {
+        width: 100%;
+        margin-left: 0!important;
+    }
+    div.span4.tablet-span6 {
+        width: 48.62%;
+    }
+    div.span4.tablet-span6.giftcard {
+        margin-left: 0!important;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    section.faqs2-container {
+        padding: 30px 10px 0 10px;
+    }
+    .row-fluid .offset1 {
+        margin-left: 0;
+        * margin-left: 0
+    }
+    .wizard_horizontal ul.wizard_steps li a .step_descr{
+        font-size: 10px;
+    }
+}

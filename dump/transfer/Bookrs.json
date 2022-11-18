@@ -1,0 +1,1 @@
+{"BookResult":{"ResponseStatus":2,"Error":{"ErrorCode":2,"ErrorMessage":"Unable to Book: Error in Supplier Response: Error"},"TraceId":"27f573fc-9603-4a29-8211-2c9227275d7e","BookingStatus":0,"VoucherStatus":false,"ConfirmationNo":null,"BookingRefNo":null,"BookingId":0,"TransferId":0,"IsPriceChanged":false,"IsCancellationPolicyChanged":false}}

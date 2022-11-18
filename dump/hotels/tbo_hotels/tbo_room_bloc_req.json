@@ -1,0 +1,39 @@
+{
+    "ResultIndex": "2",
+    "HotelCode": "1663466",
+    "HotelName": "Blu Pebbles Hotel",
+    "GuestNationality": "IN",
+    "NoOfRooms":1,
+    "ClientReferenceNo": 0,
+    "IsVoucherBooking":true,
+    "HotelRoomsDetails":[
+    {
+    "RoomIndex":"1",
+    "RoomTypeCode": "202177024|211146206$37316^^1^^202177024|211146206|37316|141~!:~1",
+    "RoomTypeName": "Standard Double Or Twin Room, 1 Double Bed,Smoking",
+    "RatePlanCode": "202177024|211146206|37316|141",
+    "BedTypeCode": "",
+    "SmokingPreference": 0,
+    "Supplements": "",
+    "Price":{
+        "CurrencyCode": "INR",
+    "RoomPrice": "648.02",
+    "Tax": "77.03",
+    "ExtraGuestCharge": "0",
+    "ChildCharge": "0",
+    "OtherCharges": "181.07",
+    "Discount": "0",
+    "PublishedPrice": "906.12",
+    "PublishedPriceRoundedOff": "906",
+    "OfferedPrice": "906.12",
+    "OfferedPriceRoundedOff": "906",
+    "AgentCommission": "0",
+    "AgentMarkUp": "0",
+    "ServiceTax": "34.94",
+    "TDS": "0"
+    },
+    }],
+    "EndUserIp": "192.168.11.120",
+    "TokenId": "29729e9a-7867-40d6-88f1-9ee8de5872ef",
+    "TraceId": "433fd3a0-2365-486b-8f1f-c4e67992b039"
+    }

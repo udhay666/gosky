@@ -1,0 +1,11 @@
+Header : ["accept: application\/json","Accept-Encoding: gzip","content-type: application\/json"]
+ Request : {
+                        "PlanCategory": "1",
+                        "PlanType": 1,
+                        "PlanCoverage": 4,
+                        "TravelStartDate": "2021-11-12",
+                        "NoOfPax": 1,
+                        "PaxAge": [0],
+                        "EndUserIp": "192.168.11.58",
+                        "TokenId": "a8f8be42-995a-4697-b737-32086f3e1f60"
+                        }

@@ -1,0 +1,398 @@
+#bus_source.form-control.search-field:focus,
+#bus_destination.form-control.search-field:focus,
+#dpb1.form-control.search-field:focus,
+#dpb2.form-control.search-field:focus,
+#bus_source.form-control.search-field:active,
+#bus_destination.form-control.search-field:active,
+#dpb1.form-control.search-field:active,
+#dpb2.form-control.search-field:active {
+box-shadow: 0 0 0 transparent;
+border: 1px solid rgba(0,0,0,0.5);
+}
+
+#holiday.tab-pane.active .input-icon #bus_source,
+#holiday.tab-pane.active .input-icon #bus_destination,
+#holiday.tab-pane.active .input-icon #dpb1,
+#holiday.tab-pane.active .input-icon #dpb2{
+    padding: 0 25px;
+    border: 0;
+}
+ul.modify-row li {
+    float: left;
+    position: relative;
+    /*width: 228px;
+    left: -10px;*/
+    margin-left: 7px;
+}
+ul.modify-row li:first-child,ul.modify-row li:last-child{
+  /*margin-left: 0;*/
+}
+#holiday .form-group:after, #holiday .form-group:before, #holiday .input-group:after, #holiday .input-group:before, #holiday .input-group-btn:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    position: absolute;
+}
+#holiday .form-group:before{
+    border-bottom: 40px solid #141418;
+    border-left: 24px solid #fff;
+    right: -4px;
+}
+#holiday .input-group:before {
+    border-bottom: 40px solid #141418;
+    border-left: 24px solid #fff;
+    right: -4px;
+}
+#holiday .input-group:after {
+    border-top: 40px solid rgba(0, 0, 0, 0);
+    border-right: 24px solid #FFF;
+    left: -24px;
+}
+#holiday.tab-pane.active .input-icon i, #holiday.tab-pane.active .input-icon.input-group i {
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    color: #555;
+    font-size: 20px;
+    opacity: 0.5;
+}
+#holiday.tab-pane.active .input-icon.input-group i{
+  font-size: 20px;
+}
+#holiday.tab-pane.active .input-icon #bus_destination i{
+  font-size: 24px;
+}
+.header-search-result .result-count, .header-search-result .result-label {
+  /*background: #e5e2e2;*/
+}
+/*.sorting-tab .trim-left{
+  padding-left: 15px !important;
+  padding-right: 2px !important;
+}
+.cust_padd{
+  padding-left: 8px !important;
+  padding-right: 2px !important;  
+}*/
+.bus-price{
+  font-size: 30px;
+  line-height: 1;
+  display: block;
+}
+.clear-both:before, .clear-both:after {
+    display: table;
+    content: " ";
+}
+.clear-both:after{
+  clear: both;
+}
+.button-link{
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+}
+.sorting-tab{margin:0;}
+.sorting-tab p, .sorting-tab label {
+    border-right: 0;
+}
+.arrow-up {
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #4c4c4a;
+    left: 10%;
+}
+.dropdown-search {
+    width: 150%;
+    min-height: 150px;
+    background: #4c4c4a;
+    top: 32px;
+    padding: 10px 20px;
+    display: none;
+    left: 0;
+    border-radius: 6px;
+}
+
+/*buses table*/
+/*.buses > .col-md-12{ position:relative; min-height:400px;}*/
+/*.bus-box{ border-collapse:collapse; border-spacing:0; margin-top:4px; margin-bottom:20px;}*/
+.seat-Fare i{ padding-right:5px; padding-left:3px; font-size:13px; color:#a01d26;}
+.bus-box span.busdep, .bus-box span.busarr, .bus-box span.busdur, .mticket{ font-size:11px;} 
+.bus-box .section{ position:relative; width:auto; float:left; cursor:pointer; padding-right:10px;}
+.toolTip{
+    background: #999 !important;
+    display: none;
+    float: none;
+    padding: 6px 4px;
+    position: absolute;
+    left: inherit !important;
+    width: 220px;
+    top: inherit;
+    z-index: 9;
+    margin-top: 10px;
+    border: 0;
+    max-height: 250px;
+    overflow: auto;
+}
+.dropmenu.open:after {
+  content:'';height:0;
+  position:absolute;width: 0;border: 10px solid transparent;
+  border-bottom-color: #999;
+  /*right: 45%;*/
+  top: 10px;
+  left: 25px;
+}
+.toolTip table tr td, .toolTip table tr th, .toolTip table tbody{ background:none !important; border:none; color:#fff;}
+.toolTip table tbody{border:none !important;}
+.toolTip table tr td, .toolTip table tr th{ border-bottom:#444 dashed 1px; padding:4px 1px !important;}
+.toolTip table tr th span{ font-weight:normal; display:block;}
+.bus-box .btn-success{ padding:8px 8px 8px 15px; outline:0;}
+
+/*.bus-box .btn-success i{ font-size:18px; color:#fff;}
+.bus-box .price{ font-size:26px; font-weight:bold; color:#1BBC9B;}
+.bus-box .price i{ font-size:21px; padding-right:5px; color:#1BBC9B;}
+.bus-box .travels{ font-weight:bold;}*/
+
+.bus-box .button-link .hideseat{display:none;}
+
+/* seat select section */
+.seatselectionCntr{
+  position: relative;
+  display: none;
+  min-width: 570px;
+  font-size: 12px;
+  background: #fff;
+  max-width: 950px;
+  border: #e9e9e9 solid 1px;
+  min-height: 200px;
+  margin: 15px auto;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.075);
+  /* padding: 10px; */
+}
+.seatclose{ position:absolute; right:5px; top:5px; z-index:9; cursor:pointer;}
+.seatclose i{ font-size:21px !important;}
+.tip{ display:block; text-align:center; padding:10px;}
+.seatHolder{
+    padding-bottom: 15px;
+}
+.seatHolder .upperDeck, .seatHolder .lowerDeck{
+    min-height:150px;
+    padding:10px 0 10px 35px;
+    background:#f9f9f9;
+    border:#e9e9e9 dashed 1px;
+    margin:0;
+    position:relative;
+}
+.upperDeck .bus-label, .lowerDeck .bus-label{ position:absolute; left:10px; top:10px; width:25px; height:80px;  background:url(../img/seat-sprite.png) no-repeat; background-position:-430px 5px;}
+.lowerDeck .bus-label{ background-position:-402px 5px;}
+.lowerDeck .bus-label.seater{ height:28px;}
+
+/*seats layout */
+.seatlayout{ padding:5px;}
+.seat-row{ min-height:24px;}
+.seat-row div{
+    display: inline-block;
+    padding: 0;
+    min-width: 51px;
+    /*min-height: 35px;*/
+}
+
+/*seats*/
+.available-seat, .selected-seat, .booked-seat, .ladies-seat, .available-sleeper, .selected-sleeper, .booked-sleeper, .ladies-sleeper, .available-sleeperV, .selected-sleeperV, .booked-sleeperV, .ladies-sleeperV{background:url(../img/seat-sprite.png) no-repeat; padding:8px; text-align:center; color:#000; font-size:11px; text-decoration:none; width:38px; display:block; height:35px; cursor:default; display:inline-block;}
+.available-sleeper, .selected-sleeper, .booked-sleeper, .ladies-sleeper{ width:65px; height:30px; padding:5px 8px;}
+.available-sleeperV, .selected-sleeperV, .booked-sleeperV, .ladies-sleeperV{width: 25px;height: 65px; position: absolute;top: 35px; padding:8px !important;}
+.available-seat{background-position: -98px 0px; opacity:0.7;}
+.available-seat:hover, .booked-seat:hover, .ladies-seat:hover, .available-sleeper:hover, .booked-sleeper:hover, .ladies-sleeper:hover, .available-sleeperV:hover, .booked-sleeperV:hover, .ladies-sleeperV:hover{opacity:1; cursor:pointer; text-decoration:none; color:#000;}
+.ladies-seat{background-position: -146px 0px; opacity:0.7;}
+.selected-seat{background-position: -48px 0px;}
+.ladies-seat.selected-seat{background-position: -187px 0px; opacity:0.7;}
+.booked-seat{background-position: 0px 0px;}
+
+.available-sleeper{background-position:-136px -46px; opacity:0.7;}
+.ladies-sleeper{background-position: -205px -46px; opacity:0.7;}
+.available-sleeperV{background-position: -342px -2px; opacity:0.7;}
+.booked-sleeperV{background-position: -286px -2px;}
+.ladies-sleeperV{background-position: -372px -2px; opacity:0.7;}
+.selected-sleeper{background-position: -68px -46px;}
+.ladies-sleeper.selected-sleeper{background-position: -486px -46px; opacity:0.7;}
+.available-sleeperV.selected-sleeper{background-position: -314px -2px;}
+.ladies-sleeperV.selected-sleeper{background-position: -458px -2px;}
+.booked-sleeper{background-position: 0px -46px;}
+/*.seatContinue{ margin-left:16px;}*/
+.newmemberTip{padding-top:8px;}
+.newmemberTip span{color:#a01d26; font-weight:bold;}
+
+.seatSelectionInfo{
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 8px;
+    text-align: center;
+}
+.seatSelectionInfo li span{ margin-right:5px; position:relative; display:inline-block;}
+.seatSelectionInfo li{
+    min-height: 40px;
+    display: inline-block;
+    /* float: left; */
+    width: 24%;
+    text-align: center;
+}
+.seatSelectionInfo li .available-sleeper, .seatSelectionInfo li .selected-sleeper, .seatSelectionInfo li .booked-sleeper, .seatSelectionInfo li .ladies-sleeper{ margin-bottom:-12px;}
+.seatSelectionInfo li .available-seat, .seatSelectionInfo li .selected-seat, .seatSelectionInfo li .booked-seat, .seatSelectionInfo li .ladies-seat{ margin-bottom:-12px;}
+
+.seat-Fare{ font-size:15px; line-height:24px;}
+.seat-Fare .seat-amount, .seat-Fare .selected-seat-nos{ color:#a01d26;}
+
+/*rating*/
+.rating{ width:94px; height:14px; background:url(../img/rating-star.png) no-repeat; display:block;}
+.rating.rating0{ background-position: -5px -4px}
+.rating.rating1{ background-position: -5px -20px}
+.rating.rating2{ background-position: -5px -37px}
+.rating.rating3{ background-position: -5px -52px}
+.rating.rating4{ background-position: -5px -68px}
+.rating.rating5{ background-position: -5px -84px}
+.seatContinue .button-link{    padding: 12px 12px !important;}
+
+.build-box{
+    background: #f9f9f9;
+    padding: 10px;
+    border: #e9e9e9 dashed 1px;
+}
+.build-box label{
+    display: block;
+}
+.build-box span{
+    font-size: 12px;
+    color: #888;
+    display: block;
+}
+.droping-box{
+    /*margin-top: 20px;*/
+}
+.boarding-box h3, .droping-box h3{
+    margin: 0 0 5px;
+    color: #a01d26;
+    font-weight: bold;
+    font-size: 13px;
+}
+.toolTip2.dropdown-menu {
+  top: 30px;
+}
+
+
+/*New css for akbar*/
+.filter-section .accordion-area .text-nicelabel:checked + label {
+  display: inline-flex;
+}
+.filter-section .accordion-area .text-nicelabel + label {
+    padding: 6px;
+}
+.filter-section .accordion-area .text-nicelabel + label > span.nicelabel-unchecked,
+.filter-section .accordion-area .text-nicelabel + label > span.nicelabel-checked {
+    font-size: 12px;
+    padding: 0 6px;
+}
+.filter-section .accordion-area .text-nicelabel + label > span.nicelabel-unchecked-image,
+.filter-section .accordion-area .text-nicelabel + label > span.nicelabel-checked-image {
+    width: 16px;
+    height: 18px;
+}
+.filter-section .accordion-area .text-nicelabel:not(:checked) + label {
+    background-color: #ececec;
+    display: inline-flex;
+}
+
+#image {
+background: url(redbus/images/ac_semi_sleeper_vacant.png) no-repeat;
+}
+
+.checkbox:checked + .container{
+    outline: 0px solid black; 
+  }
+.container {
+  position: relative;
+    outline: 0px solid white;
+    }
+
+.container:hover {
+  position: relative;
+    outline: 0px solid red;
+      }
+
+.container_vert {  
+  position: relative;
+  outline: 0px solid white;
+}
+
+.container_vert:hover {  
+  position: relative;
+  outline: 0px solid red;
+    } 
+
+.container_un {
+  position: relative;
+    opacity:0.45;
+    filter:alpha(opacity=45);
+  }
+
+.container_vert_un { 
+ position: relative;
+      opacity:0.45;
+    filter:alpha(opacity=45);
+  }
+.checkbox{position: relative; bottom: 0px; right:0px;}
+.seat-row .lay{position: relative;}
+.seat-row .lay .checkbox{position: absolute;}
+.checkbox:hover{}
+
+.seat-row:empty{
+  /*display: none;*/
+}
+.seat-row .lay:empty{
+  /*width: 51px;*/
+}
+.seat-row .sleeplay.lay:empty{
+  /*width: 64px;*/
+}
+/*
+.imagehover{
+outline: 1px solid white; 
+}
+
+.imagehover:hover{
+ outline: 2px solid red; 
+}
+*/
+
+.submit {
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+     border:none;
+}
+
+
+.submit:hover {
+    border: none;
+   /* background:red; */
+    box-shadow: 0px 0px 1px #777;
+    
+}
+.input{ border:1px solid #C01C22;
+  background: #FDF4A5;
+  font-family:verdana;
+  font-size: 16px;
+}
+
+.traveller-details .section{
+  padding: 0;
+}
+#Traveller .checkname > div > div{
+  padding: 0 5px;
+}

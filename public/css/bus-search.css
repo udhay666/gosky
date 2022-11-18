@@ -1,0 +1,203 @@
+ #busheadingmobile{ display:none;}
+.desktop_not{ display:none!important;}
+.m_filter_strip{ display:none;}
+.htd_frmrow input,  .htd_frmrow select{ height:30px;}
+/*Bus Search Page*/
+em.invalid{color:red;}
+.bus_form_box { border: 3px solid #f4f4f4; float: left; padding:2%;  width:67%;}
+.bus_search{float:left; width:100%; }
+.bus_nav{ float:left; border:1px solid #c0bebe; list-style:none; display:inline; border-radius:5px;}
+.bus_nav li{list-style:none; display:inline;}
+.bus_nav li a{padding:4px 19px; border-right:1px solid #c0bebe; float:left; }
+.bus_for_desk_mob{ margin-left:-4px; border-radius:0 5px 5px 0;}
+.bus_row{width:100%; float:left; margin:10px 0 5px;}
+.bus_sel{float:left;  line-height:18px; font-size:13px;}
+.bus_sel a{ text-decoration:none; font-size:12px;}
+.bus_sel a:hover{ text-decoration:underline;}
+.bus_sel_unsel{float:left; margin-right:20px; line-height:18px;}
+.bus_sel_unsel a{ text-decoration: none;padding: 0 3px;}
+.bus_sel_unsel a:hover{ text-decoration: underline;}
+.bus_left{float:left; width:48%;}
+.bus_right{float:right; width:48%;}
+.bus_row input[type="text"], .bus_row select{border-radius:3px; margin:0; border:1px solid #cac9c9;}
+.bus_row input[type="text"]{ padding:8px;}
+.bus_row select{padding:7px;}
+.bus_row label{float:left; width:100%; margin:0px 0 3px 0;}
+.bus_cal{cursor:pointer;}
+.bus_golden_txt{font-size:14px; font-weight:bold;}
+.bus_btn_bg{border-radius:3px; float: right; padding:4px 5px;cursor: pointer; }
+.bus_btn_bg span{font-weight:bold; float:left; padding:5px;}
+.bus_btn_bg span:hover{ text-decoration:underline}
+.bus_btn_bg button{font-weight: bold;border: none; border-radius:5px; cursor: pointer; height: 24px; padding: 4px 10px 5px 8px; *padding:4px 10px 5px 8px; *text-align:right; }
+.bus_calinput{width:69%;}
+.noresult{text-align:center; padding:9% 0; float:left; width:100%;}
+/*date picker */
+
+.ui-datepicker-current { display:none;}
+.ui-datepicker .ui-datepicker-buttonpane .ui-datepicker-close {border: 3px solid #DEE4F6; border-radius: 10px 10px 10px 10px; cursor: pointer; font-size: 0;height: 20px; position: absolute; right:-14px; top:-12px;width: 20px; text-indent:999}
+.ui-datepicker .ui-datepicker-buttonpane .ui-state-hover {border: 3px solid #F8CB75}
+
+/*To blockquote div*/
+.bg_block{z-index: 100; position: fixed; height: 100%; width: 100%; filter: alpha(opacity = 70); -moz-opacity: 0.58; opacity:0.58; text-align: center; float: left; left: 0%; top: 0%}
+.bg_blockSearch{z-index: 100; position: fixed; height: 1000px; width: 100%; filter: alpha(opacity = 20); -moz-opacity: 0.58; text-align: center; float: left; left: 0%; top: 0%}
+            
+/*Bus result Page*/
+.bus_modify{ float:left; width:100%;}
+.bus_modify span{ float:left; padding:6px 15px; font-weight:bold; font-size:13px;}
+.bus_modify dfn{ float:left; padding:5px 10px}
+.bus_modify dfn em{font-style:normal; font-size:13px}
+.bus_modify dfn tt{font-style:normal;}
+.bus_modify code{float:right; padding:5px 10px;}
+.bus_modify code a{text-decoration:underline; font-size:12px; display:block;}
+.bus_modify code a:hover{ text-decoration:none}
+.bus_search_result_con{ float:left; width:100%;}
+.bus_search_result_con .top_link_bus{ float:left; width:100%; padding:5px 0;}
+.bus_search_result_con .top_link_bus a{ float:right;font-size:12px;text-decoration:underline}
+.bus_search_result_con .top_link_bus a:hover{ text-decoration:none}
+.bus_search_result_con .top_link_bus span{ float:right; padding:0 10px;}
+.bus_button_width a.btn_bg:hover{ color:#fff;}
+/*Bus Modify Search*/
+.form_bus_modify {
+    border: 1px solid #ccc;
+    float: left;
+    padding: 0 20px 15px;
+    width: 96.5%;
+}
+.bus_cal_modify{cursor:pointer;}
+.bus_result{float:left; width:100%; padding:.5em;border-radius:5px; -moz-border-radius:5px;  -o-border-radius:5px;  -webkit-border-radius:5px; margin-top:5px;}
+.bus_result h3{ float:left; width:100%; padding:4px 0 0; margin:0; font-size:1.25em;}
+.bus_result h3 span a{padding:3px 0px 8px; display:block;font-size: 0.75em;}
+.bus_result h3 .bus_travels{ float:left;width: 17%;}
+.bus_result h3 .bus_type{ float:left; width: 17%; }
+.bus_result h3 .bus_depart{ float:left; margin-right:2%;}
+.bus_result h3 .bus_arr, .bus_result h3 .bus_publish{ float: left; margin-left:4.8%;}
+.bus_result h3 .bus_offer, .bus_result h3 .bus_seat{ float:left; margin-left:8%; margin-right:1.5%;}
+.bus_result h3 span a span{width: 11px;height: 7px; display:inline-block; *margin-top:-10px;}
+.bus_result h3 span a.selected>.low,
+.bus_result h3 span a.selected>.high,
+.bus_result h3 span a.selected>.low,
+.bus_result h3 span a.selected>.high {width:11px; height:7px; display:inline-block;}
+.bus_result h3 span a.selected {border-radius:5px 5px 0 0; margin-top:2px; font-weight:bold;}
+.bus_result_in{ width:100%; float:left;}
+.bus_result_p{ float:left; width:100%; padding:5px; margin-bottom:2px; }
+.bus_result_p .bus_travels_width{ float:left; width:15.2%; margin-right:1em; word-wrap:break-word;}
+.bus_result_p .bus_type_width{ float:left; width:17.58%; margin-right:1em;}
+.bus_result_p .bus_depart_width{ float:left; width:10.9%; margin-right:1em;}
+.bus_result_p .bus_arr_width{ float:left; width:9.5%; margin-right:1em;}
+.bus_result_p .bus_publish_width, .bus_result_p .bus_offer_width{ float:left; width:12%; margin-right:1em; font-weight:bold;}
+.bus_result_p .bus_seat_width{ float:left; width:4%; margin-right:0;}
+.bus_result_p .bus_button_width{ float:right; width:11%; text-align:right;}
+.bus_result_p .bus_type_width a, .bus_button_width a{ text-decoration:none;} 
+.bus_result_p .bus_type_width a:hover, .bus_button_width a:hover{ text-decoration:none; }  
+.bus_result_p .bus_button_width a.select_bus {float:right; width:67%; height:24px}
+.bus_result_p .bus_button_width a.canc_policy {float:right; width:71%; text-align:right;}
+
+/* Bus Pax Details */
+.bus_trav_type{border-right:1px solid #e0e0e0; width:40%; float:left; padding:0.6%; margin-left:.75em;}
+.bus_from_dest{ width:25%; float:left; padding:0.6%; margin-left:1em;}
+.bus_frmrow{width: 100%;float: left;padding: 7px 0;}
+.bus_frmrow label{ width:28%; float:left; font-weight:bold;}
+.bus_frmrow code{ float:left; width:72%;}
+#bus_pax_detail em.error{float: left;font-size: 0.9em;width: 100%;}
+
+/* Bus Seat Layout */
+
+.icon_bg{width:36px; height:26px; padding:0 0 0 15px; float:left;}
+.ac{float: left; height: 24px; padding: 0 2px 0 23px;}
+.nonac{float: left; height: 24px; padding: 0 2px 0 23px;}
+.volvo{float: left; height: 24px; padding: 0 2px 0 23px;}
+.seater{float: left; height: 24px; padding: 0 2px 0 23px;}
+.sleeper{float: left; height: 24px; padding: 0 2px 0 23px;}
+.acactive{float: left; height: 24px; padding: 0 2px 0 23px;}
+.marce{float: left; height: 24px; padding: 0 2px 0 23px;}
+.bus_type b{float:left; font-weight:normal; margin:5px 10px 0 2px; font-size:11px;}
+.more{width:100%; float:left;}
+.top_col1{width:270px; float:left;}
+.top_col2{width:270px; float:left;}
+.top_col3{width:200px; float:right;}
+.top_col1 p, .top_col2 p, .top_col3 p{width:100%; margin:5px; font-size:13px;}
+
+/* bus layout */
+.busSeat{ height:50px; padding:10px; margin-bottom:10px; float:left; width:90%; height:100px;}
+.busseat_left{ float:left; width:63%;}
+.outerseat{border:1px solid #e0e0e0; width:100%; float:left; min-height:188px;}
+.outerlowerseat{border:1px solid #e0e0e0; width:100%; margin-top:10px; float:left;min-height:160px;}
+.layout{width:50%; float:left;}
+.seatdesp{float:right; width:30%; padding:1% 2%; border:1px solid #e0e0e0}
+.seatdesp .seatsSelected{float:none;}
+.seatdesp .seatsSelected label{ font-weight:normal;}
+.layout .laybtm{float:right; margin-right:10px; margin-bottom:10px; width:30%;}
+.laybtm select{width:100%; margin-right:10px; margin-top:2px; float:left;}
+.laybtm .continueBtn{float:right; padding:0; width:15%;}
+.resultBox h2{width:100%; float:left; text-align:center; font-size:18px; margin-bottom:10px;}
+.bus_siting{width:100%; float:left;}
+.bus_siting .left{float:left;}
+.bus_siting .mid{width:81.5%; float:left; padding-top:8px;}
+.mid p{width:100%; text-align:center; border:none; font-size:14px; margin:0px;}
+.bus_siting .right{float:right;}
+.seats{float:left; padding:3px 5px;}
+.seats p{margin:10px 0; padding:0px;}
+.seats p span{float:left; margin:5px; padding:0px; font-weight:bold;}
+.seats p code{float:left;margin: 8px 13px 0 0;}
+.busrow, .slrow{width:97%; float:left;}
+.busrow a{width:45px; height:40px; margin:8px; float:right;}
+.boarding{float:left; margin-top:25px; margin-left:25px;}
+.seat_detail{float: right; height: 109px; margin-top: 25px;  padding-left: 28px; width: 114px;}
+.seat_detail span{float:left; width:100%; margin:6px 0;}
+
+/*sleeper*/
+.slrow a, .sl_ladies, .sl_booked, .sl_selected, .sl_avlble{width:82px; height:26px; margin:7px; float:right;}
+/*sleeper end*/
+.passanger_head{width:768px; padding:3px; border-bottom:2px solid #eeeded; float:left; padding:0 0 8px;}
+.ps_detail p{margin:6px 0;}
+.ps_detail p code{width:87px; float:left; font-size:12px;}
+.r_head{margin:5px 0; font-weight:bold; padding-left:17px; }
+.rightContainer h3{float:left; width:100%; margin:10px 0 0; font-size:13px;}
+.input{border:1px solid #d7621c; padding:2px 0;}
+.seat_price{max-width:35%; float:right; border-right:1px solid #c0c0c0; padding-right:15px; margin-top:25px; margin-right:2%; min-height:105px;}
+.seat_price p{width:100%; border:none;}
+.seat_price p code{float:left;}
+.seat_price p label{width:80px; float:left; font-weight:bold;}
+.travelAgency{border: 1px solid #C8C8C8; border-radius: 5px 5px 5px 5px; margin-bottom: 5px; margin-top: 5px; padding: 8px; font-size:12px;}
+.nseat, .snseat, .bseat, .rseat, .sseat, .srseat, .hseat, .bhseat, .rhseat, .shseat, .srhseat, .vseat, .bvseat, .rvseat, .svseat, .srvseat, .lower, .upper{ float:left; width:20px; height:20px; position:absolute; cursor:pointer}
+.bseat{cursor:default;}  /*for booked seat*/
+.hseat{ width:40px; z-index:2;}              /*for horizontal seat*/
+.bhseat{cursor:default; width:40px; z-index:2;}   /*for booked horizontal seat*/
+.rhseat{width:40px; z-index:2;}                   /*for reserved horizontal seat*/
+.shseat{width:40px; z-index:2;}                   /*for selected horizontal seat*/
+.srhseat{width:40px; z-index:2;}                  /*for selected reserved horizontal seat*/
+.vseat{height:40px; z-index:2; width:20px}  /*for vertical seat*/
+.bvseat{cursor:default; height:40px;}     /*for booked vertical seat*/
+.rvseat{height:40px;}                 /*for reserved vertical seat*/
+.svseat{height:40px;}                   /*for selected vertical seat*/
+.srvseat{height:40px;}                /*for selected reserved vertical seat*/
+.busbox{border-bottom: 2px solid #dee4f6; float: left; width:98.7%; padding:1% 1% 2%;}
+.busbox .errorMessage{ text-align:center; font-weight:bold;}
+.seatsmall dfn, .seatdesp .seatbig dfn{float:left;}
+.seatsmall{list-style:none; margin:0; float:left}
+.seatbig{list-style:none; margin-bottom:10px; float:left; border-bottom:1px solid #cccccc; padding-bottom:15px}
+.seatsmall li, .seatbig li{ width:100%; float:left; padding:5px 0!important; }
+.seatsmall li dfn, .seatbig li dfn{ float:left; width:20px; height:20px;}
+.seatsmall li span, .seatbig li span{float:left; width:120px; padding-left:5px; font-size:11px}
+.seatbig dfn.wd5{width:40px;}
+.seatbig dfn.wd6{width:40px;}
+.seatbig dfn.wd7{width:40px;}
+.seatbig dfn.wd8{width:40px;}
+.seatdesp div{padding:2px 0px; }
+.seatdesp div label{font-weight:bold;}
+.busSeatrgt{width:300px; float:left; margin-left:15px;}
+.busSeatlft{width:30px; float:left; margin:10px 0px 10px 20px}
+.busSeatlft .lower{width:15px; height:60px; cursor:default; position:relative;}
+.busSeatlft .upper{width:15px; height:60px; cursor:default; position:relative;}
+.PaxErrorMessage{ border: 1px solid red; font-weight: bold; margin-top: 5px; text-align: center; width: 100%;}
+.bus_bord_seat_rs{ float:left; width:100%; margin-top:2%;}
+.boarding_point{ width:40%; float:left;}
+.boarding_point span{ width:41%; float:left; font-weight:bold; margin-top:4px;}
+.boarding_point select{ width:50%; float:left; margin:0 0 0 10px}
+.total_amount, .select_seat{width:25%; float:left;font-weight:bold;}
+.total_amount label, .select_seat label{width:30%; float:left; }
+.total_amount span{ float:left;}
+.select_seat span{ float:left; width:100px; word-wrap:break-word;}
+.seatcontainer{ clear:both; height:104px; z-index:2; zoom:1; word-spacing:normal; position:relative;}
+.btn_bg {border-radius: 5px; float: right; font-size: 12px; font-weight: normal; padding: 4px;}
+.btn_bg a{text-decoration:none;}

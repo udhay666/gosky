@@ -1,0 +1,21 @@
+{
+        "EndUserIp": "127.0.0.1",
+        "TokenId": "CFTC8eQj5Gpxwb2hEULh3LdshRxE",
+        "AdultCount": "1",
+        "ChildCount": "0",
+        "InfantCount": "0",
+        "DirectFlight": "false",
+        "OneStopFlight": "false",
+        "JourneyType": "1",
+        "PreferredAirlines": null,
+        "Segments": [
+        {
+            "Origin": "DEL",
+            "Destination": "BOM",
+            "FlightCabinClass": "2",
+            "PreferredDepartureTime": "2022-01-29T00:00:00",
+            "PreferredArrivalTime": "2022-01-29T00:00:00"
+        }
+        ],
+        "Sources": null
+    }

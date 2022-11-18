@@ -1,0 +1,66 @@
+{
+    "ResultIndex": "1",
+    "HotelCode": "1133169",
+    "HotelName": "Krishna Palace Hotel",
+    "GuestNationality": "IN",
+    "NoOfRooms":1,
+    "ClientReferenceNo": 0,
+    "IsVoucherBooking":true,
+    "HotelRoomsDetails": [
+    {"RoomIndex": "1",
+            "RoomTypeCode": "44582_abc044582^T630.0000^MT0^OR0^RN0^BB1^M0_1|Package^^44582_abc044582^T630.0000^MT0^OR0^RN0^BB1^M0_1_~!:~1~!:~1",
+            "RoomTypeName": "One King Bed Club Intercontinental-Singlebed",
+            "RatePlanCode": "44582_abc044582^T630.0000^MT0^OR0^RN0^BB1^M0_1_",
+            "BedTypeCode": "",
+            "SmokingPreference": 0,
+            "Supplements": "","Price": {
+                "CurrencyCode": "INR",
+                "RoomPrice": "719.65",
+                "Tax": "35.71",
+                "ExtraGuestCharge": "0",
+                "ChildCharge": "0",
+                "OtherCharges": "113.55",
+                "Discount": "0",
+                "PublishedPrice": "868.9",
+                "PublishedPriceRoundedOff": "869",
+                "OfferedPrice": "868.9",
+                "OfferedPriceRoundedOff": "869",
+                "AgentCommission": "0",
+                "AgentMarkUp": "0",
+                "ServiceTax": "20.71",
+                "TDS": "0"
+            },
+            "HotelPassenger": [
+                {
+                    "Title": "Mr",
+                    "FirstName": "test",
+                    "MiddleName" : "",
+                    "LastName": "dsdsdsdsd",
+                    "Phoneno":  "7563159857",
+                    "Email":  "test@gmail.com",
+         
+                    "PaxType": 1,
+                        "PAN":  "EBQPS3333T",
+                        "LeadPassenger": "true",
+                    "Age":0
+                    }
+    ]
+    }
+    ],
+    "ArrivalTransport": {
+    "ArrivalTransportType": 0,
+    "TransportInfoId": "Ab 777",
+    "Time": "2020-08-12T00:00:00"
+    },
+    "FlightInfo": null,
+    "OnlinePaymentId": 0,
+    "TransactionId": null,
+    "CancelAtPriceChangeAfterBooking": true,
+    "IsAmountDeduct": false,
+    "IsHotelImport": false,
+    "MakePaymentInfo": null,
+    "IsPackageFare": true,
+    "EndUserIp": "49.50.68.247",
+    "TokenId": "dd4cf171-d3be-42d8-b599-50f54274f065",
+    "TraceId": "7d7063e4-3ecc-45a2-8ca6-fd83360da6f6"
+    }

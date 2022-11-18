@@ -1,0 +1,41 @@
+
+            <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+            <soap:Body> <OTA_HotelAvailRQ xmlns="http://www.opentravel.org/OTA/2003/05" RequestedCurrency="INR" SortOrder="TG_RANKING" Version="0.0" PrimaryLangID="en" SearchCacheLevel="VeryRecent">
+            <AvailRequestSegments>
+               <AvailRequestSegment> 
+                   <HotelSearchCriteria> 
+                       <Criterion> 
+                           <Address> 
+                               <CityName>Mumbai</CityName> 
+                               <CountryName Code="India"></CountryName> 
+                           </Address> 
+                           <HotelRef/> 
+                           <StayDateRange End="2021-09-09" Start="2021-09-08"/>                              
+                           <RoomStayCandidates> 
+                               
+            <RoomStayCandidate> 
+                <GuestCounts> 
+                    <GuestCount AgeQualifyingCode="10"/>             </GuestCounts>                                     
+                </RoomStayCandidate>              
+                 
+                           </RoomStayCandidates>
+                           <Award Rating="1"/> 
+                           <Award Rating="2"/> 
+                           <Award Rating="3"/> 
+                           <Award Rating="4"/> 
+                           <Award Rating="5"/>                            
+                           <TPA_Extensions> 
+                           <Pagination enabled="false"/> 
+                           <HotelBasicInformation>
+                               <Reviews/>
+                           </HotelBasicInformation> 
+                           <UserAuthentication password="test@123" propertyId="1000000002" username="testsell"/> 
+
+                               </TPA_Extensions> 
+                           </Criterion> 
+                       </HotelSearchCriteria> 
+                   </AvailRequestSegment> 
+               </AvailRequestSegments> 
+               </OTA_HotelAvailRQ> 
+           </soap:Body> 
+       </soap:Envelope>

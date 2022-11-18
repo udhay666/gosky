@@ -1,0 +1,55 @@
+.home .top-bar {
+    color: #fff;
+    background-color: #253035;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.home .top-bar-nav {
+    background-color: #253035;
+}
+.home .top-bar-container .top-bar-nav ul.top-bar-menu li a span {
+    opacity: 1;
+}
+.home .top-bar-menu .search-input, .home .top-bar-menu .searchsubmit {
+    opacity: 1;
+}
+/*.filter-section .accordion-area > *,*/
+/*.filter-section .accordion-area  label,*/
+/*.filter-section .accordion-area  span,*/
+.header-search-result .result-count, .header-search-result .result-label,
+.sorting-tab p, .sorting-tab label {
+    color: #253035;
+}
+.header-search-result .result-label,.header-search-result .result-count{
+    color: #fff
+}
+.section {
+    background-color: #1c1d22;
+    color: #fff
+}
+.section#overview, .section#holiday-menu, .section#included{
+    background: #fff
+}
+h1, .price, .package-headline, .booking-form-request, .h1, h2, .h2, h3, .h3 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+.itinerary-item h1, .itinerary-item .price, .itinerary-item .package-headline, .itinerary-item .booking-form-request {
+    margin-top: 0;
+}
+.filter-section .accordion-area .text-nicelabel:checked + label {
+    background-color: #A01D26;
+    color: #fff;
+}
+.accountCntr h3.agenntHdng{margin-top: 0px !important;}
+.red{color: #A01D26;}
+.nano > .search-content.nano-content{
+    overflow: inherit;
+}
+
+#overview2 h1, #goodtoknow2 h1, #highlights2 h1, #itineraries2 h1, #highlights2 h1,
+#included2 h1, #accommodations22 h1, #reviews22 h1, #terms22 h1 {
+    margin-top: 0;
+    font-size: 22px;
+    position: relative;
+    bottom: -8px;
+}

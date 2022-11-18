@@ -1,0 +1,39 @@
+{
+    "ResultIndex": "1",
+    "HotelCode": "1088694",
+    "HotelName": "Hilton Mumbai International Airport",
+    "GuestNationality": "IN",
+    "NoOfRooms":1,
+    "ClientReferenceNo": 0,
+    "IsVoucherBooking":true,
+    "HotelRoomsDetails":[
+    {
+    "RoomIndex":"1",
+    "RoomTypeCode": "T2|OGDP15|1^^OGDP15|T2|1~!:~2",
+    "RoomTypeName": "Twin Hilton Guestroom",
+    "RatePlanCode": "OGDP15|T2|1",
+    "BedTypeCode": "",
+    "SmokingPreference": 0,
+    "Supplements": "",
+    "Price":{
+        "CurrencyCode": "INR",
+    "RoomPrice": "4578.4",
+    "Tax": "807.7",
+    "ExtraGuestCharge": "0",
+    "ChildCharge": "0",
+    "OtherCharges": "5",
+    "Discount": "0",
+    "PublishedPrice": "5401.1",
+    "PublishedPriceRoundedOff": "5401",
+    "OfferedPrice": "5391.1",
+    "OfferedPriceRoundedOff": "5391",
+    "AgentCommission": "10",
+    "AgentMarkUp": "0",
+    "ServiceTax": "270.66",
+    "TDS": "4.28"
+    },
+    }],
+    "EndUserIp": "49.50.68.247",
+    "TokenId": "51f81306-2916-4933-b275-b675ec81946a",
+    "TraceId": "bfda1d10-2558-4341-ad07-aa787b0006fa"
+    }

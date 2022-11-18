@@ -1,0 +1,718 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>AmigoStay</title>
+       <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/prettyPhoto.css">
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="css/flexslider.css" />
+        <link rel="stylesheet" href="css/font-awesome_new/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/font-awesome_new/css/font-awesome.css" />
+        <!-- Datepicker UI -->
+        <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css" />
+        <!-- MI slider -->
+        <link rel="stylesheet" href="css/mi-slider.css" />	
+        <!-- Chozen UI -->
+        <link rel="stylesheet" href="css/chosen.css" />	
+        <link rel="stylesheet" href="css/swiper.min.css" />	
+        <!-- Range Slider UI #2 -->
+        <link rel="stylesheet" href="css/rangeslider-classic.css" />
+        <!-- Elegant Font -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!--[if lte IE 7]><script src="inc/elegant-font/lte-ie7.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/switcher.css" />
+    </head>
+    <body>
+        <div id="site">
+			<header id="header" class="wide-fat">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-2 no-margin">
+                        <div class="branding">
+                            <h1 class="site-title">
+                                <a href="#"><img src="images/logo.png" height="45px"></a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-10 no-margin">
+                        <div id="main-menu">
+                            <nav class="navigation">
+                                <ul class="hidden-xs hidden-sm hidden-md">
+                                    <li class="menu-item about-us">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-home"></i>Home</a>
+                                    </li>
+                                    <li class="menu-item destinations">
+                                        <a href="#"><i class="fa fa-user-secret"></i>About Us</a>
+                                    </li>
+                                    <li class="menu-item our-travel">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-bed"></i>Hotels</a>
+                                    </li>
+                                    <li class="menu-item special-offers">
+                                        <a href="#"><i class="fa fa-phone"></i>Contact Us</a>
+                                    </li>
+                                </ul>
+                                <select class="top-drop-menu nav visible-sm visible-xs visible-md">
+                                    <option value="index.html" label="HOME">
+                                    </option>
+									<option value="#" label="ABOUT US">
+                                    </option>
+									<option value="#" label="HOTELS">
+                                    </option>
+									<option value="#" label="Contact Us">
+                                    </option>
+                                </select>
+                            </nav>
+                        </div><!-- /#main-menu -->
+                    </div>
+                </div>
+                <!-- <div class="toggle-menu-holder">
+                    <a class="toggle-menu" href="#"></a>
+                    <div class="menu-body closed">
+                        <ul>
+                            <li><a data-toggle="modal" data-target="#loginBox" href="#"><i class="fa fa-lock"></i> login</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> register</a></li>
+                            <li><a href="#"><i class="fa fa-bullseye"></i> newsletter</a></li>
+                            <li><a href="#"><i class="fa fa-volume-down"></i> newletter</a></li>
+                            <li><a href="#"><i class="fa fa-comments"></i> blog</a></li>
+                            <li><a href="#"><i class="fa fa-phone"></i> support center</a></li>
+                            <li><a href="#"><i class="fa fa-dollar"></i> price</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </header><!-- /#header -->
+            
+            <div class="modal fade" id="loginBox" tabindex="-1" role="dialog"  aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <form>
+                                <div class=" field-row">
+                                    <input  placeholder="Username">
+                                    <input  type="password" placeholder="Password">
+                                    <div class="custom-checkbox-holder">
+                                        <input class="custom-checkbox" type="checkbox" >
+                                        <span>Remember me on this computer.</span>
+                                    </div>
+                                </div>
+                                <button type="submit" class="button green">Login Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="featured" class="wide-fat">
+				<div class="featured-inner">
+                    <div class="slider">
+                        <div id="top-slider" class="flexslider">
+                            <ul class="slides">
+                                <li style="height:600px">
+                                    <img src="images/banner/1.jpg" alt="Featured Image" height="300px"/>
+                                </li>
+								<li style="height:600px">
+                                    <img src="images/banner/2.jpg" alt="Featured Image" height="300px"/>
+                                </li>
+                            </ul><!-- /.slides -->
+							<form class="location-search"  method="get">
+                            <div class="featured-overlay">
+								<div class="search_form-tab">
+									 <!-- Nav tabs -->
+									<ul class="nav nav-tabs">
+										<li class="active"><a href="#HomeStay" data-toggle="tab">HomeStay</a></li>
+										<li class=""><a href="#Weekend" data-toggle="tab">Weekend</a></li>
+									</ul>
+								</div>
+                                <div class="featured-overlay-inner">
+								<div class="tab-holder">
+									
+									<!-- Tab panes -->
+									<div class="tab-content search_section">
+										<div class="tab-pane active" id="HomeStay">
+										
+											<div class="col-md-4">
+												<div class="destination-field">
+													<input id="destination" type="text" placeholder="Where do you want to stay?"/>
+												</div>
+											</div><!-- /.search-field -->
+												<div class="col-md-2">
+													<input id="check-in-date" class="traveline_date_input" type="text" value=""placeholder="Check in" />
+												</div>
+												<div class="col-md-2">
+													<input id="check-out-date" class="traveline_date_input" type="text" value="" placeholder="Check out"/>
+												</div>									
+												<div class="col-md-2">
+													<div id="guest">
+													Guests
+													</div>
+												</div>			
+											<div class="col-md-2">
+												<a href="search_result.html" class="button wide-fat" >Search</a>
+											</div><!-- /.search-field -->	
+											
+										
+										</div>
+										<div class="tab-pane" id="Weekend">
+										
+											<div class="col-md-4">
+												<div class="destination-field">
+													<input id="destination" type="text" placeholder="Where do you want to stay?"/>
+												</div>
+											</div><!-- /.search-field -->
+												<div class="col-md-2">
+													<input id="check-in-date" class="traveline_date_input" type="text" value=""placeholder="Check in" />
+												</div>
+												<div class="col-md-2">
+													<input id="check-out-date" class="traveline_date_input" type="text" value="" placeholder="Check out"/>
+												</div>			
+											<div class="col-md-2">
+												<a href="search_result.html" class="button wide-fat" >Search</a>
+											</div><!-- /.search-field -->	
+											
+										
+										</div>
+									
+									</div>
+									<!-- /Tab panes -->
+									
+								</div>
+                                    <!-- /form.location-search -->
+									
+									
+                                </div><!-- /.featured-overlay-inner -->
+                            </div><!-- /.featured-overlay -->
+							 <div class="featured-overlay guest" style="display:none">
+								<div class="featured-overlay-inner">
+									<div class="featured-teaser-text">
+                                        
+											<div class="search-field">	
+												<div class="full_width">
+													<div class="col-md-12">
+														<div class="col-md-6">
+															<label for="destination">Room 1</label>
+														</div>
+														<div class="col-md-6">
+															<span class="pull-right"><a href="#" id="addRoom">Add Room</a></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="search-field">	
+												<div class="full_width">	
+													<div class="col-md-2">
+														<div class="children-field">
+															<label for="children">Adult</label>
+															<span class="label-text">Above 12 Years</span>
+															<div class="quantity">
+																<select class="form-control qty" name="adults" id="Adults">
+																	<option value="1" selected>1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																</select>
+															</div>
+														</div>	
+													</div>
+													<div class="col-md-2">
+														<div class="adult-left">
+															<label for="adult">Children</label>
+															<span class="label-text">Below 12 Years</span>
+															<div class="quantity">
+																<select class="form-control qty" name="childs" id="Childs">
+																	<option value="1" selected>1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																</select>
+															</div>
+														</div>	
+													</div>	
+													<div class="col-md-8">
+														<div class="col-md-3" id="child1">
+															<div class="adult-left">
+																<label for="adult">Child 1 Age</label>
+																<span class="label-text">&nbsp;</span>
+																<div class="quantity">
+																	<select class="form-control qty" name="childs" id="Childs">
+																		<option value="1" selected>1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																	</select>
+																</div>
+															</div>	
+														</div>
+														<div class="col-md-3"  id="child2">
+															<div class="adult-left">
+																<label for="adult">Child 2 Age</label>
+																<span class="label-text">&nbsp;</span>
+																<div class="quantity">
+																	<select class="form-control qty" name="childs" id="Childs">
+																		<option value="1" selected>1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																	</select>
+																</div>
+															</div>	
+														</div>
+														<div class="col-md-3"  id="child3">
+															<div class="adult-left">
+																<label for="adult">Child 3 Age</label>
+																<span class="label-text">&nbsp;</span>
+																<div class="quantity">
+																	<select class="form-control qty" name="childs" id="Childs">
+																		<option value="1" selected>1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																	</select>
+																</div>
+															</div>	
+														</div>
+														<div class="col-md-3">
+															<div class="adult-left">
+																<label for="adult">Child 4 Age</label>
+																<span class="label-text">&nbsp;</span>
+																<div class="quantity">
+																	<select class="form-control qty" name="childs" id="Childs">
+																		<option value="1" selected>1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																	</select>
+																</div>
+															</div>	
+														</div>
+													</div>	
+												</div>	
+											</div><!-- /.search-field -->	
+											<div class="search-field">
+												<div class="col-md-3">
+													<div  id="done" class="button wide-fat" style="color:white">Done</div>
+												</div>
+											</div><!-- /.search-field -->							
+										
+                                    </div><!-- /.featured-teaser-text -->
+								</div>
+							 </div>
+							 </form>
+                        </div>
+                    </div><!-- /.slider -->					
+                </div><!-- /.featured-inner -->
+            </section><!-- /#featured -->
+			
+			<div class="main-wraper">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="second-title">
+								<h1 class="page-title">Beautiful <span class="higlight">House</span></h1>
+								  <p class="color-grey">Curabitur nunc erat, consequat in erat ut, congue bibendum nulla</p>
+							</div>
+						</div>
+					</div>
+					<div class="row no-padd">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+						   <div class="item-block">
+							  <div class="tour-layer delay-1"></div> 
+							   <div class="vertical-align">
+								  <h3>Fringe Ford</h3>
+									<p>Nunc cursus libero purus ac congue lorem ipsun arcu cursus ut sed solo nequetiam.</p>
+									   <a href="#" class="c-button small "><span>view more</span></a>
+							   </div>
+							 <img src="images/home_1/con1.jpg" alt="">
+						   </div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+						   <div class="item-block">
+							  <div class="tour-layer delay-1"></div> 
+							   <div class="vertical-align">
+								  <h3>Green Mount Cottage</h3>
+									<p>Nunc cursus libero purus ac congue lorem iasiam.</p>
+									   <a href="#" class="c-button small "><span>view more</span></a>
+							   </div>
+							 <img src="images/home_1/con2.jpg" alt="">
+						   </div>
+						</div>
+					 </div>
+					 <div class="row no-padd">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="item-block style-2 bot_img">
+								<div class="tour-layer delay-1"></div> 
+								<div class="vertical-align">
+								  <div class="rate">
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+								  </div>
+								  <h3>Tranquil Resort</h3>
+									  <h4>from<b>$600</b></h4>
+										<p>Nunc cursus libero purus ac cursus.</p>  
+								</div>
+								<img src="images/home_1/con3.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="item-block style-2 bot_img">
+								<div class="tour-layer delay-1"></div> 
+								<div class="vertical-align">
+								  <div class="rate">
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+								  </div>
+								  <h3>Hill View Homestay</h3>
+									  <h4>from<b>$600</b></h4>
+										<p>Nunc cursus libero purus ac cursus.</p>  
+								</div>
+								<img src="images/home_1/con4.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="item-block style-2 bot_img">
+								<div class="tour-layer delay-1"></div> 
+								<div class="vertical-align">
+								  <div class="rate">
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+									<span class="fa fa-star color-yellow"></span>
+								  </div>
+								  <h3>Aranyakam</h3>
+									  <h4>from<b>$600</b></h4>
+										<p>Nunc cursus libero purus ac cursus.</p>  
+								</div>
+								<img src="images/home_1/con5.png"  alt="">
+							</div>
+						</div>
+					 </div>
+					 
+				</div>
+			</div>
+			
+			
+			<section id="testimonials" class="section wide-fat">
+                <div class="container">	
+                    <article id="post-44" class="testimonials section-intro">
+                        <h1 class="page-title">What Other People Say About Us</h1>
+                    </article><!-- /#post-4.our-travel -->			
+                </div>		
+                <div id="sliding-testimony" class="flexslider">
+                    <ul class="slides">
+                        <li class="post" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">	
+                            <div class="container">
+                                <div class="entry-content">
+                                    <h2 class="testimony-author">John</h2>
+                                    <div class="star-ratings">
+                                        <span>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                        </span>
+                                    </div>
+                                    <p>Integer sollicitudin ligula non enim sodales, non lacinia nunc ornare. Sed commodo tempor dapibus.<br> Duis convallis turpis in tortor volutpat, eget rhoncus nisi fringilla. Phasellus ornare risus in euismod varius nullam feugiat ultrices.<br> Sed condimentum est libero, aliquet iaculis diam bibendum ullamcorper.</p>
+                                </div>
+                            </div>					
+                        </li><!-- /.post -->
+                        <li class="post flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;">	
+                            <div class="container">
+                                <div class="entry-content">
+                                    <h2 class="testimony-author">John</h2>
+                                    <div class="star-ratings">
+                                        <span>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                        </span>
+                                    </div>							
+                                    <p>Integer sollicitudin ligula non enim sodales, non lacinia nunc ornare. Sed commodo tempor dapibus.<br> Duis convallis turpis in tortor volutpat, eget rhoncus nisi fringilla. Phasellus ornare risus in euismod varius nullam feugiat ultrices.<br> Sed condimentum est libero, aliquet iaculis diam bibendum ullamcorper.</p>
+                                    	
+                                </div>
+                            </div>					
+                        </li><!-- /.post -->
+                    </ul>
+                <ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></div><!-- /#sliding-testimony -->
+            </section>
+			
+			
+       
+    <div class="main-wraper padd-15">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="second-title">
+						<h1 class="page-title">Special <span class="higlight">Offers</span></h1>
+    					
+    					  <p class="color-grey">Curabitur nunc erat, consequat in erat ut, congue bibendum nulla.</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="item-block style-2 bot_img">
+									<div class="tour-layer delay-1"></div> 
+									<div class="vertical-align">
+									  <div class="rate">
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+									  </div>
+									  <h3>Hill View Homestay</h3>
+										  <h4>from<b>$600</b></h4>
+									</div>
+									<img src="images/home_1/foot1.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="item-block style-2 bot_img">
+									<div class="tour-layer delay-1"></div> 
+									<div class="vertical-align">
+									  <div class="rate">
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+									  </div>
+									  <h3>Aranyakam</h3>
+										  <h4>from<b>$600</b></h4>
+										
+									</div>
+									<img src="images/home_1/foot2.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="item-block style-2 bot_img">
+									<div class="tour-layer delay-1"></div> 
+									<div class="vertical-align">
+									  <div class="rate">
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+									  </div>
+									  <h3>Los Angeles</h3>
+										  <h4>from<b>$600</b></h4>
+										
+									</div>
+									<img src="images/home_1/foot3.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="item-block style-2 bot_img">
+									<div class="tour-layer delay-1"></div> 
+									<div class="vertical-align">
+									  <div class="rate">
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+									  </div>
+									  <h3>Bengaluru</h3>
+										  <h4>from<b>$600</b></h4>
+										
+									</div>
+									<img src="images/home_1/con4.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="item-block style-2 bot_img">
+									<div class="tour-layer delay-1"></div> 
+									<div class="vertical-align">
+									  <div class="rate">
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+									  </div>
+									  <h3>Aranyakam</h3>
+										  <h4>from<b>$600</b></h4>
+									</div>
+									<img src="images/home_1/con5.png" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="item-block style-2 bot_img">
+									<div class="tour-layer delay-1"></div> 
+									<div class="vertical-align">
+									  <div class="rate">
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+										<span class="fa fa-star color-yellow"></span>
+									  </div>
+									  <h3>Singapore</h3>
+										  <h4>from<b>$600</b></h4>
+										
+									</div>
+									<img src="images/home_1/con3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="pagination  poin-style-1 pagination-hidden"></div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next fa fa-chevron-circle-right fa-3"></div>
+						<div class="swiper-button-prev fa fa-chevron-circle-left fa-3"></div>
+					</div>
+    			</div>
+    		</div>
+    		
+    	</div>
+	</div>
+       
+       
+			
+			
+			
+			<footer id="footer-black" class="widefat ">
+                <div class="container">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="footer-logo">
+                            <h1 class="site-title">
+                                <a href="#"><img src="images/logo.png" height="45px"></a>
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <p>
+                                Sed sed malesuada orci, eu ornare sem. Pellentesque quis metus porta, varius nunc vitae, laoreet nisi. Aenean vitae est dui.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="newsletter-holder">
+                            <h3 class="col-md-12">
+                                Top Destination
+                            </h3>
+                            <div class="col-md-6">
+                                <div>Berlin Hotels</div>
+								<div>Malaysia Hotels</div>
+								<div>Thailand Hotels</div>
+								<div>Madrid Hotels</div>
+								<div>Vienna Hotels</div>
+								<div>Beijing Hotels</div>
+							</div>
+							<div class="col-md-6">
+                                <div>Bora Bora Hotels</div>
+								<div>Hong Kong Hotels</div>
+								<div>Havana Hotels</div>
+								<div>Canada Hotels</div>
+								<div>Australia Hotels</div>
+								<div>Belgium Hotels</div>
+							</div>
+                           <!-- <input type="text" placeholder="Your Name">
+                            <input type="text" placeholder="Your Email Address">
+                            <input type="submit" class="button green" value="Subscribe Now"> -->
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="newsletter-holder">
+                            <h3>
+                                contact info
+                            </h3>
+                            <p>
+                                AmigoStay<br>
+                                Address: Integer sollicitudin ligula.<br>
+								Abc Road Opp.<br>
+								P.O. Box 14794, India<br>
+                                 +1234-567 8909
+                            </p>
+                            <ul class="footer-social-icons">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-pinterest"></a></li>
+                                <li><a href="#" class="fa fa-tumblr"></a></li>
+                                <li><a href="#" class="fa fa-vimeo-square"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer><!-- /#footer -->
+			<footer id="footer" class="widefat">
+                <div class="container">
+                    <div class="footer-inner">
+                        <p class="credit">AmigoStay - Copyright 2015. Developed by <a href="http://www.travelpd.com/" target="blank" class="white">Travelpd</a></p>
+                    </div><!-- /.footer-inner -->
+                </div>
+            </footer><!-- /#footer -->
+		</div><!-- /#site -->
+<!-- Scripts -->
+	<!-- jQuery -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.js"></script>
+	<!-- modernizer -->
+        <script src="js/modernizr.custom.63321.js"></script>
+	<!-- FlexSlider -->
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>	
+	<!-- CatSlider -->
+	<script type="text/javascript" src="js/jquery.catslider.js"></script>	
+	<!-- Datepicker -->
+	<script type="text/javascript" src="js/jquery.ui.datepicker.min.js"></script>	
+	<!-- Masonry -->
+	<script type="text/javascript" src="js/masonry.min.js"></script>	
+	
+	<!-- Mixitup (filterable item) -->
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>	
+
+	<!-- Checkbox/Radio UI JS -->
+	<script type="text/javascript" src="js/jquery.screwdefaultbuttonsV2.js"></script>	
+	<!-- Range Slider UI JS #2 -->
+	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>	
+	<script type="text/javascript" src="js/jQRangeSlider-min.js"></script>	
+	<!-- bootstrap JS -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>		
+	
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+		slidesPerView: 3,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30
+    });
+    </script>
+<!-- Custom JS -->
+	<script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>

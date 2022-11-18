@@ -1,0 +1,22 @@
+
+        <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
+        <soap:Body> 
+        <OTA_HotelResRQ xmlns="http://www.opentravel.org/OTA/2003/05" CorrelationID="flynstaytpd" TransactionIdentifier="tpdstay" Version="1.003"> 
+        <POS> 
+           <Source ISOCurrency="INR"> 
+               <RequestorID MessagePassword="test@123" ID="1000000002"> 
+                   <CompanyName Code="testsell"></CompanyName> 
+               </RequestorID> 
+           </Source> 
+       </POS> 
+       <UniqueID Type="23" ID="2106423172" /> 
+       <HotelReservations> 
+           <HotelReservation> 
+               <ResGlobalInfo> 
+                   <Guarantee GuaranteeType="PrePay" /> 
+               </ResGlobalInfo> 
+           </HotelReservation> 
+       </HotelReservations> 
+       </OTA_HotelResRQ> 
+   </soap:Body> 
+</soap:Envelope>

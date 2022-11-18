@@ -1,0 +1,78 @@
+/* Bus Seat Layout */
+.icon_bg{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -6px -62px;}
+.ac{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -6px -5px transparent;}
+.nonac{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -41px -5px transparent;}
+.volvo{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -74px -5px transparent;}
+.seater{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -106px -5px transparent;}
+.sleeper{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -138px -5px transparent;}
+.ac:hover{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -6px -33px;}
+.nonac:hover{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -41px -33px;}
+.volvo:hover{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -74px -33px ;}
+.seater:hover{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -106px -33px ;}
+.sleeper:hover{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -138px -33px;}
+.marce:hover{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -170px -33px ;}
+.acactive{background:url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -6px -5px; }
+.nonacactive{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -41px -33px;}
+.volvoactive{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -74px -33px ;}
+.seateractive{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -106px -33px ;}
+.sleeperactive{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -138px -33px;}
+.marceactive{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -170px -33px ;}
+
+.marce{ background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -170px -5px transparent;}
+.more{color:#af2c27;}
+.tp_bg{background:url(http://tbolite1.tektravels.com/Images/RedBusImages/top_bg.jpg) repeat-x left bottom;}
+
+/* bus layout */
+.resultBox h2{color:#b02c27;}
+.seats{background:#F78851;}
+.busrow a{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat  -114px -176px;}
+.busrow a:hover{background-position:-68px -176px;}
+.busrow a.ladies{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat  -114px -87px;}
+.busrow a.booked{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat  -114px -131px;}
+.busrow a.select{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat  -114px -221px;}
+.seat_detail{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat -178px -86px;}
+
+/*sleeper*/
+.slrow a, .sl_ladies, .sl_booked, .sl_selected, .sl_avlble{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat;}
+.slrow a{background-position:-87px -296px;}
+.slrow a:hover{background-position:-5px -296px;}
+.sl_ladies{background-position:-88px -326px !important;}
+.sl_ladies:hover{background-position:-6px -326px !important;}
+.sl_booked{background-position:-5px -356px !important;}
+.sl_selected{background-position:-6px -387px !important;}
+/*sleeper end*/
+.r_head{background: url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.png) no-repeat  -187px -63px; color:#000;}
+.nseat, .snseat, .bseat, .rseat, .sseat, .srseat, .hseat, .bhseat, .rhseat, .shseat, .srhseat, .vseat, .bvseat, .rvseat, .svseat, .srvseat, .lower, .upper
+{background:url(http://tbolite1.tektravels.com/Images/transparent-backgro-seatlayout.gif) no-repeat left top;}
+.bseat{background-position:0px -40px; cursor:default;}  /*for booked seat*/
+.rseat{background-position:-20px -20px;}                /*for reserved seat*/
+.snseat{background-position:0px -60px;}                 /*for selected seat*/
+.srseat{background-position:-20px -60px;}              /*for selected reserved seat*/
+.hseat{ width:40px; background-position:-40px 0; z-index:2;}              /*for horizontal seat*/
+.bhseat{background-position:-40px -40px; cursor:default; width:40px; z-index:2;}   /*for booked horizontal seat*/
+.rhseat{background-position:-80px -20px; width:40px; z-index:2;}                   /*for reserved horizontal seat*/
+.shseat{background-position:-40px -60px; width:40px; z-index:2;}                   /*for selected horizontal seat*/
+.srhseat{background-position:-80px -60px; width:40px; z-index:2;}                  /*for selected reserved horizontal seat*/
+.vseat{background-position:-124px 0;}  /*for vertical seat*/
+.bvseat{background-position:-166px 0;}     /*for booked vertical seat*/
+.rvseat{background-position:-145px -40px;}                 /*for reserved vertical seat*/
+.svseat{background-position:-187px 0px;}                   /*for selected vertical seat*/
+.srvseat{background-position:-187px -40px;}                /*for selected reserved vertical seat*/
+
+.seatsmall dfn, seatdesp .seatbig dfn{background:url(http://tbolite1.tektravels.com/images/transparent-backgro-seatlayout.gif) no-repeat left top;}
+.seatsmall li, .seatbig li{background:none!important}
+.seatsmall dfn.wd1{ background-position:0px 0px}
+.seatsmall dfn.wd2{background-position:-20px -20px;}
+.seatsmall dfn.wd3{background-position:0px -60px;}
+.seatsmall dfn.wd4{background-position:0px -40px;}
+.seatbig dfn.wd5{ background-position:-40px 0;}
+.seatbig dfn.wd6{background-position:-80px -20px;}
+.seatbig dfn.wd7{background-position:-40px -60px;}
+.seatbig dfn.wd8{background-position:-40px -40px;}
+.busSeatlft .lower{background-position:-38px -83px; }
+.busSeatlft .upper{background-position:-69px -83px;}
+
+/*Class cof Button*/
+.btn_bg button, .bus_btn_bg button, .btn_bg, .bus_btn_bg, .btn_main_s, .hpaks_head, .hpaksbtn, .btn_continue_s{ background:#246197; color: #ffffff; outline:none;}
+
+.bus_result_p .bus_type_width, .bus_publish_width, .bus_offer_width,  .bus_type_width a:hover, .bus_button_width a:hover, .bus_frmrow label,  .passport_set a{color:#266EAC;}

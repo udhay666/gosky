@@ -1,0 +1,118 @@
+{
+          "IsVoucherBooking": true,
+          "NumOfPax":1,
+          "PassengerInfo": null,
+          "PaxInfo": [
+            {
+              "Title": "Mrs",
+              "FirstName": "test",
+              "LastName":  "dsdsdsdsd",
+              "PaxType": 0,
+              "Age": 0,
+              "ContactNumber": "9563159857"
+            }
+          ],
+            "PickUp": {
+                           "PickUpCode":1,
+                            "PickUpName":  "Airport",
+                            "PickUpDetailCode": "DWC",
+                            "PickUpDetailName":  "Dubai World Central (Al Maktoum Intl Airport)(DWC)",
+                            "IsPickUpAllowed": true,
+                            "IsPickUpTimeRequired": false,
+                            "Time": "1519", 
+                            "PickUpDate": "12/08/2020", 
+           
+            
+            "Description": "sdfgh", 
+            "Remarks":"dfghj", 
+            "AddressLine1":"sdfghj",
+            "City":"Al Barsha",
+            "Country": "India",
+            "ZipCode": "123458" ,
+            "AddressLine2": "dfghjk"
+          },
+          "DropOff": {
+            "DropOffName":"Accomodation", 
+            "DropOffDetailCode":"1049374", 
+            "DropOffDetailName": "Ramada Hotel and Suites by Wyndham Dubai JBR",
+            "Description":"dfghj,", 
+            "Remarks":"xcvbnm", 
+            "Time":0000, 
+            "PickUpDate": null,
+            "AddressLine1":"qwert", 
+            "City": "Al Barsha",
+            "Country": "India",
+            "ZipCode": "123458" ,
+            "AddressLine2":"sd" 
+          },
+          "Vehicles": [
+            {
+                                "LastCancellationDate":"2020-07-01T23:59:59", 
+                                "TransferCancellationPolicy": [
+                                    {
+                                        "Charge": 100,
+                                        "ChargeType": 2,
+                                        "Currency": "INR",
+                                        "FromDate": "2020-07-02T00:00:00",
+                                        "ToDate": "2020-08-12T00:00:00"
+                                    }
+                                ],
+                                "VehicleIndex":1,
+                                "Vehicle":"Van - Luxury",
+                                "VehicleCode": "4",
+                                "VehicleMaximumPassengers": 6,
+                                "VehicleMaximumLuggage":7,
+                                "Language": "NotSpecified",
+                                "LanguageCode":0,
+                                "TransferPrice": {
+                                    "CurrencyCode":"INR",
+                                    "BasePrice": 856.98,
+                                    "Tax":0,
+                                    "Discount": 0,
+                                    "PublishedPrice": 856.98,
+                                    "PublishedPriceRoundedOff": 857,
+                                    "OfferedPrice":856.98,
+                                    "OfferedPriceRoundedOff": 857,
+                                    "AgentCommission": 0,
+                                    "AgentMarkUp": 0,
+                                    "ServiceTax":  0,
+                                    "TDS": 0,
+                                    "PriceType": 0,
+                                    "SubagentCommissionInPriceDetailResponse": 0,
+                                    "SubagentCommissionTypeInPriceDetailResponse": 0,
+                                    "DistributorCommissionInPriceDetailResponse":  0,
+                                    "DistributorCommissionTypeInPriceDetailResponse": 0,
+                                    "ServiceCharge": 0,
+                                    "TotalGSTAmount":  0,
+                                    "GST": {
+                                        "CGSTAmount":0,
+                                        "CGSTRate":0,
+                                        "CessAmount":0,
+                                        "CessRate": 0,
+                                        "IGSTAmount":0,
+                                        "IGSTRate": 18,
+                                        "SGSTAmount": 0,
+                                        "SGSTRate":0,
+                                        "TaxableAmount":0
+                                    }
+                                }
+                            }
+          ],
+         
+          "ResultIndex": 4,
+          "TransferCode": "4|7ua9CgMUcHoNLJQ3/0B7ASkSzacG5630bjeoA3liBgAV8JZ4tEzOqqY+9/3RXertj9B30R9ozMwjf0GrnTddtbvOe8KJw+2QYnd9QsxIJaQ=|21df29cf-f167-473a-9b15-748a7af7541a|cYVkIMbSKoSnZO3W6yxIjrHBRIjjQdUGqDPYew+5nGuqneFgkHRywuVXK7r8cfiUe8MoJyyhvfs=|DWC|Dubai|AE|24.8977876|55.1431018|Al Maktoum International Airport||true||Dubai|AE|25.074565|55.130847|Ramada Hotel and Suites by Wyndham Dubai JBR|1049374|false|False",
+          "VehicleIndex": [
+           1
+          ],
+
+        "OccupiedPax": [
+                {
+                    "AdultCount":1,
+                    "ChildCount":0,
+                    "ChildAge":[]
+                }],
+        "EndUserIp":"192.168.10.51",
+        "TraceId": "27f573fc-9603-4a29-8211-2c9227275d7e",
+        "TokenId":"40e28321-11b0-459b-b12c-3eaed16c10c5"
+         
+        }

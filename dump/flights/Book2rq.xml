@@ -1,0 +1,61 @@
+{
+        "EndUserIp": "111.93.152.220",
+        "TokenId": "1d87dab9-a86c-4488-9410-a283e515481c",
+        "TraceId": "a5c76afd-0c55-4f96-af1b-754662fe8d11",
+        "ResultIndex": "IB60",
+        "Passengers": [{
+                "Title": "Ms",
+                "FirstName": "jesy",
+                "LastName": "maria",
+                "PaxType": 1,
+                "DateOfBirth": "1980-08-05T00:00:00",
+                "Gender": "2",
+                
+                "AddressLine1": "string",
+                "AddressLine2": "",
+                "City": "Gurgaon",
+                "CountryCode": "IN",
+                "CountryName": "India",
+                "Nationality": "IN",
+                "ContactNo": "1234567890",
+                "Email": "test@gmail.com",
+                "IsLeadPax": true,
+                "FFAirline": null,
+                "FFNumber": "",
+                "GSTCompanyAddress": "",
+    "GSTCompanyContactNumber": "",
+    "GSTCompanyName": "",
+    "GSTNumber": "",
+    "GSTCompanyEmail": "",
+    
+    
+                "Fare": {"BaseFare":3050,"Tax":616,"TransactionFee":0,"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"AirTransFee":0}
+            },{
+                "Title": "Mrs",
+                "FirstName": "jennn",
+                "LastName": "maria",
+                "PaxType": 1,
+                "DateOfBirth": "1978-09-03T00:00:00",
+                "Gender": "2",
+                
+                "AddressLine1": "string",
+                "AddressLine2": "",
+                "City": "Gurgaon",
+                "CountryCode": "IN",
+                "CountryName": "India",
+                "Nationality": "IN",
+                "ContactNo": "1234567890",
+                "Email": "test@gmail.com",
+                "IsLeadPax": false,
+                "FFAirline": null,
+                "FFNumber": "",
+                "GSTCompanyAddress": "",
+    "GSTCompanyContactNumber": "",
+    "GSTCompanyName": "",
+    "GSTNumber": "",
+    "GSTCompanyEmail": "",
+    
+    
+                "Fare": {"BaseFare":3050,"Tax":616,"TransactionFee":0,"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"AirTransFee":0}
+            },]
+      }

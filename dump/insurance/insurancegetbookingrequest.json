@@ -1,0 +1,6 @@
+Header : ["accept: application\/json","Accept-Encoding: gzip","content-type: application\/json"]
+ Request : {
+                          "EndUserIp": "192.168.10.51",
+                          "TokenId": "a8f8be42-995a-4697-b737-32086f3e1f60",
+                          "BookingId": "1709504" 
+                        }

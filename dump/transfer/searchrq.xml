@@ -1,0 +1,18 @@
+{ 
+            "CountryCode": "IN",
+            "CityId": "144735",
+            "PickUpCode": "1",
+            "DropOffCode": "0", 
+            "PickUpPointCode": "CJB",
+            "DropOffPointCode": "1016055", 
+            "TransferDate": "2021-09-18", 
+            "TransferTime": "1615", 
+            "AdultCount":1, 
+            "ChildCount":0, 
+            "ChildAge": [], 
+            "PreferredLanguage": "4",
+            "AlternateLanguage": "4",
+            "PreferredCurrency": "INR",
+             "EndUserIp": "192.168.10.51", 
+             "TokenId": "b696ed40-c396-4ea3-a0d1-3213377f08ff" 
+         }

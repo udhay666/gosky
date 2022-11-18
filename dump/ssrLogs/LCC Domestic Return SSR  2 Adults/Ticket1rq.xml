@@ -1,0 +1,95 @@
+{
+           "PreferredCurrency":"INR",
+           "IsBaseCurrencyRequired":"true",
+           "EndUserIp": "111.93.152.220",
+           "TokenId": "0398ea1b-8366-44cd-b4d9-77400821887a",
+           "TraceId": "00e7fc3a-79c7-4f93-b88e-2f8822624750",
+           "ResultIndex": "OB1",
+           "Passengers": [{
+                "Title": "Mr",
+                "FirstName": "joef",
+                "LastName": "john",
+                "PaxType": 1,
+                "DateOfBirth": "1980-04-17T00:00:00",
+                "Gender": "1",
+                
+                "AddressLine1": "string",
+                "AddressLine2": "",
+                "City": "Gurgaon",
+                "CountryCode": "IN",
+                "CountryName": "India",
+                "Nationality": "IN",
+                "ContactNo": "1234567890",
+                "Email": "testssd@gmail.com",
+                "IsLeadPax": true,
+                "FFAirline": null,
+                "FFNumber": "",
+            "Baggage": [],
+             
+            "MealDynamic": [{
+                "WayType": 2,
+                "Code": "VGSW",
+                "Description": 2,
+                "AirlineDescription": "Cucumber, tomato, cheese in multigrain bread",
+                "Quantity": 1,
+                "BaseCurrency": "INR",
+                "BaseCurrencyPrice": 180.000,
+                "Currency": "INR",
+                "Price": 180.0,
+                "Origin": "BLR",
+                "Destination": "DEL"
+            }],
+        "SeatDynamic": [],
+                "GSTCompanyAddress": "",
+    "GSTCompanyContactNumber": "",
+    "GSTCompanyName": "",
+    "GSTNumber": "",
+    "GSTCompanyEmail": "",
+    
+    
+                "Fare": {"BaseFare":2626,"Tax":861,"TransactionFee":0,"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"AirTransFee":0}
+            },{
+                "Title": "Mrs",
+                "FirstName": "jeny",
+                "LastName": "john",
+                "PaxType": 1,
+                "DateOfBirth": "1943-08-07T00:00:00",
+                "Gender": "2",
+                
+                "AddressLine1": "string",
+                "AddressLine2": "",
+                "City": "Gurgaon",
+                "CountryCode": "IN",
+                "CountryName": "India",
+                "Nationality": "IN",
+                "ContactNo": "1234567890",
+                "Email": "testssd@gmail.com",
+                "IsLeadPax": false,
+                "FFAirline": null,
+                "FFNumber": "",
+            "Baggage": [],
+             
+            "MealDynamic": [{
+                "WayType": 2,
+                "Code": "VGSW",
+                "Description": 2,
+                "AirlineDescription": "Cucumber, tomato, cheese in multigrain bread",
+                "Quantity": 1,
+                "BaseCurrency": "INR",
+                "BaseCurrencyPrice": 180.000,
+                "Currency": "INR",
+                "Price": 180.0,
+                "Origin": "BLR",
+                "Destination": "DEL"
+            }],
+        "SeatDynamic": [],
+                "GSTCompanyAddress": "",
+    "GSTCompanyContactNumber": "",
+    "GSTCompanyName": "",
+    "GSTNumber": "",
+    "GSTCompanyEmail": "",
+    
+    
+                "Fare": {"BaseFare":2626,"Tax":861,"TransactionFee":0,"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"AirTransFee":0}
+            },]
+       }

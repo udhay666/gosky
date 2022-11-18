@@ -1,0 +1,1 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><OTA_HotelAvailRS xmlns="http://www.opentravel.org/OTA/2003/05" CorrelationID="6366a2e8-47c8-4eed-b5fc-df2be2b7f023"><Errors><Error Type="TGAuthenticationServiceException" Code="099"/></Errors></OTA_HotelAvailRS></soap:Body></soap:Envelope>

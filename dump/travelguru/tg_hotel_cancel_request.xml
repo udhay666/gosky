@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.opentravel.org/OTA/2003/05">
+        <soapenv:Header/>
+        <soapenv:Body>
+        <ns:OTA_CancelRQ CancelType="Cancel" Version="1.0">
+        <ns:POS>
+        <ns:Source>
+        <ns:RequestorID ID="1000000002"  MessagePassword="test@123">
+        <ns:CompanyName Code="testsell"/>
+    </ns:RequestorID>
+</ns:Source>
+</ns:POS>
+<ns:UniqueID ID="DSE0007059781"/>
+<ns:Verification>
+<ns:PersonName>
+<ns:Surname>t</ns:Surname>
+</ns:PersonName>
+<ns:Email>shiji@travelpd.com</ns:Email>
+</ns:Verification>
+<ns:TPA_Extensions>
+<ns:CancelDates></ns:CancelDates>
+</ns:TPA_Extensions>
+</ns:OTA_CancelRQ>
+</soapenv:Body>
+</soapenv:Envelope> 

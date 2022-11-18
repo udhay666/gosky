@@ -1,0 +1,100 @@
+.flight-details-container {
+    margin-top: 97px;
+    background: #e5e2e2;
+    padding-top: 6px;
+}
+.itinerary-container {
+    margin-bottom: 20px;
+}
+.bdTitle2 {
+    padding: 10px 0 5px;
+    color: #253035;
+    font-size: 16px;
+    border-bottom: 3px solid #666;
+}
+.flight-details-container .shadow-box.white-container {
+    margin-top: 0;
+}
+.flight-details-container .form_wizard {
+    margin-bottom: 25px;
+    border-top: 1px solid #3b454a;
+    margin-top: 0;
+    /*background: transparent;
+    padding: 25px 0 10px 0;*/
+}
+.itinerary-label {
+    padding: 6px;
+    background: #e5e2e2;
+    font-size: 10px;
+    position: relative;
+    /* top: 5px; */
+    /* left: 5px; */
+    font-weight: 700;
+    display: inline-block;
+    color: #777;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.itinerary-label img{
+    vertical-align: middle;
+}
+.flight-details-container .airlinelogo {
+    position: relative;
+    top: 12px;   
+}
+.flight-details-container .flt-dur-cntr .layover {
+    width: inherit;
+    left: 0;
+    right: 0;
+    top: -29px;
+    font-size: 11px;
+    color: #777;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.flight-details-container .flt-dur-cntr .layover > span {
+    padding: 0 10px;
+    background: #e5e2e2;
+}
+.border-line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+    clear: both;
+}
+.txt-info {
+    color: #999;
+    font-size: 11px;
+}
+.form-label {
+    position: relative;
+    top: 8px;
+    font-size: 14px;
+}
+.flight-details-container .fare-breakup {
+    margin: 0;
+    padding: 0;
+    border-left: 0;
+}
+.passport-link {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.form-label label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 768px){
+    .padd-l0-r5{padding-left: 0;padding-right: 5px}
+    .padd-l5-r0{padding-left: 5px;padding-right: 0}
+    .padd-l-r0{padding-left: 0;padding-right: 0}
+    .padd-l0{padding-left: 0}
+    .padd-l5{padding-left: 5px}
+    .padd-r0{padding-right: 0}
+    .padd-r5{padding-right: 5px}
+    .padd-l5-r5 {
+        padding: 0 5px;
+    }
+}

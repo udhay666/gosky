@@ -1,0 +1,20 @@
+{
+            "CheckInDate": "08/09/2021",
+            "NoOfNights": 1,
+            "CountryCode": "IN",
+            "CityId":144306,
+            "ResultCount": null,
+            "PreferredCurrency": "INR",
+            "GuestNationality": "IN",
+            "NoOfRooms": 1,
+            "RoomGuests":[{
+                "NoOfAdults": 1,
+                "NoOfChild": 0,"ChildAge":""}],
+            "PreferredHotel": "",
+            "MaxRating": 5,
+            "MinRating": 1,
+            "ReviewScore":null,
+            "IsNearBySearchAllowed":false,
+            "EndUserIp":"49.50.68.247",
+            "TokenId":"bbd8657d-36c2-43e0-a4b8-a4aafdf50e55"
+        }
