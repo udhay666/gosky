@@ -118,27 +118,50 @@ class Home_Model extends CI_Model {
             $records = $this->db->get('airport_list')->result();
 
             if(!empty($records)){
-            foreach($records as $row){
-                $airport_city = $row->airport_city;
-                $airport_name = $row->airport_name;
-                $airport_code = $row->airport_code;
-                $airport_country = $row->airport_country;
-                $response[] = array(
-                    "value" => $airport_city .', '.$airport_country .' ('.$airport_code.')',
-                    "label" => $airport_city .', '.$airport_country .' ('.$airport_code.')',
-                    'id' => $airport_code,
-                    'category' => ''
-                    
-                );
+                foreach($records as $row){
+                    $airport_city = $row->airport_city;
+                    $airport_name = $row->airport_name;
+                    $airport_code = $row->airport_code;
+                    $airport_country = $row->airport_country;
+                    $response[] = array(
+                        "value" => $airport_city .', '.$airport_country .' ('.$airport_code.')',
+                        "label" => $airport_city .', '.$airport_country .' ('.$airport_code.')',
+                        'id' => $airport_code,
+                        'category' => ''
+                        
+                    );
+                }
+            }else {
+                $this->db->select('*');
+                $this->db->where('airport_city like "%'.$postData['search'].'%" ');
+                $this->db->limit(20);
+                $this->db->order_by('airport_city');
+                $records2 = $this->db->get('airport_list')->result();
+
+                if (!empty($records2)) {
+                    foreach ($records2 as $row) {
+                        $airport_city = $row->airport_city;
+                        $airport_name = $row->airport_name;
+                        $airport_code = $row->airport_code;
+                        $airport_country = $row->airport_country;
+                        $response[] = array(
+                            "value" => $airport_city . ', ' . $airport_country . ' (' . $airport_code . ')',
+                            "label" => $airport_city . ', ' . $airport_country . ' (' . $airport_code . ')',
+                            'id' => $airport_code,
+                            'category' => ''
+
+                        );
+                    }
+                }else{
+
+                    $response[] = array(
+                        'label' => "No Results Found",
+                        'value' => "",
+                        'id' => "",
+                        'category' => "",
+                    );
+                }
             }
-        }else {
-            $response[] = array(
-                'label' => "No Results Found",
-                'value' => "",
-                'id' => "",
-                'category' => "",
-            );
-        }
         }
 
         return $response;

@@ -153,6 +153,7 @@ class Home extends MX_Controller {
         $postData = $this->input->post();
 
         $data = $this->Home_Model->getAirportlist($postData);
+               
 
         echo json_encode($data);
     }

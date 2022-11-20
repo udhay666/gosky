@@ -211,7 +211,7 @@ class Flights extends MX_Controller {
             );
            
   // echo '<pre>';print_r($sess_array);exit;
-        //  $this->session->set_userdata('flight_search_data', $sess_array);
+         $this->session->set_userdata('flight_search_data', $sess_array);
   
           $api_info = $this->Flights_Model->getActiveAPIs();
           // echo '<pre/>';print_r($api_info);exit;

@@ -8,13 +8,15 @@ modify_show.addEventListener('click',()=>{
 })
 
 // flight details
-const Flight_details=document.getElementById('Flight_details');
+function openFlightDetails(evt, flightDetailsId) {
+  const Flight_details = document.getElementById('Flight_details' + flightDetailsId);
 
-const Flight_details_Desc=document.getElementById('Flight_details_Desc');
+  const Flight_details_Desc = document.getElementById('Flight_details_Desc' + flightDetailsId);
 
-Flight_details.addEventListener('click',()=>{
+  Flight_details.addEventListener('click', () => {
     Flight_details_Desc.classList.toggle('show');
-})
+  })
+}
 
 
 

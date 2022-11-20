@@ -41,7 +41,7 @@ class Tbo_Model extends CI_Model {
          $this->db->select('operating_airlinecode,operating_airlinename,operating_flightno,operating_airportname_o,
             operating_airportname_d,operating_deptime,operating_arritime,operating_cityname_o,operating_cityname_d,
             operating_terminal_o,nonrefundable,operating_fareclass,operating_terminal_d,isdomestic,duration,origin,stops,stops2,destination,search_id,segmentkey,basefare,
-            tax,total_amount,session_id,uniquerefno,net_amount,currency,faretype,admin_markup,agent_markup,payment_charge,tripindicator,seats,baggageinformation,roundtrip,segment_indicator');
+            tax,total_amount,session_id,uniquerefno,net_amount,currency,faretype,admin_markup,agent_markup,payment_charge,tripindicator,seats,baggageinformation,roundtrip,segment_indicator,searcharray');
        // $this->db->from('tbo_flight_search_result');
         $this->db->from('flight_search_result');
         $this->db->where('session_id', $ses_id);

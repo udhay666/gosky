@@ -1,4 +1,5 @@
-$(document).ready(function() {
+$(document).ready(function () {
+    
 var site_url = $('#siteUrl').val();
     var successHandler = function (data) {
         //alert('dsafdf');		
@@ -106,6 +107,7 @@ var site_url = $('#siteUrl').val();
 
     var searcharray = $('#searcharray').val();
     var l = api_array.length;
+    
     // var siteUrl = "<?php print site_url(); ?>";
     $i = 0;
     search_availability($i);
@@ -114,32 +116,32 @@ var site_url = $('#siteUrl').val();
 
     function search_availability($a) {
         // alert(api_array[$a]);
-        /*for (var i = 0, l = api_array.length; i < l; i++) 
-            {*/
-        $.ajax({
-            url: site_url+'flights/flights_availabilty',
-            data: 'callBackId=' + api_array[$a] + '&searcharray=' + searcharray,
-            dataType: 'json',
-            type: 'POST',
-            success: function(data) {
-               var sess = $('#sessionId').val(data.session_id);
-               $.ajax({
-                url: site_url+'flights/fetch_results', 
-                data: 'searcharray='+searcharray,                          
-                dataType: 'json',               
-                type: 'POST', 
-                beforeSend: function () {
-                    // $(".loading-content").css("display","none");                    
-                },                         
-                success:  successHandler
-            });
+        // for (var i = 0, l = api_array.length; i < l; i++) {
+            $.ajax({
+                url: site_url + 'flights/flights_availabilty',
+                data: 'callBackId=' + api_array[$a] + '&searcharray=' + searcharray,
+                dataType: 'json',
+                type: 'POST',
+                success: function (data) {
+                    var sess = $('#sessionId').val(data.session_id);
+                    $.ajax({
+                        url: site_url + 'flights/fetch_results',
+                        data: 'searcharray=' + searcharray,
+                        dataType: 'json',
+                        type: 'POST',
+                        beforeSend: function () {
+                            // $(".loading-content").css("display","none");                    
+                        },
+                        success: successHandler
+                    });
 
-            },
-            error: function(data) {
-                //load_search_results();
-                console.log('456');
-            }
-        });
+                },
+                error: function (data) {
+                    //load_search_results();
+                    console.log('456');
+                }
+            });
+        // }
     }
 
     
