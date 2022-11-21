@@ -65,7 +65,7 @@
         $session_data = $this->session->userdata('flight_search_data');
         $fromCity_arr = explode(',', $session_data['fromCity']);
         $toCity_arr = explode(',', $session_data['toCity']);
-        
+
         $searcharray = unserialize($result[$i]->searcharray);
         $cabinClass = $searcharray['class'];
         switch ($cabinClass) {
@@ -78,7 +78,7 @@
             case '3':
                 $cabinClass = "Business";
                 break;
-            
+
             default:
                 # code...
                 break;
@@ -159,10 +159,10 @@
                                 <li class="seat_fx">
                                     <div>
                                         <?php echo $arrtime[1]; ?>
-                                        <span><?php echo end($operating_airportname_d);  ?></span>
+                                        <span><?php echo end($operating_cityname_d);  ?></span>
                                     </div>
                                     <div class="seat_left_fx">
-                                        <span><i class="fas fa-ski-lift"></i></span>
+                                        <span><img src="<?=base_url();?>assets_gosky/images/seat_airline.png" style="width:20px;"></span>
                                         <span><?= $Seats ?> left</span>
                                     </div>
                                 </li>
@@ -181,14 +181,15 @@
                     <div class="price_btn_fx">
                         <h4 class="price">₹ <?php echo round($total_amount); ?></h4>
                         <span class="btn_det_fx">
-                            <button class="btn-sm  btn_font">Book Now</button>
+                            <?php $urlstring = base64_encode('tbo/' . $search_id . '/' . $segmentkey); ?>
+                            <a href="<?= site_url() .'flights/itinerary/'.$urlstring?>" target="_blank" class="btn-sm  btn_font">Book Now</a>
 
-                            <a class="flt_det_font" onclick="openFlightDetails(event, '<?= $i ?>')" id="Flight_details<?=$i?>"> +flight Details</a>
+                            <a class="flt_det_font" onclick="openFlightDetails(event, '<?= $i ?>')" id="Flight_details<?= $i ?>"> + Flight Details</a>
                         </span>
                     </div>
                 </div>
                 <!-- fare details start -->
-                <div class="row" id="Flight_details_Desc<?=$i?>" style="display: none;">
+                <div class="row" id="Flight_details_Desc<?= $i ?>" style="display: none;">
                     <div class="row">
                         <div class="tab">
                             <button class="tablinks active" onclick="openCity(event, 'flightd<?= $i ?>')">Fligh Details</button>
@@ -241,7 +242,7 @@
                                             <small><i class="fa fa-clock"></i>Layover</small>
                                             <p><?php echo $this->Tbo_Model->journeyDuration(str_replace("T", " ", $operating_arritime[$j]), str_replace("T", " ", $operating_deptime[$j + 1])) . ' ' . 'in ' . $operating_cityname_o[1]; ?></p>
                                         </div>
-                                                                        <?php }
+                                <?php }
                                 } ?>
                             </div>
                         </div>

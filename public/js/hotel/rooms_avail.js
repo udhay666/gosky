@@ -1,5 +1,6 @@
 $(document).ready(function()
  {	
+    var siteUrl = $("#siteUrl").val();
 	$.ajax({
         type: 'POST',
         url: siteUrl+'hotels/rooms_availability',

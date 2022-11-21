@@ -91,31 +91,30 @@ if (!empty($room_dyn_details)) {
       }
       // $cancellation_policy_new = str_replace("b2b","" ,$cancel_policy);
       $showRoom .= '<section class="room-type-wrap">
-      <header class="room-heading">        
-      <h4 class="title" style="list-style-type: none;">'.$room_list.'</h4>
-      </header>
+      
       <div class="row no-gutter"> 
       <section class="col-md-12">  
       <article class="item-room">
-      <div class="row-sm"> 
+      <div class="row"> 
       <div class="col-md-6 col-sm-12">
-      <h4 class="title" style="list-style-type: none;">'.$room_list.'</h4>
+      <h4 class="title" style="list-style-type: none;">'.$room_list. '</h4>
       <p class="text-muted"> <i class="fa fa-users"></i> 1 Rooms, 2 Adults, 0 Children</p>
-      <ul class="row-sm"></ul></div>
+      <ul class="row"></ul></div>
       <div class="col-md-6 col-sm-12">
-      <div class="row-sm">
-      <div class="col-xs-6 room-deal-wrap">
+      <div class="row">
+      <div class="col-md-6 room-deal-wrap">
       <div>                                    
-      <span data-toggle="popover" title="" class="htmltooltip text-muted" data-original-title="Cancellation Policy"><i class="fa fa-info-circle"></i> Non Refundable</span>
-      <popover class="popper-content hide">
+      <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="' . str_replace('#!#,', '<br>', $cancel_policy) . '"><i class="fa fa-info-circle"></i> Non Refundable</span>
+      <popover class="popper-content hide" style="display:none;">
       <div class="htmltooltip-content small">                                    
-      '.str_replace('#!#,','<br>',$cancel_policy).'
+      '.str_replace('#!#,','<br>',$cancel_policy). '
       </div> <!-- col.// -->
       <small>(Date and time is calculated based on local time of destination.)</small>
       </div>
       </popover>                                             
       </div> 
-      <div class="col-xs-6 room-select-wrap">
+      <div class="col-md-6 room-select-wrap">
+      <span style="font-size: 12px;">Price for 1 Night(s)</span>
       <var class="price">
       <span class="currency">'.$room_dyn_details[0]->currency.'</span>&nbsp;'.number_format($room_total_cost).'</var>  
       <form action="' . site_url() . 'hotels/itinerary" method="post">
@@ -127,7 +126,7 @@ if (!empty($room_dyn_details)) {
       <input type="hidden" name="combo_type" value="0">';
 
       
-      $showRoom .= '<button class="btn btn-warning uppercase"> BOOK NOW <i class="mdi mdi-chevron-double-right"></i></button></div>';
+      $showRoom .= '<button class="btn uppercase" style="background:#d32f2f !important;color: white;"> BOOK NOW <i class="mdi mdi-chevron-double-right"></i></button></div>';
 
      
       // $im++;

@@ -30,7 +30,7 @@
     <header class="bg_color header_padding">
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container nav_display">
-                <a class="navbar-brand" href="<?=base_url()?>">Gosky-Logo</a>
+                <a class="navbar-brand" href="<?= base_url() ?>">Gosky-Logo</a>
                 <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -613,98 +613,102 @@
                                 <p class="bookPara res_font text-center">
                                     Book Domestic and International hotels Online.
                                 </p>
+                                <form action="<?php echo site_url(); ?>hotels/results" autocomplete="on" role="form" method="POST">
+                                    <div class="container tab-pane in active" id="one-way">
+                                        <div class="row one-way-info">
+                                            <div class="col-md-6 col-lg-3 border_rt">
+                                                <div class="form-group ">
+                                                    <label class="from_form"><span>ENTER YOUR DESTINATION OR PROPERTY</span></label>
+                                                    <div class="location_icon">
 
-                                <div class="container tab-pane in active" id="one-way">
-                                    <div class="row one-way-info">
-                                        <div class="col-md-6 col-lg-3 border_rt">
-                                            <div class="form-group ">
-                                                <label class="from_form"><span>ENTER YOUR DESTINATION OR PROPERTY</span></label>
-                                                <div class="location_icon">
-
-                                                    <div class="dropdown drp_class">
-                                                        <input type="text" placeholder="Delhi" type="button" class="form_input" readonly />
-                                                    </div>
-                                                    <span class="location_span_icon"><i class="fa-solid fa-location-crosshairs"></i></span>
-
-                                                </div>
-                                                <p class="form_P"> Delhi Airport India</p>
-                                            </div>
-                                        </div>
-
-
-
-                                        <div class="col-md-6 col-lg-3 border_rt">
-                                            <div class="form-group">
-                                                <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span>
-                                                        Check-in</span></label>
-                                                <input type="text" class="datepicker form_date" id="datepicker" autocomplete="off" placeholder="08-17-2022" readonly>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 col-lg-3 border_rt">
-                                            <div class="form-group">
-                                                <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span>
-                                                        Check-out</span></label>
-                                                <input type="text" class="datepicker form_date" id="datepicker" autocomplete="off" placeholder="09-17-2022" readonly>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 border_rt res_traveller">
-                                            <div class="form-group" id="searchBoxOpenHT" aria-expanded="false" data-bs-offset="-20,20">
-                                                <label class="from_form"><span>Traveller & class</span></label>
-                                                <div class="traveller_count_div">
-                                                    <span id="traveller_count" class="traveller_count">1</span>&nbsp;
-                                                    <span id="traveller_txt" class="traveller_txt"> Room</span>
-                                                    <span id="traveller_count" class="traveller_count">1</span>
-                                                    <span id="traveller_txt" class="traveller_txt"> Guest</span>
-                                                </div>
-                                                </span>
-                                            </div>
-                                            <div class="selector-box-flight dropdown-menu ht_selectorbox" id="searchboxHTDesc" aria-labelledby="dropdownMenuOffset">
-                                                <div class="room-cls">
-                                                    <div class="qty-box">
-                                                        <label>adult</label>
-                                                        <div class="input-group">
-                                                            <button type="button" class="btn quantity-left-minus  shadow-none" data-type="minus" data-field="">
-                                                                - </button>
-                                                            <input type="text" name="quantity" class="form-control qty-input input-number" value="1">
-                                                            <button type="button" class="btn quantity-right-plus  shadow-none" data-type="plus" data-field="">+</button>
+                                                        <div class="dropdown drp_class">
+                                                            <input type="text" name="cityName" placeholder="Delhi" class="form_input" />
+                                                            <input id="target_search" name="target_search" type="hidden" value="">
+                                                            <input type="hidden" name="cityid" class="cityid" id="hotelcityid">
                                                         </div>
+                                                        <span class="location_span_icon"><i class="fa-solid fa-location-crosshairs"></i></span>
+
                                                     </div>
-                                                    <div class="qty-box ht_child_fx">
-                                                        <label class="ht_child_fx">children <span class="ht_child">(2 - 12 Years)</span>
-                                                        </label>
-                                                        <div class="input-group">
-                                                            <button type="button" class="btn quantity-left-minus shadow-none" data-type="minus" data-field="">
-                                                                - </button>
-                                                            <input type="text" name="quantity" class="form-control qty-input input-number" value="1">
-                                                            <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">
-                                                                + </button>
+                                                    <p class="form_P"> Delhi Airport India</p>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="col-md-6 col-lg-3 border_rt">
+                                                <div class="form-group">
+                                                    <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span>
+                                                            Check-in</span></label>
+                                                    <input type="text" name="check_in" class="datepicker form_date" autocomplete="off" placeholder="08-17-2022">
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-lg-3 border_rt">
+                                                <div class="form-group">
+                                                    <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span>
+                                                            Check-out</span></label>
+                                                    <input type="text" name="check_out" class="datepicker form_date" autocomplete="off" placeholder="09-17-2022">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 border_rt res_traveller">
+                                                <div class="form-group" id="searchBoxOpenHT" aria-expanded="false" data-bs-offset="-20,20">
+                                                    <label class="from_form"><span>Traveller & Class</span></label>
+                                                    <div class="traveller_count_div">
+                                                        <span id="traveller_count" class="traveller_count">1</span>&nbsp;
+                                                        <span id="traveller_txt" class="traveller_txt"> Room</span>
+                                                        <span id="traveller_count" class="traveller_count">1</span>
+                                                        <span id="traveller_txt" class="traveller_txt"> Guest</span>
+                                                    </div>
+                                                    </span>
+                                                </div>
+                                                <div class="selector-box-flight dropdown-menu ht_selectorbox" id="searchboxHTDesc" aria-labelledby="dropdownMenuOffset">
+                                                    <div class="room-cls">
+                                                        <div class="qty-box">
+                                                            <label>Adult</label>
+                                                            <div class="input-group">
+                                                                <button type="button" class="btn quantity-left-minus  shadow-none" data-type="minus" data-field="">
+                                                                    - </button>
+                                                                <input type="text" name="adults1" class="form-control qty-input input-number" value="1">
+                                                                <button type="button" class="btn quantity-right-plus  shadow-none" data-type="plus" data-field="">+</button>
+                                                            </div>
                                                         </div>
+                                                        <div class="qty-box ht_child_fx">
+                                                            <label class="ht_child_fx">Children <span class="ht_child">(2 - 12 Years)</span>
+                                                            </label>
+                                                            <div class="input-group">
+                                                                <button type="button" class="btn quantity-left-minus shadow-none" data-type="minus" data-field="">
+                                                                    - </button>
+                                                                <input type="text" name="childs1" class="form-control qty-input input-number" value="0">
+                                                                <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">
+                                                                    + </button>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
 
+                                                    <div class="bottom-part p-3 apply_btn_ht">
+                                                        <input type="hidden" name="room_count" id="room_count" value="1">
+                                                        <span class="ht_Add_btn"> + Add Another Room</span>
+                                                        <button class="btn apply_btn">Apply</button>
+                                                    </div>
                                                 </div>
+                                            </div>
 
-                                                <div class="bottom-part p-3 apply_btn_ht">
-                                                    <span class="ht_Add_btn"> + Add Another Room</span>
-                                                    <a href="#" class="btn apply_btn">apply</a>
+
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col text-center mt-4 ">
+
+                                                <div class="search-btn">
+                                                    <button type="submit">Search</button>
                                                 </div>
                                             </div>
                                         </div>
-
-
                                     </div>
-
-                                    <div class="row">
-                                        <div class="col text-center mt-4 ">
-
-                                            <div class="search-btn">
-                                                <button>Search</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                </form>
 
                             </div>
                         </div>
@@ -1498,8 +1502,9 @@
     <script>
         $(function() {
             $(".datepicker").datepicker({
-                minDate: -20,
-                maxDate: "+1M +10D"
+                dateFormat: 'dd-mm-yy',
+                minDate: 'today'
+
             });
         });
     </script>

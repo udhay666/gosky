@@ -48,40 +48,7 @@ class Hotels extends MX_Controller {
 
 		   $adults_count = $this->input->post('adults1');
 		   $childs_count = $this->input->post('childs1');
-		// mycommand start
-		   //    $adults_arr = $this->input->post('adults1');
-		//    $childs_arr = $this->input->post('childs1');
-		//    $adultList = array_slice($this->input->post('adults'), 0, $this->input->post('room_count'));
-		//    $childList = array_slice($this->input->post('childs'), 0, $this->input->post('room_count'));
-		//    $adults = $adultList;
-		//    $childs = $childList;
-		   
-		//    $adults_count = array_sum($adultList);
-		//    $childs_count = array_sum($childList);
-		//    $check_child_age = array_sum($childList);
 		
-		//    $ages = array();
-		//    if ($check_child_age >= 1) {
-		// 	   for ($r = 0; $r < $room_count; $r++) {
-		// 		   $childNo = $childs[$r];
-		// 		   $childs_ages_arr = $this->input->post('child_age1_' . ($r + 1));
-
-		// 		   $ages_arr = array();
-		// 		   for ($l = 0; $l < $childNo; $l++) {
-		// 			   if ($childs_ages_arr) {
-		// 				   $ages_arr[$l] = $childs_ages_arr[$l];
-		// 			   } else {
-		// 				   $ages_arr[$l] = '';
-		// 			   }
-		// 		   }
-		// 		   if (!empty($ages_arr))
-		// 			   $ages[] = implode(',', $ages_arr);
-		// 		   else
-		// 			   $ages[] = 0;
-		// 	   }
-		//    }
-		//    $childs_ages = $ages;
-		// mycommand end
 		//    echo '<pre/>';print_r($childs_ages);exit;
 		   if (!empty($cityName)) {
 			   $session_data = $this->session->userdata('hotel_search_data');

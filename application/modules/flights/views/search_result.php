@@ -78,7 +78,7 @@ $returnDate = $return_date;
                                             </div>
                                             <div class="form-group stop_btn">
                                                 <label class="btn btn-default">
-                                                    <input type="checkbox" class="Stop d-none" value="1" checked="checked"> 1 +
+                                                    <input type="checkbox" class="Stop d-none" value="2" checked="checked"> 1 +
                                                 </label>
                                             </div>
 
@@ -98,6 +98,10 @@ $returnDate = $return_date;
                                         <label class="btn btn-default">
                                             <input class="faretype" type="checkbox" value="1" checked="checked">
                                             Refundable
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input class="faretype" type="checkbox" value="0" checked="checked">
+                                            Non-Refundable
                                         </label>
                                         <!-- </div> -->
                                     </div> <!-- panel-body// -->
@@ -133,10 +137,7 @@ $returnDate = $return_date;
                                     </header> <!-- panel-heading// -->
                                     <div class="panel-body">
                                         <ul class="depature-list">
-                                            <!-- <li class="active"><a ><i class="fa fa-sunset"></i><span>Before<br> 6 AM</span></a></li>
-                        <li><a ><i class="fa fa-sun-cloud"></i><span>6 AM - <br> 12 PM</span></a></li>
-                        <li><a ><i class="fa fa-sun-haze"></i><span>12 PM -<br> 6 PM</span></a></li>
-                        <li><a ><i class="fa fa-moon"></i><span>After<br> 6 PM</span></a></li> -->
+                                            
                                             <li class="active">
                                                 <label><input class="ArrivTime d-none" type="checkbox" value="0-6" checked="checked">
                                                     <i class="fa fa-sunset"></i><span>Before<br> 6 AM</span></label>
@@ -236,7 +237,7 @@ $returnDate = $return_date;
                     </div>
                     <?php if ($tripType == 'oneway') { ?>
                         <div class="flights" id="flightsresults">
-                            
+
                         </div>
                     <?php } ?>
 

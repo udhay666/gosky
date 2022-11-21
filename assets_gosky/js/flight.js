@@ -13,9 +13,8 @@ function openFlightDetails(evt, flightDetailsId) {
 
   const Flight_details_Desc = document.getElementById('Flight_details_Desc' + flightDetailsId);
 
-  Flight_details.addEventListener('click', () => {
-    Flight_details_Desc.classList.toggle('show');
-  })
+      Flight_details_Desc.classList.toggle('show');
+  
 }
 
 
