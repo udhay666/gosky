@@ -1,144 +1,156 @@
-
-
-@media only screen and (max-width:1024px){
-    ul.search_tab_ul{
-        margin-left: 200px;
-    }
-    .modify{
-        font-size: 16px;
-
-    }
-    div#filterBtn,.res_bc {
-        display: none;
-    }
-
+@media only screen and (max-width: 1024px) {
+  ul.search_tab_ul {
+    margin-left: 200px;
+  }
+  .modify {
+    font-size: 16px;
+  }
+  div#filterBtn,
+  .res_bc {
+    display: none;
+  }
 }
-@media only screen and (max-width:768px){
-    .bg_color {
-        background-color: #002543 !important;
-        height: 100%;
-      }
-    #filterBtn_show{
-        display: none;
-    }
+@media only screen and (max-width: 768px) {
+  .bg_color {
+    background-color: #002543 !important;
+    height: 100%;
+  }
+  #filterBtn_show {
+    display: none;
+  }
 
-    .res_d_none{
-        display: none;
-    }
-    div#filterBtn,.res_bc {
-        display: block;
-    }
-    .slider_range .slider {
-        width: 50%;}
-        .filter_border {
-            box-shadow: 0 3px 9px 0 rgb(0 0 0 / 40%);
-            margin-bottom: 40px;
-        }
-        .modify {
-            font-size: 13px;
-            padding: 0px;
-        }
-        .selector-box-flight.dropdown-menu.show {
-            width: 40%;
-            padding: 10px;
-            background-color: white !important;
-        }
-  
+  .res_d_none {
+    display: none;
+  }
+  div#filterBtn,
+  .res_bc {
+    display: block;
+  }
+  .slider_range .slider {
+    width: 50%;
+  }
+  .filter_border {
+    box-shadow: 0 3px 9px 0 rgb(0 0 0 / 40%);
+    margin-bottom: 40px;
+  }
+  .modify {
+    font-size: 13px;
+    padding: 0px;
+  }
+  .selector-box-flight.dropdown-menu.show {
+    width: 40%;
+    padding: 10px;
+    background-color: white !important;
+  }
 }
 
-@media only screen and (max-width:576px){
-    .logofx,.flight-list-item-btm ul{
-        justify-content: center;
-    }
-    .price_btn_fx{
-        justify-content: space-around;
-    }
-    .res_margin{
-        margin-top: 20px;
-    }
-    .res_Modify_gap{
-        gap: 20px;
-    }
-    .res_md_btn {
-        margin-top: 15px;
-    }
-    .row.md_align {
-        align-items: center;
-    }
-    .modify {
-        font-size: 14px;
-        padding: 8px;
-    }
-    .border_rt {
-        border-right: unset;
-        border-bottom: 1px solid lightgray;
-    }
-    .border_sec {
-      
-        padding: 20px;
-    }
-    .flightchange {
-        flex-direction: column;
-        width: 100%;
-    }
-    .flight1, .flight2 {
-        width: 100%;
-    }
-    .fc_layover {
-        text-align: center;
-    }
-    .form_date {
-        font-size: 20px;
-    }
-    /* hotel  */
-    .selector-box-flight.dropdown-menu.show {
-        width: 70%;
-        padding: 10px;
-        background-color: white !important;
-    }
-    #navbar{
-        display: none;
-    }
-    .ht_nav_ul li a{
-        font-size: 13px;
-    }
-    .ht_img_bg {
-        padding: 20px 20px;
-    
-        height: unset;
-    }
-    .ht {
-        height: unset;
-    }
-    .ht2 {
-        height: 300px;
-        padding-bottom: 11px;
-    }
-    .ht_nav_ul{
-        top: -3%;
-    }
-    .ht_name_fx_g{
-        margin-top: 15px;
-        padding-top: 20px;
-    }
-    .ht_name_span {
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .amn_p_fx {
-        margin: 9px 0;
-        font-size: 14px;
-    }
-    .ht_price_btnfx {
-        flex-direction: row;
-        margin-top: 25px;
-    }
-    .ht_name_fx_amnts .amnities {
-        font-size: 12px;
-        gap: 5px;
-    }
-    .amn_h3 {
-        margin: 0 0 10px;
-    }
-  
+@media only screen and (max-width: 576px) {
+  .logofx,
+  .flight-list-item-btm ul {
+    justify-content: center;
+  }
+  .price_btn_fx {
+    justify-content: space-around;
+  }
+  .res_margin {
+    margin-top: 20px;
+  }
+  .res_Modify_gap {
+    gap: 20px;
+  }
+  .res_md_btn {
+    margin-top: 15px;
+  }
+  .row.md_align {
+    align-items: center;
+  }
+  .modify {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .border_rt {
+    border-right: unset;
+    border-bottom: 1px solid lightgray;
+  }
+  .border_sec {
+    padding: 20px;
+  }
+  .flightchange {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flight1,
+  .flight2 {
+    width: 100%;
+  }
+  .fc_layover {
+    text-align: center;
+  }
+  .form_date {
+    font-size: 20px;
+  }
+  .flight1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .airport-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-right: 0px solid lightgray;
+    padding-right: 0px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  /* hotel  */
+  .selector-box-flight.dropdown-menu.show {
+    width: 70%;
+    padding: 10px;
+    background-color: white !important;
+  }
+  #navbar {
+    display: none;
+  }
+  .ht_nav_ul li a {
+    font-size: 13px;
+  }
+  .ht_img_bg {
+    padding: 20px 20px;
+
+    height: unset;
+  }
+  .ht {
+    height: unset;
+  }
+  .ht2 {
+    height: 300px;
+    padding-bottom: 11px;
+  }
+  .ht_nav_ul {
+    top: -3%;
+  }
+  .ht_name_fx_g {
+    margin-top: 15px;
+    padding-top: 20px;
+  }
+  .ht_name_span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .amn_p_fx {
+    margin: 9px 0;
+    font-size: 14px;
+  }
+  .ht_price_btnfx {
+    flex-direction: row !important;
+    margin-top: 25px;
+  }
+  .ht_name_fx_amnts .amnities {
+    font-size: 12px;
+    gap: 5px;
+  }
+  .amn_h3 {
+    margin: 0 0 10px;
+  }
 }

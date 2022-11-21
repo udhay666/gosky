@@ -210,7 +210,7 @@ i.fa-solid.fa-plane-up.rotate_icon {
 }
 
 /* search card */
-.row.border_card {
+.border_card {
   border: 1px solid lightgrey;
   padding: 10px 0;
 }

@@ -40,7 +40,7 @@
     $nonrefundable = $flight_result->nonrefundable;
     $baggageinformation = $flight_result->baggageinformation;
     $CabinBaggage = $flight_result->CabinBaggage;
-    if ($flight_result->triptype == 'R' && $flight_result->isdomestic == 'true') {
+    if ($flight_result->triptype == 'round' && $flight_result->isdomestic == 'true') {
         $baser = $flight_result_r->basefare;
         // $taxr = $flight_result_r->tax+$flight_result_r->admin_markup+$flight_result_r->agent_markup+$flight_result_r->payment_charge;
         $taxr = $flight_result_r->tax + $flight_result_r->admin_markup + $flight_result_r->agent_markup;
@@ -501,7 +501,7 @@
                                                    </div>
                                                    <div>
                                                        <span class="fontSize14 blackFont"><?php echo $operating_cityname_d[$s];  ?> </span>
-                                                       <span class="fontSize14">. <?php echo $operating_airportname_d[$s]; ?>,
+                                                       <span class="fontSize14"><?php echo $operating_airportname_d[$s]; ?>,
                                                            Terminal <?= $operating_terminal_d[$s]; ?></span>
                                                    </div>
                                                </div>
@@ -604,7 +604,7 @@
                                             ?>
                                            <div class="makeFlex">
                                                <div class="makeFlex hrtlCenter">
-                                                   <span class="fontSize14"> &gt;
+                                                   <span class="fontSize14"> 
                                                        <font color="#249995"><b style="text-transform: uppercase;"><?= $classtype; ?></b></font>
                                                    </span>
                                                    <span class="bgProperties icon16 appendLeft5 appendTop2" style="background-image: url(./images/flight-booking/traveller-info.1aa44be7.png);">
@@ -1383,104 +1383,108 @@
                    </div>
                    </div>
                </div>
-           </div>
+</div>
+   
 
-           <!--  -->
+               <!--  -->
 
-           <div class="col-md-12 col-lg-4">
-               <div class="makeRelative">
-                   <div class="prcBreakup appendBottom30" style="background-repeat-x: no-repeat;">
-                       <div class="prcBreakup__hdr">PRICE BREAK-UP</div>
-                       <div class="prcBreakup__cont">
-                           <div class="prcBreakup__row">
-                               <div class="makeFlex flexOne spaceBetween">
-                                   <div class="prcBreakup__lft">
-                                       <p class="latoBold blackText makeFlex">
-                                           <span>Base Price</span>
-                                       </p>
-                                   </div>
-                                   <div class="prcBreakup__rht">
-                                       <p class="latoBold">₹ <?php echo number_format(round($basefare)); ?></p>
+               <div class="col-md-12 col-lg-4">
+                   <div class="makeRelative">
+                       <div class="prcBreakup appendBottom30" style="background-repeat-x: no-repeat;">
+                           <div class="prcBreakup__hdr">PRICE BREAK-UP</div>
+                           <div class="prcBreakup__cont">
+                               <div class="prcBreakup__row">
+                                   <div class="makeFlex flexOne spaceBetween">
+                                       <div class="prcBreakup__lft">
+                                           <p class="latoBold blackText makeFlex">
+                                               <span>Base Price</span>
+                                           </p>
+                                       </div>
+                                       <div class="prcBreakup__rht">
+                                           <p class="latoBold">₹ <?php echo number_format(round($basefare)); ?></p>
+                                       </div>
                                    </div>
                                </div>
-                           </div>
-                           <div class="prcBreakup__row">
-                               <div class="makeFlex flexOne spaceBetween">
-                                   <div class="prcBreakup__lft">
-                                       <div class="latoBold blackText makeFlex hrtlCenter">
-                                           Taxes
-                                           <div class="ttlDscTooltip appendLeft5">
-                                               <span class="sprite infoIconBlue pointer"><i class="fa fa-exclamation-circle"></i></span>
-                                               <div class="ttlDiscount">
-                                                   <ul class="ttlDiscount__list">
-                                                       <li class="ttlDiscount__listItem">
-                                                           <div class="flexOne">
-                                                               <div class="makeFlex spaceBetween whiteText">
-                                                                   <p class=" ">GST</p>
-                                                                   <p class="noShrink">₹ <?php echo number_format(round($tax)); ?></p>
+                               <div class="prcBreakup__row">
+                                   <div class="makeFlex flexOne spaceBetween">
+                                       <div class="prcBreakup__lft">
+                                           <div class="latoBold blackText makeFlex hrtlCenter">
+                                               Taxes
+                                               <div class="ttlDscTooltip appendLeft5">
+                                                   <span class="sprite infoIconBlue pointer"><i class="fa fa-exclamation-circle"></i></span>
+                                                   <div class="ttlDiscount">
+                                                       <ul class="ttlDiscount__list">
+                                                           <li class="ttlDiscount__listItem">
+                                                               <div class="flexOne">
+                                                                   <div class="makeFlex spaceBetween whiteText">
+                                                                       <p class=" ">GST</p>
+                                                                       <p class="noShrink">₹ <?php echo number_format(round($tax)); ?></p>
+                                                                   </div>
                                                                </div>
-                                                           </div>
-                                                       </li>
-                                                   </ul>
+                                                           </li>
+                                                       </ul>
+                                                   </div>
                                                </div>
                                            </div>
                                        </div>
+                                       <div class="prcBreakup__rht">
+                                           <p class="latoBold">₹ <?php echo number_format(round($tax)); ?></p>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="prcBreakup__total">
+                               <div class="makeFlex flexOne spaceBetween">
+                                   <div class="prcBreakup__lft">
+                                       <p class="latoBlack blackText">Total Amount to be paid</p>
                                    </div>
                                    <div class="prcBreakup__rht">
-                                       <p class="latoBold">₹ <?php echo number_format(round($tax)); ?></p>
+                                       <p class="latoBlack redText">₹ <?php echo number_format($total_amount); ?></p>
                                    </div>
                                </div>
                            </div>
                        </div>
-                       <div class="prcBreakup__total">
-                           <div class="makeFlex flexOne spaceBetween">
-                               <div class="prcBreakup__lft">
-                                   <p class="latoBlack blackText">Total Amount to be paid</p>
-                               </div>
-                               <div class="prcBreakup__rht">
-                                   <p class="latoBlack redText">₹ <?php echo number_format($total_amount); ?></p>
+                   </div>
+                   <div class="makeRelative">
+                       <div class="dlCodes appendBottom20">
+                           <p class="latoBlack font14 capText appendBottom15 blackText">
+                               Deal Codes
+                           </p>
+                           <p class="blackText font12 appendBottom10">
+                               No coupon codes applicable for this property.
+                           </p>
+                           <div class="cpnCont">
+                               <div class="cpnInput">
+                                   <input type="text" placeholder="Have a Coupon Code" value="" /><a class="cpnInput__btn" data-testid="applyCpnBtn"><span class="sprite icWhiteArrow">
+                                           <i class="fa fa-arrow-right"></i></span></a>
                                </div>
                            </div>
                        </div>
                    </div>
-               </div>
-               <div class="makeRelative">
-                   <div class="dlCodes appendBottom20">
-                       <p class="latoBlack font14 capText appendBottom15 blackText">
-                           Deal Codes
+                   <div class="whySignIn appendBottom20">
+                       <p class="latoBlack font14 capText blackText appendBottom7">
+                           Why <a class="anchor">Sign up</a> or <a class="anchor">Login</a>
                        </p>
-                       <p class="blackText font12 appendBottom10">
-                           No coupon codes applicable for this property.
-                       </p>
-                       <div class="cpnCont">
-                           <div class="cpnInput">
-                               <input type="text" placeholder="Have a Coupon Code" value="" /><a class="cpnInput__btn" data-testid="applyCpnBtn"><span class="sprite icWhiteArrow">
-                                       <i class="fa fa-arrow-right"></i></span></a>
-                           </div>
-                       </div>
+                       <ul class="whySignIn__list">
+                           <li class="whySignIn__listItem">
+                               <span class="whySignIn__listIcon"><span class="sprite icGreenTick"></span></span><span>Get access to
+                                   <span class="latoBold blackText">Secret Deals</span></span>
+                           </li>
+                           <li class="whySignIn__listItem">
+                               <span class="whySignIn__listIcon"><span class="sprite icGreenTick"></span></span><span><span class="latoBold blackText">Book Faster</span> - we’ll
+                                   save &amp; pre-enter your details</span>
+                           </li>
+                           <li class="whySignIn__listItem">
+                               <span class="whySignIn__listIcon"><span class="sprite icGreenTick"></span></span><span><span class="latoBold blackText">Manage your bookings</span>
+                                   from one place</span>
+                           </li>
+                       </ul>
+                       <?php //if($flight_result->triptype=='round'){?>
                    </div>
-               </div>
-               <div class="whySignIn appendBottom20">
-                   <p class="latoBlack font14 capText blackText appendBottom7">
-                       Why <a class="anchor">Sign up</a> or <a class="anchor">Login</a>
-                   </p>
-                   <ul class="whySignIn__list">
-                       <li class="whySignIn__listItem">
-                           <span class="whySignIn__listIcon"><span class="sprite icGreenTick"></span></span><span>Get access to
-                               <span class="latoBold blackText">Secret Deals</span></span>
-                       </li>
-                       <li class="whySignIn__listItem">
-                           <span class="whySignIn__listIcon"><span class="sprite icGreenTick"></span></span><span><span class="latoBold blackText">Book Faster</span> - we’ll
-                               save &amp; pre-enter your details</span>
-                       </li>
-                       <li class="whySignIn__listItem">
-                           <span class="whySignIn__listIcon"><span class="sprite icGreenTick"></span></span><span><span class="latoBold blackText">Manage your bookings</span>
-                               from one place</span>
-                       </li>
-                   </ul>
-               </div>
+                   <?php //} ?>
 
-               <!-- responsive -->
+                   <!-- responsive -->
+               </div>
            </div>
        </div>
 

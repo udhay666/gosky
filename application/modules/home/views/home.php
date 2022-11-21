@@ -241,133 +241,136 @@
 
 
                                         <div class="container tab-pane" id="round">
-                                            <div class="row one-way-info">
-                                                <div class="col-md-6 col-lg-3 border_rt">
-                                                    <div class="form-group ">
-                                                        <label class="from_form"><span>From</span></label>
-                                                        <div class="location_icon">
+                                            <form method="post" action="<?php echo base_url(); ?>flights/results">
+                                                <input type="hidden" class="trip-type-hidden" id="tripType" name="tripType" value="round">
+                                                <div class="row one-way-info">
+                                                    <div class="col-md-6 col-lg-3 border_rt">
+                                                        <div class="form-group ">
+                                                            <label class="from_form"><span>From</span></label>
+                                                            <div class="location_icon">
 
-                                                            <div class="dropdown drp_class">
-                                                                <input type="text" placeholder="Delhi" type="button" class="form_input" readonly />
+                                                                <div class="dropdown drp_class">
+                                                                    <input type="text" name="fromCity" placeholder="Delhi" class="form_input" />
+                                                                </div>
+                                                                <span class="location_span_icon"><i class="fa-solid fa-location-crosshairs"></i></span>
+
                                                             </div>
-                                                            <span class="location_span_icon"><i class="fa-solid fa-location-crosshairs"></i></span>
-
+                                                            <!-- <p class="form_P">DEL, Delhi Airport India</p> -->
                                                         </div>
-                                                        <p class="form_P">DEL, Delhi Airport India</p>
                                                     </div>
-                                                </div>
 
-                                                <div class="col-md-6 col-lg-3 border_rt">
-                                                    <div class="form-group ">
-                                                        <label class="from_form"><span>To</span></label>
-                                                        <div class="location_icon">
+                                                    <div class="col-md-6 col-lg-3 border_rt">
+                                                        <div class="form-group ">
+                                                            <label class="from_form"><span>To</span></label>
+                                                            <div class="location_icon">
 
-                                                            <div class="dropdown drp_class">
-                                                                <input type="text" value="Mumbai" type="button" class="form_input" readonly />
+                                                                <div class="dropdown drp_class">
+                                                                    <input type="text" name="toCity" placeholder="Mumbai" class="form_input" />
+                                                                </div>
+                                                                <span class="location_span_icon"><i class="fa-solid fa-location-crosshairs"></i></span>
+
                                                             </div>
-                                                            <span class="location_span_icon"><i class="fa-solid fa-location-crosshairs"></i></span>
-
+                                                            <!-- <p class="form_P">BOM, Mumbai Airport India</p> -->
                                                         </div>
-                                                        <p class="form_P">BOM, Mumbai Airport India</p>
                                                     </div>
-                                                </div>
 
-                                                <div class="col-md-6 col-lg-2 border_rt">
-                                                    <div class="form-group">
-                                                        <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span> Departure</span></label>
-                                                        <input type="text" class="datepicker form_date" autocomplete="off" placeholder="08-17-2022">
-                                                        </span>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6 col-lg-2 border_rt">
-                                                    <div class="form-group">
-                                                        <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span> Return</span></label>
-                                                        <input type="text" class="datepicker form_date" autocomplete="off" placeholder="08-17-2022" readonly>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 col-lg-2 border_rt res_traveller">
-                                                    <div class="form-group" id="searchBoxOpen2" aria-expanded="false" data-bs-offset="-20,20">
-                                                        <label class="from_form"><span>Traveller & class</span></label>
-                                                        <div class="traveller_count_div">
-                                                            <span id="traveller_count" class="traveller_count">1</span>&nbsp;<span id="traveller_txt" class="traveller_txt"> Traveller</span>
-                                                            <span id="traveller_class" class="traveller_class">Economy</span>
+                                                    <div class="col-md-6 col-lg-2 border_rt">
+                                                        <div class="form-group">
+                                                            <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span> Departure</span></label>
+                                                            <input type="text" name="departDate" class="datepicker form_date" autocomplete="off" value="<?= date('d-m-Y'); ?>">
+                                                            </span>
                                                         </div>
-                                                        </span>
                                                     </div>
-                                                    <div class="selector-box-flight dropdown-menu" id="searchboxDesc2" aria-labelledby="dropdownMenuOffset">
-                                                        <div class="room-cls">
-                                                            <div class="qty-box">
-                                                                <label>adult</label>
-                                                                <div class="input-group">
-                                                                    <button type="button" class="btn quantity-left-minus  shadow-none" data-type="minus" data-field="">
-                                                                        - </button>
-                                                                    <input type="text" name="quantity" class="form-control qty-input input-number" value="1">
-                                                                    <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">+</button>
+
+                                                    <div class="col-md-6 col-lg-2 border_rt">
+                                                        <div class="form-group">
+                                                            <label class="from_form"><span><span><i class="fa-solid fa-calendar-days"></i></span> Return</span></label>
+                                                            <input type="text" name="returnDate" class="datepicker form_date" autocomplete="off" value="<?= date('d-m-Y', strtotime(' +1 day')); ?>">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 col-lg-2 border_rt res_traveller">
+                                                        <div class="form-group" id="searchBoxOpen2" aria-expanded="false" data-bs-offset="-20,20">
+                                                            <label class="from_form"><span>Traveller & class</span></label>
+                                                            <div class="traveller_count_div">
+                                                                <span id="traveller_count" class="traveller_count">1</span>&nbsp;<span id="traveller_txt" class="traveller_txt"> Traveller</span>
+                                                                <span id="traveller_class" class="traveller_class">Economy</span>
+                                                            </div>
+                                                            </span>
+                                                        </div>
+                                                        <div class="selector-box-flight dropdown-menu" id="searchboxDesc2" aria-labelledby="dropdownMenuOffset">
+                                                            <div class="room-cls">
+                                                                <div class="qty-box">
+                                                                    <label>Adult</label>
+                                                                    <div class="input-group">
+                                                                        <button type="button" class="btn quantity-left-minus  shadow-none" data-type="minus" data-field="">
+                                                                            - </button>
+                                                                        <input type="text" name="adult_count" class="form-control qty-input input-number" value="1">
+                                                                        <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">+</button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qty-box">
+                                                                    <label>Children</label>
+                                                                    <div class="input-group">
+                                                                        <button type="button" class="btn quantity-left-minus shadow-none" data-type="minus" data-field="">
+                                                                            - </button>
+                                                                        <input type="text" name="child_count" class="form-control qty-input input-number" value="0">
+                                                                        <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">
+                                                                            + </button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qty-box">
+                                                                    <label>Infants</label>
+                                                                    <div class="input-group">
+                                                                        <button type="button" class="btn quantity-left-minus shadow-none" data-type="minus" data-field="">
+                                                                            - </button>
+                                                                        <input type="text" name="infant_count" class="form-control qty-input input-number" value="0">
+                                                                        <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">
+                                                                            + </button>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="qty-box">
-                                                                <label>children</label>
-                                                                <div class="input-group">
-                                                                    <button type="button" class="btn quantity-left-minus shadow-none" data-type="minus" data-field="">
-                                                                        - </button>
-                                                                    <input type="text" name="quantity" class="form-control qty-input input-number" value="1">
-                                                                    <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">
-                                                                        + </button>
+                                                            <div class="flight-class pt-3">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input radio_animated shadow-none" type="radio" name="class" id="exampleRadios1" value="1" checked>
+                                                                    <label class="form-check-label" for="exampleRadios1">
+                                                                        Economy
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input radio_animated shadow-none" type="radio" name="class" id="exampleRadios2" value="2">
+                                                                    <label class="form-check-label" for="exampleRadios2">
+                                                                        Premium
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input radio_animated shadow-none" type="radio" name="class" id="exampleRadios3" value="3">
+                                                                    <label class="form-check-label" for="exampleRadios3">
+                                                                        Business
+                                                                    </label>
                                                                 </div>
                                                             </div>
-                                                            <div class="qty-box">
-                                                                <label>Infants</label>
-                                                                <div class="input-group">
-                                                                    <button type="button" class="btn quantity-left-minus shadow-none" data-type="minus" data-field="">
-                                                                        - </button>
-                                                                    <input type="text" name="quantity" class="form-control qty-input input-number" value="1">
-                                                                    <button type="button" class="btn quantity-right-plus shadow-none" data-type="plus" data-field="">
-                                                                        + </button>
-                                                                </div>
+                                                            <div class="bottom-part text-center p-3">
+                                                                <a href="#" class="btn apply_btn">Apply</a>
                                                             </div>
-                                                        </div>
-                                                        <div class="flight-class pt-3">
-                                                            <div class="form-check">
-                                                                <input class="form-check-input radio_animated shadow-none" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                                                <label class="form-check-label" for="exampleRadios1">
-                                                                    economy
-                                                                </label>
-                                                            </div>
-                                                            <div class="form-check">
-                                                                <input class="form-check-input radio_animated shadow-none" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                                                <label class="form-check-label" for="exampleRadios2">
-                                                                    premium
-                                                                </label>
-                                                            </div>
-                                                            <div class="form-check">
-                                                                <input class="form-check-input radio_animated shadow-none" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-                                                                <label class="form-check-label" for="exampleRadios3">
-                                                                    business
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="bottom-part text-center p-3">
-                                                            <a href="#" class="btn apply_btn">apply</a>
                                                         </div>
                                                     </div>
+
+
                                                 </div>
 
-
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col text-center mt-4 hot_deal_fx">
-                                                    <div class="search-btn">
-                                                        <button>Hot Deal</button>
+                                                <div class="row">
+                                                    <div class="col text-center mt-4 hot_deal_fx">
+                                                        <div class="search-btn">
+                                                            <button>Hot Deal</button>
+                                                        </div>
+                                                        <div class="search-btn">
+                                                            <button type="submit">Search</button>
+                                                        </div>
                                                     </div>
-                                                    <div class="search-btn">
-                                                        <button>Search</button>
-                                                    </div>
+
                                                 </div>
-
-                                            </div>
+                                            </form>
 
                                         </div>
                                         <div class="container tab-pane multiact" id="city">

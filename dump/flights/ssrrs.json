@@ -1,1 +1,1 @@
-{"Response":{"ResponseStatus":4,"Error":{"ErrorCode":5,"ErrorMessage":"TokenID can not be Null or Empty"},"TraceId":""}}
+{"Response":{"ResponseStatus":2,"Error":{"ErrorCode":2,"ErrorMessage":"TraceId cannot be null"},"TraceId":""}}

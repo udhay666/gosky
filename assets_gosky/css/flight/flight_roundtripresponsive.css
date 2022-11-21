@@ -1,335 +1,334 @@
 /* roundtrip fixed */
 .display_fixed {
-    position: fixed;
-    bottom: 10px;
-    width: 900px;
-    z-index: 12;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
-    background-color: #0a223d;
-    color: white;
-    padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  width: 900px;
+  z-index: 12;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+  background-color: #0a223d;
+  color: white;
+  padding: 10px;
+  height: 100px;
 }
 .stcy_dpr_fx {
-    display: flex;
-    gap: 6px;
+  display: flex;
+  gap: 6px;
 }
 .fd_img_rp_fx {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .img_fd_desc {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .icon_img_fd {
-    width: 12%;
+  width: 12%;
 }
 .stcy_desc_fx {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 .fd_rupee {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 .fd_flight_details {
-    font-size: 13px;
-    color: skyblue;
-    font-weight: 900;
-    cursor: pointer;
+  font-size: 13px;
+  color: skyblue;
+  font-weight: 900;
+  cursor: pointer;
 }
 .display_fixed .col-4 {
-    border-right: 1px solid;
+  border-right: 1px solid;
 }
 .book_nw_btn_fx {
-    display: flex;
-    align-items: center;
-    font-size: 27px;
-    font-weight: 700;
-    gap: 25px;
-}
-.book_nw_btn_fx {
-    display: flex;
-    align-items: start;
-    font-size: 27px;
-    font-weight: 700;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  font-weight: 700;
+  gap: 0px;
+  flex-direction: column;
 }
 
-.modal-backdrop{
-    z-index: unset !important;
+.modal-backdrop {
+  z-index: unset !important;
 }
-
 
 /* flight tab details */
-.flightchange{
-    color: black;
+.flightchange {
+  color: black;
 }
-.tabcontent2{
-    display: none;
+.tabcontent2 {
+  display: none;
 }
-.title-top,.review_box {
-    color: black;
+.title-top,
+.review_box {
+  color: black;
 }
-button.tablinks1.active, button.tablinks1:hover {
-    border: none;
-    padding: 3px;
-    margin-right: 10px;
-    border-bottom: 3px solid;
-    color: #da3e4b;
-    font-weight: 600;
-    transition: 0.5s ease-in-out;
+button.tablinks1.active,
+button.tablinks1:hover {
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  border-bottom: 3px solid;
+  color: #da3e4b;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
 }
 button.tablinks1 {
-    border: none;
-    padding: 3px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 5px;
-    color: #494747;
-    transition: 0.5s ease-in-out;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  color: #494747;
+  transition: 0.5s ease-in-out;
 }
-.btn_color{
-    font-size: 17px;
+.btn_color {
+  font-size: 17px;
   font-weight: 700;
-  background: #d32f2f!important;
+  background: #d32f2f !important;
   text-transform: capitalize;
-  color: #fff!important;
+  color: #fff !important;
   border: none;
 }
 
 .res_close_btn {
-    text-align: end;
-    font-size: 30px;
-    font-weight: 800;
-    color: #d32f2f;
-    cursor: pointer;
+  text-align: end;
+  font-size: 30px;
+  font-weight: 800;
+  color: #d32f2f;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  ul.search_tab_ul {
+    margin-left: 200px;
+  }
+  .modify {
+    font-size: 16px;
+  }
+  div#filterBtn,
+  .res_bc {
     display: none;
+  }
+  /* roundtrip */
+  .price_btn_fx_round {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flight-list-item-btm .item-btmR {
+    display: flex;
+    gap: 30px;
+    padding: 0 10px;
+  }
+  td {
+    padding: 10px !important;
+    font-size: 12px !important;
+  }
+  .faresummry_recomendation {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  button.tablinks {
+    font-size: 10px;
+  }
+  .airport-name h5 {
+    font-size: 14px !important;
+  }
+
+  .arrowPrev,
+  .arrowNext {
+    min-width: 10%;
+    max-width: 10%;
+    height: 35px;
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg_color {
+    background-color: #002543 !important;
+    height: 100%;
+  }
+  #filterBtn_show {
+    display: none;
+  }
+
+  .res_d_none {
+    display: none;
+  }
+  div#filterBtn,
+  .res_bc {
+    display: block;
+  }
+  .slider_range .slider {
+    width: 50%;
+  }
+  .filter_border {
+    box-shadow: 0 3px 9px 0 rgb(0 0 0 / 40%);
+    margin-bottom: 40px;
+  }
+  .modify {
+    font-size: 13px;
+    padding: 0px;
+  }
+  .book_nw_btn_fx {
+    align-items: start;
+    /* gap: 20px; */
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .fd_img_rp_fx {
+    font-size: 13px;
+  }
+  .fd_rupee {
+    display: flex;
+    gap: 0px;
+  }
+  .fd_flight_details {
+    margin: 0 !important;
+  }
 }
 
-@media only screen and (max-width:1024px){
-    ul.search_tab_ul{
-        margin-left: 200px;
-    }
-    .modify{
-        font-size: 16px;
+@media only screen and (max-width: 576px) {
+  .logofx,
+  .flight-list-item-btm ul {
+    justify-content: center;
+  }
+  .price_btn_fx {
+    justify-content: space-around;
+  }
+  .res_margin {
+    margin-top: 20px;
+  }
+  .res_Modify_gap {
+    gap: 20px;
+  }
+  .res_md_btn {
+    margin-top: 15px;
+  }
+  .row.md_align {
+    align-items: center;
+  }
+  .modify {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .border_rt {
+    border-right: unset;
+    border-bottom: 1px solid lightgray;
+  }
+  .border_sec {
+    padding: 20px;
+  }
+  .flightchange {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flight1,
+  .flight2 {
+    width: 100%;
+  }
+  .fc_layover {
+    text-align: center;
+  }
+  .flight-list-item-btm .item-btmR {
+    display: flex;
+    gap: 0px;
+    padding: 0 5px;
+  }
+  .flight-list-item-btm ul li {
+    font-size: 14px;
+  }
+  .r_flt_name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .line {
+    border: 1px dotted;
+    width: 65px;
+  }
+  .res_modal {
+    position: absolute;
+    z-index: 10;
+    background-color: whitesmoke;
+    top: 50%;
+    padding: 13px;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 80%);
+    width: 93%;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  .res_close_btn {
+    display: block;
+  }
 
-    }
-    div#filterBtn,.res_bc {
-        display: none;
-    }
-    /* roundtrip */
-    .price_btn_fx_round {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .flight-list-item-btm .item-btmR {
-        display: flex;
-        gap: 30px;
-        padding: 0 10px;
-    }
-    td {
-        padding: 10px !important;
-        font-size: 12px !important;
-    }
-    .faresummry_recomendation {
-        font-size: 12px;
-        line-height: 1.6;
-    }
-    button.tablinks{
-        font-size: 10px;
-    }
-    .airport-name h5 {
-        font-size: 14px !important;
-    }
-
-
-    .arrowPrev,.arrowNext {
-        min-width: 10%;
-       max-width: 10%;
-       height: 35px;
-       padding: 6px;
-       font-size: 12px;
-   }
-   
-    
+  .stcy_dpr_fx span,
+  .img_fd_desc {
+    display: none;
+  }
+  .display_fixed {
+    width: 100%;
+  }
+  .book_nw_btn_fx {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    /* gap: 10px; */
+    flex-direction: column;
+  }
+  .row.border_card.mb-3.card_style.r_card {
+    margin: 0;
+  }
+  button.tablinks1 {
+    font-size: 14px;
+  }
+  .arrowPrev,
+  .arrowNext {
+    min-width: 16%;
+    max-width: 16%;
+    height: 35px;
+    padding: 6px;
+    font-size: 12px;
+  }
 }
-@media only screen and (max-width:768px){
-    .bg_color {
-        background-color: #002543 !important;
-        height: 100%;
-      }
-    #filterBtn_show{
-        display: none;
-    }
-
-    .res_d_none{
-        display: none;
-    }
-    div#filterBtn,.res_bc {
-        display: block;
-    }
-    .slider_range .slider {
-        width: 50%;}
-        .filter_border {
-            box-shadow: 0 3px 9px 0 rgb(0 0 0 / 40%);
-            margin-bottom: 40px;
-        }
-        .modify {
-            font-size: 13px;
-            padding: 0px;
-        }
-        .book_nw_btn_fx {
-            align-items: start;
-            gap: 20px;
-            flex-direction: column;
-            justify-content: start;
-        }
-  
-        .fd_img_rp_fx{
-            font-size: 13px;
-        }
-        .fd_rupee {
-            display: flex;
-            gap: 0px;
-        }
-        .fd_flight_details {
-            margin: 0 !important;
-        }
-}
-
-@media only screen and (max-width:576px){
-    .logofx,.flight-list-item-btm ul{
-        justify-content: center;
-    }
-    .price_btn_fx{
-        justify-content: space-around;
-    }
-    .res_margin{
-        margin-top: 20px;
-    }
-    .res_Modify_gap{
-        gap: 20px;
-    }
-    .res_md_btn {
-        margin-top: 15px;
-    }
-    .row.md_align {
-        align-items: center;
-    }
-    .modify {
-        font-size: 14px;
-        padding: 8px;
-    }
-    .border_rt {
-        border-right: unset;
-        border-bottom: 1px solid lightgray;
-    }
-    .border_sec {
-      
-        padding: 20px;
-    }
-    .flightchange {
-        flex-direction: column;
-        width: 100%;
-    }
-    .flight1, .flight2 {
-        width: 100%;
-    }
-    .fc_layover {
-        text-align: center;
-    }
-    .flight-list-item-btm .item-btmR {
-        display: flex;
-        gap: 0px;
-        padding: 0 5px;
-    }
-    .flight-list-item-btm ul li{
-        font-size: 14px;
-    }
-    .r_flt_name {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
-    }
-    .line {
-        border: 1px dotted;
-        width: 65px;
-    }
-    .res_modal {
-        position: absolute;
-        z-index: 10;
-        background-color: whitesmoke;
-        top: 50%;
-        padding: 13px;
-        box-shadow: 0 3px 20px 0 rgb(0 0 0 / 80%);
-        width: 93%;
-        margin: 0 auto;
-        border-radius: 8px;
-    }
-.res_close_btn {
-display: block;
-}
-
-    .stcy_dpr_fx span,.img_fd_desc {
-        display: none;
-    }
-    .display_fixed{width: 100%;}
-    .book_nw_btn_fx {
-        display: flex;
-        align-items: center;
-        font-size: 20px;
-        font-weight: 700;
-        gap: 10px;
-        flex-direction: column;
-    }
-    .row.border_card.mb-3.card_style.r_card {
-        margin: 0;
-    }
-    button.tablinks1{
-        font-size: 14px;
-    }
-    .arrowPrev,.arrowNext {
-         min-width: 16%;
-        max-width: 16%;
-        height: 35px;
-        padding: 6px;
-        font-size: 12px;
-    }
-
-}
-@media only screen and (max-width:350px){
-    .line {
-        border: 1px dotted;
-        width: 30px;
-    }
-    .lay_time {
-        font-size: 8px;
-    }
-    .price_btn_fx_round .price {
-        font-size: 13px;
-    }
-    .flt_det_font{
-        font-size: 10px;
-    }
-    .res_modal{
-        width: 88%;
-    }
-    .book_nw_btn_fx{
-        font-size: 18px;
-    }
-    .arrowPrev, .arrowNext {
-        min-width: 16%;
-        max-width: 16%;
-        height: 22px;
-        padding: 2px;
-        font-size: 10px;
-    }
-
+@media only screen and (max-width: 350px) {
+  .line {
+    border: 1px dotted;
+    width: 30px;
+  }
+  .lay_time {
+    font-size: 8px;
+  }
+  .price_btn_fx_round .price {
+    font-size: 13px;
+  }
+  .flt_det_font {
+    font-size: 10px;
+  }
+  .res_modal {
+    width: 88%;
+  }
+  .book_nw_btn_fx {
+    font-size: 18px;
+  }
+  .arrowPrev,
+  .arrowNext {
+    min-width: 16%;
+    max-width: 16%;
+    height: 22px;
+    padding: 2px;
+    font-size: 10px;
+  }
 }
