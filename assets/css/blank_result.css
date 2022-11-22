@@ -1,5 +1,4 @@
-
-        /************************************Blank Result*******************************************/
+ /************************************Blank Result*******************************************/
 
 .blank_result {
     min-height: 100px;
@@ -17,7 +16,7 @@
     /*display: table-cell;*/
     vertical-align: middle;
 }
-.blank_result span:empty, .blank_result .short-layover, .btn_blank, .blank_imgdiv img{
+.blank_result span:empty, .blank_result .short-layover, .btn_blank, .blank_imgdiv img, .blank_imgdivR img{
   background: linear-gradient(90deg, #dddddd, #f5f5f5, #dddddd);
   background-size: 200% 200%;
   animation: Animation 2s linear infinite;
@@ -70,6 +69,17 @@
   left: 0;
   right: 0;
 }
+.blank_imgdivR img{
+  width: 50% !important;
+  height: auto;
+  margin: 5px 0px 5px;
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
 @-webkit-keyframes Animation {
   0%{
     background-position-x: 200%
@@ -77,5 +87,52 @@
   100%{
     background-position-x: 0%
   }
+}
+
+
+/* roundtrip */
+.roundtrip img {
+    width: 100% !important;
+    margin: 20px 10px;
+    height: 60px;
+}
+.blank_round_result span {
+    min-height: 20px !important;
+    margin: 5px 0px !important;
+}
+.mt-2.price_loaderfx,.d-sm-none {
+    display:block !important ;
+}
+.d-md-none{
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width:576px){
+    .blank_result .blank_imgdiv img {
+    width: 20% !important;
+}
+    .blank_result span {
+    min-height: 28px;
+    min-width: 100% !important;
+
+}
+.location_span {
+    min-width: 26% !important;
+    min-height: 18px !important;
+    margin-top: 0 !important;
+}
+.mt-2.price_loaderfx,.d-sm-none,.d-sm-none_only {
+    display: none !important;
+}
+.d-md-none{
+    display: block !important;
+}
+.roundtrip img {
+    width: 50% !important;
+    margin: 12px 50px;
+}
+
 }
 /*-- end blank results///// --*/ 

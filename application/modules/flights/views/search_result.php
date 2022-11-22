@@ -77,6 +77,26 @@ $returnDate = $return_date;
     </style>
 <?php } ?>
 <link rel="stylesheet" href="<?= base_url(); ?>assets/css/blank_result.css">
+<style>
+    .airline_fx {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .badge-lists.filter_only {
+        color: black;
+        border: 1px solid lightgray;
+        padding: 1px 7px;
+        border-radius: 20px;
+        font-size: 12px;
+        opacity: 0;
+    }
+
+    .badge-lists.filter_only:hover {
+        opacity: 1;
+    }
+</style>
 <main>
     <!-- breadcrumb start -->
     <section class="res_bc">
@@ -296,6 +316,9 @@ $returnDate = $return_date;
                     <?php } ?>
 
                     <?php if ($tripType == 'round') {  ?>
+                        <div id="rapid_fire_draft_loading">
+                            <?php $this->load->view('blank_result'); ?>
+                        </div>
                         <div class="row flights roundtrip-result">
                             <div class="col-6 gp_lt onward-trip" id="flightsresults">
 

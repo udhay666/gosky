@@ -87,13 +87,9 @@ var site_url = $('#siteUrl').val();
                     // var siteUrl2 = site_url+"travelfreebuy.com/";
                     // AirlineString+='<label><input id="AirLine_space" class="AirLine" type="checkbox" value="'+airlineCode+'" >&nbsp;<span class="airlines-name">'+airlineName+'</span><!--<span class="airlines-price pull-right"><i class="fa fa-rupee"></i> 23,456</span>--></label>';
                     AirlineString +=
-											'<div class="checkbox"><label><input type="checkbox" name="airline" id="AirLine_space" class="AirLine" value="' +
+											'<div class="checkbox airline_fx"><label><input type="checkbox" name="airline" id="AirLine_space" class="AirLine" value="' +
 											airlineCode +
-											'" checked><ins></ins><span class="img-wrap"><img src="' +
-											site_url +
-											"public/AirlineLogo/" +
-											airlineCode +
-											'.gif"></span><span class="text-wrap airlines-name"> ' +
+											'" checked><ins></ins><span class="text-wrap airlines-name"> ' +
 											airlineName +
 											'</span></label> <a href="javascript:;" class="badge-lists filter_only">Only</a></div>';
                 }				

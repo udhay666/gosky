@@ -39,10 +39,12 @@
         $searchIdn = 'searchId';
         $segmentkeyn = 'segmentkey';
         $url = 'url';
+        $triptype = 'Onward';
     } else {
         $searchIdn = 'searchId1';
         $segmentkeyn = 'segmentkey1';
         $url = 'url1';
+        $triptype = 'Return';
     }
 
     ?>
@@ -53,7 +55,7 @@
 
 
         <div class="stcy_dpr_fx">
-            <p>Onward :</p>
+            <p><?=$triptype?> :</p>
             <span><?php echo $operating_airlinename[0]; ?></span>
         </div>
         <div class="fd_img_rp_fx">
