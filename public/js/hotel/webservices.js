@@ -3,7 +3,7 @@ $(document).ready(function()
 {
     var site_url = $('#siteUrl').val();
     $(".hotel-search-cntr").css("display", "none");
-        // $('#rapid_fire_draft_loading').show();
+        $('#rapid_fire_draft_loading').show();
         $('.loader').show();
 
         var searcharray=$('#searcharray').val();
@@ -27,9 +27,9 @@ $(document).ready(function()
             //success: { load_search_results(i); },
             success: function(data)
             {
-                // $(".loading-content").css("display","none"); 
-                console.log('testsuccess');
-                console.log(data);
+                
+                // console.log('testsuccess');
+                // console.log(data);
                 dataStore.push(data);
                 load_search_results(i);  
             },
@@ -58,7 +58,7 @@ $(document).ready(function()
                 success: function(data)
                 {
                     if(data.hotels_search_result != null ){
-                        // $('#rapid_fire_draft_loading').hide();
+                        $('#rapid_fire_draft_loading').hide();
                         $(".loading-content").css("display","none");
                         $('.loader').hide();
                     }

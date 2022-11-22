@@ -1,0 +1,81 @@
+
+        /************************************Blank Result*******************************************/
+
+.blank_result {
+    min-height: 100px;
+    /*display: table;*/
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.blank_result:first-child {
+    margin-top: 0;
+}
+.blank_result > div {
+    /*display: table-cell;*/
+    vertical-align: middle;
+}
+.blank_result span:empty, .blank_result .short-layover, .btn_blank, .blank_imgdiv img{
+  background: linear-gradient(90deg, #dddddd, #f5f5f5, #dddddd);
+  background-size: 200% 200%;
+  animation: Animation 2s linear infinite;
+}
+.blank_result  span:empty {
+    min-height: 28px;
+    min-width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.location_span {
+    min-width: 26% !important;
+    min-height: 18px !important;
+    margin-top: 0 !important;
+}
+
+
+.blank_result .dtls-indicators{
+    position: absolute;
+    top: 24px;
+    text-align: center;
+    /* width: 100%; */
+    left: 33px;
+    /* right: 0; */
+    margin: 0 auto
+}
+.blank_result .short-layover{
+    border-radius: 50%;
+}
+.btn_blank {
+    min-height: 28px;
+    min-width: 85px;
+    border-color: #ddd;
+    display: inline-block;
+}
+.blank_imgdiv {
+    min-height: 70px;
+    text-align: center;
+}
+.blank_result .blank_imgdiv img{
+  width: 50% !important;
+  height: auto;
+  margin: 5px 0px 5px;
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+@-webkit-keyframes Animation {
+  0%{
+    background-position-x: 200%
+  }
+  100%{
+    background-position-x: 0%
+  }
+}
+/*-- end blank results///// --*/ 

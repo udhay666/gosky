@@ -76,6 +76,7 @@ $returnDate = $return_date;
         }
     </style>
 <?php } ?>
+<link rel="stylesheet" href="<?= base_url(); ?>assets/css/blank_result.css">
 <main>
     <!-- breadcrumb start -->
     <section class="res_bc">
@@ -286,8 +287,12 @@ $returnDate = $return_date;
                     </div>
                     <?php if ($tripType == 'oneway') { ?>
                         <div class="flights" id="flightsresults">
-
                         </div>
+
+                        <div id="rapid_fire_draft_loading">
+                            <?php $this->load->view('blank_result'); ?>
+                        </div>
+
                     <?php } ?>
 
                     <?php if ($tripType == 'round') {  ?>

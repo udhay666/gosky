@@ -1,5 +1,5 @@
 <?php $this->load->view('home/header'); ?>
-<link rel="stylesheet" href="<?=base_url();?>assets_gosky/css/hotel/hotel.css">
+<link rel="stylesheet" href="<?= base_url(); ?>assets_gosky/css/hotel/hotel.css">
 <?php
 // $session_data = $this->session->userdata('hotel_search_data');
 $session_data = $searcharray;
@@ -16,6 +16,7 @@ $nights = $session_data['nights'];
 $checkIn = date("D, d M'y", strtotime(str_replace('/', '-', $session_data['checkIn'])));
 $checkOut = date('j M, Y', strtotime(str_replace('/', '-', $session_data['checkOut'])));
 ?>
+<link rel="stylesheet" href="<?= base_url(); ?>assets/css/blank_result.css">
 <style>
     .tsc_pagination {
         display: inline-flex;
@@ -195,8 +196,10 @@ $checkOut = date('j M, Y', strtotime(str_replace('/', '-', $session_data['checkO
                     </div> -->
 
                     <div id="avail_hotels">
-                        
-
+                    </div>
+                    <div id="rapid_fire_draft_loading">
+                        <?php $this->load->view('blank_result');
+                         ?>
                     </div>
 
                 </div>

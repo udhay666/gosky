@@ -7,6 +7,7 @@ var site_url = $('#siteUrl').val();
         $("#flightsresults").html(data.flights_search_result);
         $("#flightsresults1").html(data.flights_search_result1);
         $(".selectedRoundFlights").removeClass("d-none");  
+        $("#rapid_fire_draft_loading").hide();
 
         var data_airline=new Array;
         var data_airlineNames=new Array;
@@ -130,7 +131,7 @@ var site_url = $('#siteUrl').val();
                         dataType: 'json',
                         type: 'POST',
                         beforeSend: function () {
-                            // $(".loading-content").css("display","none");                    
+                                              
                         },
                         success: successHandler
                     });
